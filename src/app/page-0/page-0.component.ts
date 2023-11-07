@@ -21,7 +21,7 @@ export class Page0Component implements OnInit{
 
   ngOnInit(): void {
     this.generateData();
-    setTimeout(() => {resizeAllMasonryItems()}, 10);
+    setTimeout(() => {resizeAllMasonryItems()}, 25);
     var masonryEvents = ['load', 'resize'];
     Array.prototype.forEach.call(masonryEvents, (event) => {
       window.addEventListener(event, resizeAllMasonryItems);
@@ -32,18 +32,23 @@ export class Page0Component implements OnInit{
     this.chartData = [];
     for (var k = 0; k < this.dashboardItems.length; k++) {
       let data = [];
-      for (let i = 0; i < (8 + Math.floor(Math.random() * 10)); i++) {
-        data.push({
-          "index": i,
-          "value": Math.floor(Math.random() * 100)
-      });
+      for (let j = 0; j < (1 + Math.floor(Math.random() * 2)); j++) {
+        data.push(Array(0));
+        for (let i = 0; i < (8 + Math.floor(Math.random() * 10)); i++) {
+          data[j].push({
+            "index": i,
+            "value": Math.floor(Math.random() * 100)
+          });
+        }
       }
       this.chartData.push(
         {
           "title": `${this.dashboardItems[k].title}`,
-          "data": data
+          "data": data,
+          "arrayNumber": data.length
         }
       );
+      console.log(this.chartData[k].arrayNumber);
     }
   }
 }
@@ -61,9 +66,9 @@ function resizeAllMasonryItems(){
 
 function resizeMasonryItem(item: any){
   /* Get the grid object, its row-gap, and the size of its implicit rows */
-  var grid = document.getElementsByClassName('masonry-layout-container')[0],
-      rowGap = parseInt(window.getComputedStyle(grid).getPropertyValue('grid-row-gap')),
-      rowHeight = parseInt(window.getComputedStyle(grid).getPropertyValue('grid-auto-rows'));
+  var grid = document.getElementsByClassName('masonry-layout-container')[0];
+  var rowGap = parseInt(window.getComputedStyle(grid).getPropertyValue('grid-row-gap'));
+  var rowHeight = parseInt(window.getComputedStyle(grid).getPropertyValue('grid-auto-rows'));
 
   /*
    * Spanning for any brick = S

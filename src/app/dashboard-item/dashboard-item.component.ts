@@ -6,7 +6,8 @@ declare var $: any;
 
 export interface ChartData {
   title: string;
-  data: Array<any>;
+  data: Array<Array<any>>;
+  arrayNumber: number;
 }
 
 @Component({
@@ -22,12 +23,17 @@ export class DashboardItemComponent implements OnInit, AfterViewInit, OnChanges{
 
   public d3Container: any;
   public d3TitleContainer: any;
-  public svg: any;
+  //public svg!: Array<d3.Selection<SVGSVGElement, unknown, null, undefined>>;
+  public svg: Array<any> = [];
   public title!: string;
-  private margin: any = { top: 40, bottom: 50, left: 60, right: 60};
-  private chart: any;
+  private numberOfArrays!: number;
+  private margin: any = { top: 20, bottom: 60, left: 40, right: 40};
+  //private chartsGap: number = 20;
+  private chart: Array<any> = [];
   private width!: number;
   private height!: number;
+  private svgSingleChartHeight: number = 250;
+  private singleOffsetHeight: number = 300;
   private xScale: any;
   private yScale: any;
   private colors: any;
@@ -49,6 +55,7 @@ export class DashboardItemComponent implements OnInit, AfterViewInit, OnChanges{
   }
 
   ngOnChanges() {
+    /* check on array... */
     if (this.chart) {
       this.updateChart();
     }
@@ -56,10 +63,18 @@ export class DashboardItemComponent implements OnInit, AfterViewInit, OnChanges{
 
   createChart() {
     this.d3Container = this.chartContainer.nativeElement;
-    this.d3TitleContainer = this.d3Container.querySelector('#dashboard-title')!;
-    this.svg = d3.select(this.d3Container).append("svg");
+    //this.d3TitleContainer = this.d3Container.querySelector('#dashboard-title')!;
 
+    // get number of arrays
+    this.numberOfArrays = this.chartData.arrayNumber;
+
+    for (var i = 0; i < this.numberOfArrays; i++) {
+      this.svg.push(d3.select(this.d3Container).append("svg"));
+    }
     setTimeout(() => {
+      console.log(this.chartData.data);
+
+      /* check on array... */
       if (this.chartData) {
         this.redrawChart();
       }
@@ -67,84 +82,99 @@ export class DashboardItemComponent implements OnInit, AfterViewInit, OnChanges{
   }
 
   redrawChart() {
-    // Clear svg
-    this.svg.selectAll("*").remove();
-
     // set title
     this.title = this.chartData.title;
 
+    console.log("Number of arrays:");
+    console.log(this.numberOfArrays);
+
     this.width = this.d3Container.offsetWidth - this.margin.left - this.margin.right;
-    this.height = this.d3Container.offsetHeight - this.margin.top - this.margin.bottom - this.d3TitleContainer.clientHeight;
+    //this.height = this.d3Container.offsetHeight - this.margin.top - this.margin.bottom;
+    //this.svgSingleChartHeight = 250; //(this.height - (this.margin.top * this.numberOfArrays)) / this.numberOfArrays;
+    //this.singleOffsetHeight = 300; //this.d3Container.offsetHeight / this.numberOfArrays;
 
-    this.svg
-      .attr('width', this.d3Container.offsetWidth)
-      .attr('height', this.d3Container.offsetHeight);
+    for (var i = 0; i < this.numberOfArrays; i++) {// Clear svg
+      this.svg[i].selectAll("*").remove();
+      //console.log("singleOffsetHeight");
+      //console.log(this.singleOffsetHeight);
+      this.svg[i]
+        .attr('width', this.d3Container.offsetWidth)
+        .attr('height', this.singleOffsetHeight);
 
-    // chart plot area
-    this.chart = this.svg.append('g')
-      .attr('class', 'bars')
-      .attr('transform', `translate(${this.margin.left}, ${this.margin.top})`);
+      // chart plot area
+      //console.log("height:");
+      //console.log(this.height);
+      //console.log("svgSingleChartHeight:");
+      //console.log(this.svgSingleChartHeight);
 
-    // define X & Y domains
-    let xDomain = this.chartData.data.map(d => d.index);
-    let yDomain = [0, d3.max(this.chartData.data, (d:any) => d.value)];
+      this.chart.push(this.svg[i].append('g')
+        .attr('class', 'bars')
+        .attr('transform', `translate(${this.margin.left}, ${this.margin.top})`));
 
-    // create scales
-    this.xScale = d3.scaleBand().padding(0.1).domain(xDomain).rangeRound([0, this.width]);
-    this.yScale = d3.scaleLinear().domain(yDomain).range([this.height, 0]);
 
-    // bar colors
-    this.colors = d3.scaleLinear().domain([0, this.chartData.data.length]).range(<any[]>['red', 'blue']);
+      // define X & Y domains
+      let xDomain = this.chartData.data[i].map((d:any) => d.index);
+      let yDomain = [0, d3.max(this.chartData.data[i], (d:any) => d.value)];
 
-    // x & y axis
-    this.xAxis = this.svg.append('g')
-      .attr('class', 'axis axis-x')
-      .attr('transform', `translate(${this.margin.left}, ${this.margin.top + this.height})`)
-      .call(d3.axisBottom(this.xScale));
-    this.yAxis = this.svg.append('g')
-      .attr('class', 'axis axis-y')
-      .attr('transform', `translate(${this.margin.left}, ${this.margin.top})`)
-      .call(d3.axisLeft(this.yScale));
+      // create scales
+      this.xScale = d3.scaleBand().padding(0.1).domain(xDomain).rangeRound([0, this.width]);
+      this.yScale = d3.scaleLinear().domain(yDomain).range([this.svgSingleChartHeight, 0]);
+
+      // bar colors
+      this.colors = d3.scaleLinear().domain([0, this.chartData.data[i].length]).range(<any[]>['red', 'blue']);
+
+      // x & y axis
+      this.xAxis = this.svg[i].append('g')
+        .attr('class', 'axis axis-x')
+        .attr('transform', `translate(${this.margin.left}, ${this.margin.top + this.svgSingleChartHeight})`)
+        .call(d3.axisBottom(this.xScale));
+      this.yAxis = this.svg[i].append('g')
+        .attr('class', 'axis axis-y')
+        .attr('transform', `translate(${this.margin.left}, ${this.margin.top})`)
+        .call(d3.axisLeft(this.yScale));
+    }
 
     this.updateChart();
   }
 
   updateChart() {
-    // update scales & axis
-    this.xScale.domain(this.chartData.data.map(d => d.index));
-    this.yScale.domain([0, d3.max(this.chartData.data, (d:any) => d.value)]);
-    this.colors.domain([0, this.chartData.data.length]);
-    this.xAxis.transition().call(d3.axisBottom(this.xScale));
-    this.yAxis.transition().call(d3.axisLeft(this.yScale));
+    for (var i = 0; i < this.numberOfArrays; i++) {
+      // update scales & axis
+      this.xScale.domain(this.chartData.data[i].map(d => d.index));
+      this.yScale.domain([0, d3.max(this.chartData.data[i], d => d.value)]);
+      this.colors.domain([0, this.chartData.data[i].length]);
+      this.xAxis.transition().call(d3.axisBottom(this.xScale));
+      this.yAxis.transition().call(d3.axisLeft(this.yScale));
 
-    let update = this.chart.selectAll('.bar')
-      .data(this.chartData.data);
+      let update = this.chart[i].selectAll('.bar')
+        .data(this.chartData.data[i]);
 
-    // remove exiting bars
-    update.exit().remove();
+      // remove exiting bars
+      update.exit().remove();
 
-    // update existing bars
-    this.chart.selectAll('.bar').transition()
-      .attr('x', (d:any) => this.xScale(d.index))
-      .attr('y', (d:any) => this.yScale(d.value))
-      .attr('width', (d:any) => this.xScale.bandwidth())
-      .attr('height', (d:any) => this.height - this.yScale(d.value))
-      .style('fill', (d:any, i:any) => this.colors(i));
+      // update existing bars
+      this.chart[i].selectAll('.bar').transition()
+        .attr('x', (d:any) => this.xScale(d.value))
+        .attr('y', (d:any) => this.yScale(d.value))
+        .attr('width', (d:any) => this.xScale.bandwidth())
+        .attr('height', (d:any) => this.svgSingleChartHeight - this.yScale(d.value))
+        .style('fill', (d:any, i:any) => this.colors(i));
 
-    // add new bars
-    update
-      .enter()
-      .append('rect')
-      .attr('class', 'bar')
-      .attr('x', (d:any) => this.xScale(d.index))
-      .attr('y', (d:any) => this.yScale(0))
-      .attr('width', this.xScale.bandwidth())
-      .attr('height', 0)
-      .style('fill', (d:any, i:any) => this.colors(i))
-      .transition()
-      .delay((d:any, i:any) => i * 10)
-      .attr('y', (d:any) => this.yScale(d.value))
-      .attr('height', (d:any) => this.height - this.yScale(d.value));
+      // add new bars
+      update
+        .enter()
+        .append('rect')
+        .attr('class', 'bar')
+        .attr('x', (d:any) => this.xScale(d.index))
+        .attr('y', (d:any) => this.yScale(0))
+        .attr('width', this.xScale.bandwidth())
+        .attr('height', 0)
+        .style('fill', (d:any, i:any) => this.colors(i))
+        .transition()
+        .delay((d:any, i:any) => i * 10)
+        .attr('y', (d:any) => this.yScale(d.value))
+        .attr('height', (d:any) => this.svgSingleChartHeight - this.yScale(d.value));
+    }
   }
 }
 
