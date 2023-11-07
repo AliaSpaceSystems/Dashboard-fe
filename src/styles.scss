@@ -1,1 +1,32 @@
-/* You can add global styles to this file, and also import other style files */
+@import "src/vars";
+
+html, body {
+  background-color: $desp-dark-bg-color;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  font-family: Lato-Regular;
+  font-size: 16px;
+  color: $desp-text-color;
+  scroll-behavior: smooth;
+}
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* DESP Fonts */
+@font-face {
+  font-family: "Lato-Regular";
+  src: local("Lato-Regular"), url(./assets/fonts/Lato/Lato-Regular.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Lato-Bold";
+  src: local("Lato-Bold"), url(./assets/fonts/Lato/Lato-Bold.ttf) format("truetype");
+}
+
+/* Material icons and symbols */
+.material-symbols-outlined {
+  font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24;
+}

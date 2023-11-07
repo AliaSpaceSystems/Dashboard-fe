@@ -1,0 +1,19 @@
+@import "src/vars";
+
+#dashboard-item-main-container {
+  //width: $dashboard-width;
+  min-height: 15rem;
+  height: 100%;
+  background-color: $desp-blue-bg-color;
+  border: solid 1px $desp-dark-grey;
+  border-radius: 1rem;
+  padding: 0;
+  margin: 0;
+}
+
+#dashboard-title {
+  font-size: $dashboard-title-font-size;
+  //margin: 1rem 0 0 1rem;
+  margin: 0;
+  padding: 1rem 0 0 1rem;
+}

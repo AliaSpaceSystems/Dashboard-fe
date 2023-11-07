@@ -1,0 +1,62 @@
+@import "src/vars";
+
+#header-main-container {
+  position: sticky;
+  top: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: $header-height;
+  padding: 0 2rem 0 2rem;
+}
+
+/* Left side */
+#header-left-container {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  gap: 1rem;
+}
+#header-title {
+  font-size: $header-title-font-size;
+  margin: 0;
+}
+#header-sub-title {
+  font-size: $header-sub-title-font-size;
+  margin: 0;
+}
+
+/* Right side */
+#header-right-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+}
+#header-search-container {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+#header-search-input {
+  position: relative;
+  width: 25vw;
+  height: $header-search-height;
+  font-size: $header-search-font-size;
+  border: none;
+  border-radius: 1rem;
+  padding: 0 1rem;
+  background-color: $desp-grey-bg-color;
+  color: $desp-text-color;
+}
+#header-search-icon {
+  position: absolute;
+  right: 0.5rem;
+  font-size: 1rem;
+}
+.header-icon {
+  color: $desp-text-color;
+}

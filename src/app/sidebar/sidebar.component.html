@@ -1,0 +1,8 @@
+<div id="sidebar-main-container">
+  <img id="sidebar-logo" src="../../assets/images/Desp-Logo_big.png" alt="Desp Logo">
+  <img id="sidebar-user-logo" src="../../assets/images/user.svg" alt="User Image">
+  <ul id="sidebar-menu-container" class="nav navbar-nav" routerLinkActive="active">
+    <li *ngFor="let item of sidebarMenuLinks" class="sidebar-nav-item"><a class="sidebar-nav-link" routerLink="{{item.link}}">{{item.name}}</a></li>
+  </ul>
+  <p id="sidebar-footer">software version: {{version}}</p>
+</div>
