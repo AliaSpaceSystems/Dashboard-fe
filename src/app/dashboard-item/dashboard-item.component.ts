@@ -23,12 +23,10 @@ export class DashboardItemComponent implements OnInit, AfterViewInit, OnChanges{
 
   public d3Container: any;
   public d3TitleContainer: any;
-  //public svg!: Array<d3.Selection<SVGSVGElement, unknown, null, undefined>>;
   public svg: Array<any> = [];
   public title!: string;
   private numberOfArrays!: number;
   private margin: any = { top: 20, bottom: 60, left: 40, right: 40};
-  //private chartsGap: number = 20;
   private chart: Array<any> = [];
   private width!: number;
   private height!: number;
@@ -43,14 +41,16 @@ export class DashboardItemComponent implements OnInit, AfterViewInit, OnChanges{
 
   constructor() {
     window.addEventListener(('resize'), () => {
-      this.redrawChart();
+      setTimeout(() => {
+        this.redrawChart();
+      }, 10);
     });
   }
 
   ngOnInit(): void {
   }
 
-   ngAfterViewInit() {
+  ngAfterViewInit() {
     this.createChart();
   }
 
@@ -71,6 +71,13 @@ export class DashboardItemComponent implements OnInit, AfterViewInit, OnChanges{
     for (var i = 0; i < this.numberOfArrays; i++) {
       this.svg.push(d3.select(this.d3Container).append("svg"));
     }
+
+    // set title
+    this.title = this.chartData.title;
+
+    console.log("Number of arrays:");
+    console.log(this.numberOfArrays);
+
     setTimeout(() => {
       console.log(this.chartData.data);
 
@@ -82,12 +89,6 @@ export class DashboardItemComponent implements OnInit, AfterViewInit, OnChanges{
   }
 
   redrawChart() {
-    // set title
-    this.title = this.chartData.title;
-
-    console.log("Number of arrays:");
-    console.log(this.numberOfArrays);
-
     this.width = this.d3Container.offsetWidth - this.margin.left - this.margin.right;
     //this.height = this.d3Container.offsetHeight - this.margin.top - this.margin.bottom;
     //this.svgSingleChartHeight = 250; //(this.height - (this.margin.top * this.numberOfArrays)) / this.numberOfArrays;
@@ -107,7 +108,7 @@ export class DashboardItemComponent implements OnInit, AfterViewInit, OnChanges{
       //console.log("svgSingleChartHeight:");
       //console.log(this.svgSingleChartHeight);
 
-      this.chart.push(this.svg[i].append('g')
+      this.chart[i] = (this.svg[i].append('g')
         .attr('class', 'bars')
         .attr('transform', `translate(${this.margin.left}, ${this.margin.top})`));
 
