@@ -21,7 +21,7 @@ export class Page0Component implements OnInit{
 
   ngOnInit(): void {
     this.generateData();
-    setTimeout(() => {resizeAllMasonryItems()}, 25);
+    setTimeout(() => {resizeAllMasonryItems()}, 30);
     var masonryEvents = ['load', 'resize'];
     Array.prototype.forEach.call(masonryEvents, (event) => {
       window.addEventListener(event, resizeAllMasonryItems);

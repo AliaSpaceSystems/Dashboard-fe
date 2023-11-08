@@ -41,9 +41,9 @@ export class DashboardItemComponent implements OnInit, AfterViewInit, OnChanges{
 
   constructor() {
     window.addEventListener(('resize'), () => {
-      setTimeout(() => {
+      //setTimeout(() => {
         this.redrawChart();
-      }, 10);
+      //}, 10);
     });
   }
 
@@ -51,7 +51,9 @@ export class DashboardItemComponent implements OnInit, AfterViewInit, OnChanges{
   }
 
   ngAfterViewInit() {
-    this.createChart();
+    setTimeout(() => {
+      this.createChart();
+    })
   }
 
   ngOnChanges() {
