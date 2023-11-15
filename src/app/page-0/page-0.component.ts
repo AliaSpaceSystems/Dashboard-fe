@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { ChartData } from '../chart-data';
+import jsonData from 'src/assets/test/fakePage0DashboardData.json';
+
 
 @Component({
   selector: 'app-page-0',
@@ -7,21 +10,13 @@ import { Component, OnInit } from '@angular/core';
 })
 
 export class Page0Component implements OnInit{
-  public chartData!: Array<any> ;
-
-  public dashboardItems = [
-    {"title": "Total number of users"},
-    {"title": "Total number of services"},
-    {"title": "Total number of available models"},
-    {"title": "Total volume of accessed products per data provider"},
-    {"title": "Total number of available DestinE datasets (DEDL)"}
-  ];
-
+  public jsonData!: Array<ChartData>;
   constructor() {}
 
   ngOnInit(): void {
-    this.generateData();
-    setTimeout(() => {resizeAllMasonryItems()}, 30);
+    //this.generateData();
+    this.jsonData = jsonData;
+    setTimeout(() => {resizeAllMasonryItems()}, 50);
     var masonryEvents = ['load', 'resize'];
     Array.prototype.forEach.call(masonryEvents, (event) => {
       window.addEventListener(event, resizeAllMasonryItems);
@@ -29,27 +24,37 @@ export class Page0Component implements OnInit{
   }
 
   generateData() {
-    this.chartData = [];
-    for (var k = 0; k < this.dashboardItems.length; k++) {
-      let data = [];
+    /* for (var k = 0; k < jsonData.length; k++) {
+      // number of dashboard items to create
+      let item: Data[] = [];
+      //console.log(item);
+
       for (let j = 0; j < (1 + Math.floor(Math.random() * 2)); j++) {
-        data.push(Array(0));
-        for (let i = 0; i < (8 + Math.floor(Math.random() * 10)); i++) {
-          data[j].push({
+        // random number of graphs per dashboard item
+        item.push({
+          //class: 'barChart',
+          class: 'donutChart',
+          data: Array((8 + Math.floor(Math.random() * 10)))
+        });
+        for (let i = 0; i < item[j].data.length; i++) {
+          // random number of data per single graph
+          item[j].data[i] = {
             "index": i,
             "value": Math.floor(Math.random() * 100)
-          });
+          };
         }
       }
-      this.chartData.push(
+
+      this.chartDataArray.push(
         {
-          "title": `${this.dashboardItems[k].title}`,
-          "data": data,
-          "arrayNumber": data.length
+          "title": `${jsonData[k].title}`,
+          "arrayNumber": item.length,
+          "values": item
         }
       );
-      console.log(this.chartData[k].arrayNumber);
     }
+    console.log("this.chartData: ", this.chartDataArray);
+    //console.log(JSON.stringify(this.chartData, null, 2)); */
   }
 }
 

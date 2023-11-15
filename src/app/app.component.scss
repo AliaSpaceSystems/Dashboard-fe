@@ -1,14 +1,6 @@
 @import "src/vars";
 
 #main-container {
-  //position: relative;
-  /* display: flex;
-  flex-direction: row; */
-  //width: 100%;
-
-  //overflow-y: auto;
-}
-#main-container {
   position: relative;
   left: $sidebar-width;
   /* display: flex;
@@ -19,8 +11,8 @@
   //height: 100vh;
 }
 #app-header {
-  position: sticky;
-  top: 0;
+  //position: sticky;
+  //top: 0;
   z-index: 99;
   /* display: flex;
   flex-direction: row;
@@ -37,4 +29,15 @@
   //padding-top: $header-height;
   /* width: 100%;
   height: 100%; */
+}
+
+#aux-element {
+  display: none;
+  --desp-text-color: #{$desp-text-color};
+  --desp-purple: #{$desp-purple};
+  --desp-violet: #{$desp-violet};
+  --desp-grey: #{$desp-grey};
+  --desp-grey-bg-color: #{$desp-grey-bg-color};
+  --desp-bar-blue: #{$desp-bar-blue};
+  --desp-yellow: #{$desp-yellow};
 }

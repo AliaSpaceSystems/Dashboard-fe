@@ -1,0 +1,96 @@
+[
+  {
+    "title": "Total number of users",
+    "image": "user",
+    "value": 7956,
+    "charts": [
+      {
+        "class": "barXChart",
+        "title": "Numbers",
+        "showTitle": false,
+        "legend": true,
+        "colors": ["despPurple", "despViolet"],
+        "data": [
+          {"index": "Federated", "value": 1121},
+          {"index": "Registered", "value": 6835}
+        ]
+      },
+      {
+        "class": "donutChart",
+        "title": "Percentage",
+        "showTitle": true,
+        "legend": true,
+        "colors": ["despPurple", "despViolet"],
+        "data": [
+          {"index": "Federated", "value": 16},
+          {"index": "Registered", "value": 84}
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Total number of services",
+    "image": "service",
+    "value": 21,
+    "charts": [
+      {
+        "class": "barXChart",
+        "title": "Numbers",
+        "showTitle": false,
+        "legend": true,
+        "colors": ["despPurple", "despViolet"],
+        "data": [
+          {"index": "Federated", "value": 15},
+          {"index": "Registered", "value": 6}
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Total volume of accessed products per data provider",
+    "image": "product",
+    "value": 179,
+    "charts": [
+      {
+        "class": "barYChart",
+        "title": "Numbers",
+        "showTitle": false,
+        "legend": false,
+        "colors": ["despBlue", "#66DEBB"],
+        "data": [
+          {"index": "Data Provider 01", "value": 6720},
+          {"index": "Data Provider 02", "value": 6080},
+          {"index": "Data Provider 03", "value": 7250},
+          {"index": "Data Provider 04", "value": 6080},
+          {"index": "Data Provider 05", "value": 7250},
+          {"index": "Data Provider 06", "value": 8910}
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Total number of available models",
+    "image": "model",
+    "value": 179,
+    "charts": [
+      {
+        "class": "donutChart",
+        "title": "Quantity",
+        "showTitle": true,
+        "legend": true,
+        "colors": ["despYellow", "despBlue"],
+        "data": [
+          {"index": "Free", "value": 45},
+          {"index": "Paid", "value": 134}
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Total number of available DestinE datasets (DEDL)",
+    "image": "dataset",
+    "value": 85,
+    "charts": []
+  }
+]
+

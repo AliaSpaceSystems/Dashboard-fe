@@ -4,11 +4,13 @@ $desp-dark-bg-color: #0D1527;
 $desp-blue-bg-color: #1E2A46;
 $desp-grey-bg-color: #393B4C;
 $desp-purple: #EF2B89;
-$desp-violet: #7B34DB;
+$desp-violet: #7133E5;
 $desp-grey: #A8A8A8;
 $desp-dark-grey: #6A6B6C;
 $desp-blue: #3397C9;
+$desp-bar-blue: #1381ce;
 $desp-black: #000000;
+$desp-yellow: #ba9b30;
 
 
 /* General variables */
@@ -25,5 +27,7 @@ $header-search-height: 1.75rem;
 $header-search-font-size: 0.75rem;
 
 /* Dashboard */
-$dashboard-width: 36rem;
-$dashboard-title-font-size: 0.75rem;
+$dashboard-width: 32rem;
+$dashboard-title-font-size: 1.25rem;
+$dashboard-image-height: 6rem;
+$dashboard-value-font-size: 5rem;

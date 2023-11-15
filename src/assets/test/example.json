@@ -1,0 +1,20 @@
+{
+  "userList": [
+    {
+      "federate": [
+
+      ]
+    },
+    {
+      "registered": [
+
+      ]
+    }
+  ],
+  "serviceList": [
+    {
+      "serviceName": "service-1",
+      "serviceType": "type-1"
+    }
+  ]
+}

@@ -1,39 +1,7 @@
 <div id="page-0-main-container">
   <div class="masonry-layout-container">
-    <div *ngFor="let item of chartData" class="masonry-item-container">
-      <app-dashboard-item class="masonry-item-content" *ngIf="chartData" [chartData]="item"></app-dashboard-item>
+    <div *ngFor="let chartData of jsonData" class="masonry-item-container">
+      <app-dashboard-item class="masonry-item-content" [chartData]="chartData"></app-dashboard-item>
     </div>
   </div>
-  <!-- <div class="masonry">
-    <div class="masonry-item-container">
-      <div class="masonry-item-content" style="height:73px"><span>1</span></div>
-    </div>
-    <div class="masonry-item-container">
-      <div class="masonry-item-content" style="height:135px"><span>2</span></div>
-    </div>
-    <div class="masonry-item-container">
-      <div class="masonry-item-content" style="height:90px"><span>3</span></div>
-    </div>
-    <div class="masonry-item-container">
-      <div class="masonry-item-content" style="height:110px"><span>4</span></div>
-    </div>
-    <div class="masonry-item-container">
-      <div class="masonry-item-content" style="height:180px"><span>5</span></div>
-    </div>
-    <div class="masonry-item-container">
-      <div class="masonry-item-content" style="height:35px"><span>6</span></div>
-    </div>
-    <div class="masonry-item-container">
-      <div class="masonry-item-content" style="height:70px"><span>7</span></div>
-    </div>
-    <div class="masonry-item-container">
-      <div class="masonry-item-content" style="height:95px"><span>8</span></div>
-    </div>
-    <div class="masonry-item-container">
-      <div class="masonry-item-content" style="height:160px"><span>9</span></div>
-    </div>
-    <div class="masonry-item-container">
-      <div class="masonry-item-content" style="height:90px"><span>10</span></div>
-    </div>
-  </div> -->
 </div>
