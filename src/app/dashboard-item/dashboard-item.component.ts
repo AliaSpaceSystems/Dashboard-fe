@@ -114,11 +114,10 @@ export class DashboardItemComponent implements OnInit, AfterViewInit, OnChanges{
       .style('padding', '.5rem')
       .style('background', '#FFFB')
       .style('color', '#000')
-      //.style('border', '2px solid #000')
       .style('border', 'none')
       .style('border-radius', '5px')
       .style('pointer-events', 'none')
-      .style('font-size', '1rem')
+      .style('font-size', '0.75rem')
 
     this.tooltipDiv = this.d3Container.children[0];
 
