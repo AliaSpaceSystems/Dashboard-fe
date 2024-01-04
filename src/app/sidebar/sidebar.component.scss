@@ -32,6 +32,11 @@
   gap: 1.25rem;
 }
 
+.sidebar-nav-link-container {
+  display: flex;
+  flex-direction: column;
+}
+
 .sidebar-nav-link {
   font-size: $sidebar-menu-font-size;
   transition: color 250ms ease-in-out;
@@ -51,6 +56,14 @@
 }
 .sidebar-nav-link:active {
   color: $desp-purple;
+}
+
+.sidebar-nav-child-link{
+  font-size: $sidebar-menu-font-size;
+  transition: color 250ms ease-in-out;
+  text-decoration: none;
+  color: $desp-purple;
+  margin-left: 1rem;
 }
 
 #sidebar-footer {

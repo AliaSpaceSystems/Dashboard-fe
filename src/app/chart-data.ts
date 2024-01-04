@@ -2,7 +2,7 @@ import { ChartDescription } from "./chart-description";
 
 export interface ChartData {
   title: string;
-  image: string;
-  value: number;
+  image: string | undefined;
+  value: number | undefined;
   charts: Array<ChartDescription> | null;
 }

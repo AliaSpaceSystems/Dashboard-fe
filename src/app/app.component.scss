@@ -3,32 +3,11 @@
 #main-container {
   position: relative;
   left: $sidebar-width;
-  /* display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start; */
   width: calc(100vw - $sidebar-width);
-  //height: 100vh;
 }
 #app-header {
-  //position: sticky;
-  //top: 0;
   z-index: 99;
-  /* display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center; */
   width: 100%;
-}
-#router-outlet {
-  //position: relative;
-  /* display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center; */
-  //padding-top: $header-height;
-  /* width: 100%;
-  height: 100%; */
 }
 
 #aux-element {

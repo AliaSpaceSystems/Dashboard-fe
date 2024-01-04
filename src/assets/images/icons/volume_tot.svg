@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="108.875" height="115.799" viewBox="0 0 108.875 115.799">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rettangolo_619" data-name="Rettangolo 619" width="108.875" height="115.799" fill="none" stroke="#707070" stroke-width="3"/>
+    </clipPath>
+  </defs>
+  <g id="Volumetot_ico" data-name="Volumetot ico" transform="translate(22 14)">
+    <g id="Gruppo_di_maschere_558" data-name="Gruppo di maschere 558" transform="translate(-22 -14)" clip-path="url(#clip-path)">
+      <path id="Tracciato_3732" data-name="Tracciato 3732" d="M92.375,76.813V29.783a4.648,4.648,0,0,0-2.324-4.026L49.321,2.243a4.647,4.647,0,0,0-4.648,0L3.944,25.757A4.648,4.648,0,0,0,1.62,29.783v47.03a4.648,4.648,0,0,0,2.324,4.026l40.729,23.515a4.647,4.647,0,0,0,4.648,0L90.05,80.838A4.648,4.648,0,0,0,92.375,76.813Z" transform="translate(9.57 5.785)" fill="none" stroke="#ef2b89" stroke-miterlimit="10" stroke-width="3"/>
+      <path id="Tracciato_3733" data-name="Tracciato 3733" d="M94.339,96.218V74.272L75.333,63.3,56.328,74.272V96.218L75.333,107.19Z" transform="translate(-18.767 -26.162)" fill="none" stroke="#ef2b89" stroke-miterlimit="10" stroke-width="3"/>
+      <line id="Linea_120" data-name="Linea 120" y2="11.712" transform="translate(56.567 98.144)" fill="none" stroke="#ef2b89" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3"/>
+      <line id="Linea_121" data-name="Linea 121" y2="13.568" transform="translate(56.567 67.459)" fill="none" stroke="#ef2b89" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3"/>
+      <line id="Linea_122" data-name="Linea 122" y1="5.856" x2="10.143" transform="translate(91.183 33.518)" fill="none" stroke="#ef2b89" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3"/>
+      <line id="Linea_123" data-name="Linea 123" x2="10.143" y2="5.856" transform="translate(12.109 33.693)" fill="none" stroke="#ef2b89" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3"/>
+      <path id="Tracciato_3734" data-name="Tracciato 3734" d="M56.225,86.547,75.28,96.336l19.106-9.819" transform="translate(-18.713 -38.188)" fill="none" stroke="#ef2b89" stroke-miterlimit="10" stroke-width="3"/>
+      <line id="Linea_124" data-name="Linea 124" y1="0.382" transform="translate(56.567 18.906)" fill="none" stroke="#ef2b89" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3"/>
+      <line id="Linea_125" data-name="Linea 125" y1="3.15" transform="translate(56.567 10.717)" fill="none" stroke="#ef2b89" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3" stroke-dasharray="1.307 10.455"/>
+      <line id="Linea_126" data-name="Linea 126" y1="0.382" transform="translate(56.567 7.814)" fill="none" stroke="#ef2b89" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3"/>
+      <line id="Linea_127" data-name="Linea 127" x1="0.331" y2="0.191" transform="translate(21.719 78.469)" fill="none" stroke="#ef2b89" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3"/>
+      <line id="Linea_128" data-name="Linea 128" x1="2.728" y2="1.575" transform="translate(14.626 81.18)" fill="none" stroke="#ef2b89" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3" stroke-dasharray="1.307 10.455"/>
+      <line id="Linea_129" data-name="Linea 129" x1="0.331" y2="0.191" transform="translate(12.113 84.015)" fill="none" stroke="#ef2b89" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3"/>
+      <line id="Linea_130" data-name="Linea 130" x1="0.331" y1="0.191" transform="translate(100.689 84.015)" fill="none" stroke="#ef2b89" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3"/>
+      <line id="Linea_131" data-name="Linea 131" x1="2.728" y1="1.575" transform="translate(93.597 79.92)" fill="none" stroke="#ef2b89" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3" stroke-dasharray="1.307 10.455"/>
+      <line id="Linea_132" data-name="Linea 132" x1="0.331" y1="0.191" transform="translate(91.083 78.469)" fill="none" stroke="#ef2b89" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3"/>
+    </g>
+  </g>
+</svg>

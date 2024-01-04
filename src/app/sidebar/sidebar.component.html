@@ -1,8 +1,13 @@
 <div id="sidebar-main-container">
-  <img id="sidebar-logo" src="../../assets/images/Desp-Logo_big.png" alt="Desp Logo">
-  <img id="sidebar-user-logo" src="../../assets/images/user.svg" alt="User Image">
+  <img id="sidebar-logo" src="/assets/images/Desp-Logo_big.png" alt="Desp Logo">
+  <img id="sidebar-user-logo" src="/assets/images/icons/user.svg" alt="User Image">
   <ul id="sidebar-menu-container" class="nav navbar-nav" routerLinkActive="active">
-    <li *ngFor="let item of sidebarMenuLinks" class="sidebar-nav-item"><a class="sidebar-nav-link" routerLink="{{item.link}}">{{item.name}}</a></li>
+    <li *ngFor="let item of sidebarMenuLinks" class="sidebar-nav-item">
+      <div class="sidebar-nav-link-container">
+        <a class="sidebar-nav-link" routerLink="{{item.link}}">{{item.name}}<span *ngIf="isChildLink && currentUrlList.indexOf(item.link) > -1">:</span></a>
+        <a *ngIf="isChildLink && currentUrlList.indexOf(item.link) > -1" class="sidebar-nav-child-link" routerLink="{{childLink}}">>{{childLink.toUpperCase()}}</a>
+      </div>
+    </li>
   </ul>
   <p id="sidebar-footer">software version: {{version}}</p>
 </div>

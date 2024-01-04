@@ -1,0 +1,16 @@
+<svg id="Auth_ico" data-name="Auth ico" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="78.423" height="95.813" viewBox="0 0 78.423 95.813">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rettangolo_547" data-name="Rettangolo 547" width="78.423" height="95.813" fill="none" stroke="#707070" stroke-width="4"/>
+    </clipPath>
+  </defs>
+  <g id="Raggruppa_485" data-name="Raggruppa 485" transform="translate(0 0)">
+    <g id="Raggruppa_484" data-name="Raggruppa 484" transform="translate(0 0)" clip-path="url(#clip-path)">
+      <path id="Tracciato_2876" data-name="Tracciato 2876" d="M28.574.67V27.648H.67V94.494H77.106V.67Z" transform="translate(0.324 0.324)" fill="none" stroke="#ef2b89" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+      <path id="Tracciato_2877" data-name="Tracciato 2877" d="M28.574.67.67,27.648h27.9Z" transform="translate(0.324 0.324)" fill="none" stroke="#ef2b89" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+      <line id="Linea_102" data-name="Linea 102" y1="26.978" x2="27.903" transform="translate(0.995 0.995)" fill="none" stroke="#ef2b89" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+    </g>
+  </g>
+  <path id="Tracciato_2878" data-name="Tracciato 2878" d="M62.2,39.574A19.894,19.894,0,1,1,42.3,59.366,19.928,19.928,0,0,1,62.2,39.574Z" transform="translate(-19.362 -8.002)" fill="none" stroke="#ef2b89" stroke-miterlimit="10" stroke-width="4"/>
+  <path id="Tracciato_2879" data-name="Tracciato 2879" d="M74.491,49.625,59.562,56.292l-9.14-5.672" transform="translate(-16.795 -4.825)" fill="none" stroke="#ef2b89" stroke-linecap="round" stroke-miterlimit="10" stroke-width="4"/>
+</svg>

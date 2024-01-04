@@ -13,6 +13,8 @@ import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 import { AppConfig } from './services/app.config';
 import { HeaderComponent } from './header/header.component';
 import { DashboardItemComponent } from './dashboard-item/dashboard-item.component';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { ServiceDetailsComponent } from './service-details/service-details.component';
 
 export function initializeApp(appConfig: AppConfig) {
   return () => appConfig.load();
@@ -30,6 +32,8 @@ export function initializeApp(appConfig: AppConfig) {
     Page0Component,
     HeaderComponent,
     DashboardItemComponent,
+    PageNotFoundComponent,
+    ServiceDetailsComponent,
   ],
   imports: [
     BrowserModule,

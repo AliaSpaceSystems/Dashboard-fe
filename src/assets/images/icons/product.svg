@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="73.13"
+   height="56.268"
+   viewBox="0 0 73.13 56.268"
+   version="1.1"
+   id="svg15"
+   sodipodi:docname="Product ico.svg"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview17"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="12.778133"
+     inkscape:cx="36.54681"
+     inkscape:cy="28.17313"
+     inkscape:window-width="1920"
+     inkscape:window-height="1011"
+     inkscape:window-x="0"
+     inkscape:window-y="32"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="Raggruppa_205" />
+  <defs
+     id="defs4">
+    <clipPath
+       id="clip-path">
+      <rect
+         id="Rettangolo_350"
+         data-name="Rettangolo 350"
+         width="73.13"
+         height="56.268"
+         fill="none"
+         stroke="#707070"
+         stroke-width="3" />
+    </clipPath>
+  </defs>
+  <g
+     id="Product_ico"
+     data-name="Product ico"
+     transform="translate(0 0)">
+    <g
+       id="Raggruppa_205"
+       data-name="Raggruppa 205"
+       transform="translate(0 0)"
+       clip-path="url(#clip-path)">
+      <path
+         id="Tracciato_2518"
+         data-name="Tracciato 2518"
+         d="M44.661,31.814c-.231.721-.441,1.393-.663,2.06a2.447,2.447,0,0,1-2.482,1.8q-4.3.007-8.6,0A2.441,2.441,0,0,1,30.462,33.9c-.226-.68-.437-1.366-.67-2.095-1.48.761-2.927,1.529-4.4,2.246a2.615,2.615,0,0,1-1.176.239,1.471,1.471,0,0,1-1.382-1.419,40.011,40.011,0,0,1,.49-8.16,5.061,5.061,0,0,1,2.641-3.77,14.666,14.666,0,0,1,1.667-.845,1.083,1.083,0,0,0,.747-1.04,50.539,50.539,0,0,1,.911-5.372A25.72,25.72,0,0,1,35.222,2.641a2.429,2.429,0,0,1,3.989-.02,26.613,26.613,0,0,1,6.36,12.7c.257,1.233.37,2.5.516,3.751.056.49.17.832.711,1.012a11.736,11.736,0,0,1,1.584.789,5.074,5.074,0,0,1,2.738,3.759,38.505,38.505,0,0,1,.5,8.258,1.606,1.606,0,0,1-2.4,1.245c-1.354-.67-2.691-1.373-4.035-2.062l-.521-.261m-7.439,1.813c1.417,0,2.835-.008,4.252.006a.586.586,0,0,0,.646-.46,38.817,38.817,0,0,0,1.97-9.06,28.314,28.314,0,0,0-.477-8.343,24.814,24.814,0,0,0-5.892-11.8c-.426-.471-.553-.467-.981,0a23.059,23.059,0,0,0-4,6.022,27.72,27.72,0,0,0-2.272,15.2A38.363,38.363,0,0,0,32.3,33.069a.71.71,0,0,0,.815.567c1.368-.021,2.737-.008,4.105-.009M49.65,32.1a48.879,48.879,0,0,0-.465-6.918c-.275-1.8-1.517-2.515-2.842-3.08-.343,2.578-.685,5.152-1.033,7.769L49.65,32.1M28.111,22.091c-.176.086-.432.227-.7.342a3.457,3.457,0,0,0-2.2,3.124c-.153,2.013-.27,4.03-.4,6.045a4.577,4.577,0,0,0,.026.482l4.3-2.215c-.352-2.657-.69-5.2-1.03-7.778"
+         transform="translate(-0.656 -0.045)"
+         fill="#ef2b89" />
+      <path
+         id="Tracciato_2519"
+         data-name="Tracciato 2519"
+         d="M37.522,43.932a13.886,13.886,0,0,0,2.418-4.356c.035-.109.066-.22.1-.328a1.018,1.018,0,0,1,1.224-.789.982.982,0,0,1,.692,1.354,28.4,28.4,0,0,1-1.59,3.525,20.9,20.9,0,0,1-2.027,2.722,1,1,0,0,1-1.626.025,15.621,15.621,0,0,1-3.612-6.2,1.017,1.017,0,0,1,.648-1.417c.557-.175,1.051.152,1.265.845a13.868,13.868,0,0,0,2.507,4.615"
+         transform="translate(-0.95 -1.105)"
+         fill="#ef2b89" />
+      <path
+         id="Tracciato_2520"
+         data-name="Tracciato 2520"
+         d="M37.5,20.065a4.22,4.22,0,0,1-4.192-4.351,4.364,4.364,0,0,1,4.364-4.076,4.215,4.215,0,0,1-.172,8.427m.044-2a2.216,2.216,0,1,0-2.237-2.213,2.232,2.232,0,0,0,2.237,2.213"
+         transform="translate(-0.958 -0.334)"
+         fill="#ef2b89" />
+      <line
+         id="Linea_32"
+         data-name="Linea 32"
+         x2="72.299622"
+         fill="none"
+         stroke="#ef2b89"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="3"
+         x1="0.72161919"
+         y1="48.333836"
+         y2="48.333836" />
+      <line
+         id="Linea_33"
+         data-name="Linea 33"
+         x2="42.380844"
+         fill="none"
+         stroke="#ef2b89"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="3"
+         x1="30.699844"
+         y1="51.64352"
+         y2="51.64352" />
+      <path
+         style="fill:none;stroke:#ef2b89;stroke-width:3;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:2;stroke-dasharray:none;stroke-opacity:1"
+         d="M 22.117952,11.053584 H 1.5191436 V 54.925552 H 71.752342 V 11.053584 H 66.809764 50.98714"
+         id="path2207"
+         sodipodi:nodetypes="ccccccc" />
+    </g>
+  </g>
+</svg>

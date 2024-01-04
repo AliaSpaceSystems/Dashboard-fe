@@ -1,1 +1,53 @@
-<p>page-1 works!</p>
+<div id="p1-main-container">
+  <div id="p1-sidebar">
+    <div class="desp-vertical-filter-div">
+      <p class="desp-vertical-filter-title">FILTER:</p>
+      <div *ngFor="let filter of filterList; let i = index">
+        <input type="radio" name="filterBy" value="{{filter}}" id="{{filter}}" checked="{{i == 0 ? 'checked' : ''}}" />
+        <label for="{{filter}}">{{filter.toUpperCase()}}</label>
+      </div>
+    </div>
+    <div class="desp-vertical-filter-div service-categories">
+      <p class="desp-vertical-filter-title">CATEGORIES:</p>
+      <div class="checkbox-div" style="margin-bottom: 0.5rem">
+        <input class="desp-checkbox-input" type="checkbox" name="categoryBy" id="select-all" value="ALL" checked="checked" (change)="onSelectAllCategories($event)"/>
+        <label class="desp-checkbox-label" for="select-all">SELECT ALL</label>
+      </div>
+
+      <div class="checkbox-div" *ngFor="let category of categoryList; let i = index">
+        <input class="desp-checkbox-input category-filter-input" type="checkbox" name="categoryBy" id="{{category}}" value="{{category}}" checked="checked" (change)="onSelectOneCategory($event)"/>
+        <label class="desp-checkbox-label" for="{{category}}">{{category.toUpperCase()}}</label>
+      </div>
+    </div>
+  </div>
+
+  <div id="p1-central-container">
+    <div id="p1-central-header">
+      <p>The comprehensive catalogue of all services available on the DESP platform <a href="http://localhost:4200/list-of-services">here</a>.</p>
+      <p>You can easily discover and search all entries, conveniently organised by thematic areas.</p>
+    </div>
+    <div class="table-container">
+      <table class="p1-table">
+        <thead>
+          <tr>
+            <th *ngFor="let header of serviceTableHeaderValues; let i = index">{{i == 1 ? '' : capitalizeFirstLetter(header)}}</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let service of serviceListFiltered" class="p1-table-row" (click)="onServiceClicked(service.name)">
+            <td class="center"><img class="p1-table-image" [src]="imageList[service.image]" alt="{{service.image}}"></td>
+            <td class="nowrap">{{service.title}}</td>
+            <!-- <td class="center"><img class="desp-table-image" [src]="imageList[service.image]" alt="{{service.image}}"></td> -->
+            <td class="nowrap">{{service.category.toUpperCase()}}</td>
+            <td>{{service.description}}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div id="page-selector">
+
+    </div>
+  </div>
+
+  <!-- <router-outlet></router-outlet> -->
+</div>

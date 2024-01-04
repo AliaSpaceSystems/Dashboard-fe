@@ -1,0 +1,2317 @@
+{
+  "users": [
+    {"type": "federated", "value": 1200},
+    {"type": "registered", "value": 3245}
+  ],
+  "models": [
+    {"type": "free", "value": 12},
+    {"type": "paid", "value": 6}
+  ],
+  "datasets": {
+    "totalNumber": 82
+  },
+  "services": [
+    {
+      "name": "iam",
+      "label": "IAM",
+      "type": "federated",
+      "activeUsersTrend": {
+        "federatedUsers": {
+          "lastMonth": {
+            "trend": 65,
+            "values": [
+              {"date": "2023-11-01", "value": 35},
+              {"date": "2023-11-02", "value": 136},
+              {"date": "2023-11-03", "value": 217},
+              {"date": "2023-11-04", "value": 228},
+              {"date": "2023-11-05", "value": 239},
+              {"date": "2023-11-06", "value": 240},
+              {"date": "2023-11-07", "value": 238},
+              {"date": "2023-11-08", "value": 239},
+              {"date": "2023-11-09", "value": 260},
+              {"date": "2023-11-10", "value": 264},
+              {"date": "2023-11-11", "value": 285},
+              {"date": "2023-11-12", "value": 310},
+              {"date": "2023-11-13", "value": 327},
+              {"date": "2023-11-14", "value": 338},
+              {"date": "2023-11-15", "value": 339},
+              {"date": "2023-11-16", "value": 340},
+              {"date": "2023-11-17", "value": 348},
+              {"date": "2023-11-18", "value": 359},
+              {"date": "2023-11-19", "value": 370},
+              {"date": "2023-11-20", "value": 394},
+              {"date": "2023-11-21", "value": 435},
+              {"date": "2023-11-22", "value": 436},
+              {"date": "2023-11-23", "value": 537},
+              {"date": "2023-11-24", "value": 538},
+              {"date": "2023-11-25", "value": 539},
+              {"date": "2023-11-26", "value": 540},
+              {"date": "2023-11-27", "value": 638},
+              {"date": "2023-11-28", "value": 839},
+              {"date": "2023-11-29", "value": 940},
+              {"date": "2023-11-30", "value": 984}
+            ]
+          },
+          "lastThreeMonths": {
+            "trend": 25,
+            "values": [
+              {"date": "2023-09-06", "value": 1436},
+              {"date": "2023-09-13", "value": 1940},
+              {"date": "2023-09-20", "value": 1984},
+              {"date": "2023-09-27", "value": 1135},
+              {"date": "2023-10-04", "value": 1239},
+              {"date": "2023-10-11", "value": 1339},
+              {"date": "2023-10-18", "value": 1436},
+              {"date": "2023-10-25", "value": 1940},
+              {"date": "2023-11-01", "value": 1135},
+              {"date": "2023-11-08", "value": 1239},
+              {"date": "2023-11-15", "value": 1339},
+              {"date": "2023-11-22", "value": 1436},
+              {"date": "2023-11-29", "value": 1940}
+            ]
+          }
+        },
+        "registeredUsers": {
+          "lastMonth": {
+            "trend": -20,
+            "values": [
+              {"date": "2023-11-01", "value": 235},
+              {"date": "2023-11-02", "value": 236},
+              {"date": "2023-11-03", "value": 317},
+              {"date": "2023-11-04", "value": 328},
+              {"date": "2023-11-05", "value": 339},
+              {"date": "2023-11-06", "value": 340},
+              {"date": "2023-11-07", "value": 338},
+              {"date": "2023-11-08", "value": 439},
+              {"date": "2023-11-09", "value": 460},
+              {"date": "2023-11-10", "value": 464},
+              {"date": "2023-11-11", "value": 485},
+              {"date": "2023-11-12", "value": 410},
+              {"date": "2023-11-13", "value": 327},
+              {"date": "2023-11-14", "value": 438},
+              {"date": "2023-11-15", "value": 339},
+              {"date": "2023-11-16", "value": 340},
+              {"date": "2023-11-17", "value": 348},
+              {"date": "2023-11-18", "value": 459},
+              {"date": "2023-11-19", "value": 470},
+              {"date": "2023-11-20", "value": 494},
+              {"date": "2023-11-21", "value": 435},
+              {"date": "2023-11-22", "value": 436},
+              {"date": "2023-11-23", "value": 537},
+              {"date": "2023-11-24", "value": 538},
+              {"date": "2023-11-25", "value": 439},
+              {"date": "2023-11-26", "value": 440},
+              {"date": "2023-11-27", "value": 538},
+              {"date": "2023-11-28", "value": 639},
+              {"date": "2023-11-29", "value": 640},
+              {"date": "2023-11-30", "value": 684}
+            ]
+          },
+          "lastThreeMonths": {
+            "trend": -10,
+            "values": [
+              {"date": "2023-09-06", "value": 436},
+              {"date": "2023-09-13", "value": 940},
+              {"date": "2023-09-20", "value": 984},
+              {"date": "2023-09-27", "value": 195},
+              {"date": "2023-10-04", "value": 209},
+              {"date": "2023-10-11", "value": 339},
+              {"date": "2023-10-18", "value": 436},
+              {"date": "2023-10-25", "value": 940},
+              {"date": "2023-11-01", "value": 139},
+              {"date": "2023-11-08", "value": 309},
+              {"date": "2023-11-15", "value": 339},
+              {"date": "2023-11-22", "value": 436},
+              {"date": "2023-11-29", "value": 940}
+            ]
+          }
+        }
+      },
+      "activeUsersPerState": {
+        "values": [
+          {"stateName": "Austria", "value": 1234, "trend": 56},
+          {"stateName": "Belgium", "value": 4432, "trend": -16},
+          {"stateName": "Czechia", "value": 2456, "trend": 52},
+          {"stateName": "Denmark", "value": 6234, "trend": 8},
+          {"stateName": "Estonia", "value": 869, "trend": 56},
+          {"stateName": "Finland", "value": 2432, "trend": -16},
+          {"stateName": "France", "value": 2156, "trend": 52},
+          {"stateName": "Germany", "value": 5834, "trend": 8},
+          {"stateName": "Greece", "value": 1234, "trend": 56},
+          {"stateName": "Hungary", "value": 5432, "trend": -16},
+          {"stateName": "Ireland", "value": 3456, "trend": 52},
+          {"stateName": "Italy", "value": 7234, "trend": 8},
+          {"stateName": "Luxembourg", "value": 1869, "trend": 56},
+          {"stateName": "The Netherlands", "value": 2832, "trend": -16},
+          {"stateName": "Norway", "value": 3156, "trend": 52},
+          {"stateName": "Poland", "value": 4834, "trend": 8},
+          {"stateName": "Portugal", "value": 2234, "trend": 56},
+          {"stateName": "Romania", "value": 1432, "trend": -16},
+          {"stateName": "Spain", "value": 2956, "trend": 52},
+          {"stateName": "Sweden", "value": 7234, "trend": 8},
+          {"stateName": "Switzerland", "value": 1269, "trend": 56},
+          {"stateName": "United Kindom", "value": 2032, "trend": -16}
+        ]
+      },
+      "serviceMetrics": [
+        {
+          "name": "registered-user-number",
+          "granularity": ["total", "monthly"],
+          "totalValue": 3245984,
+          "values": [
+            {"date": "2023-11-01", "value": 135},
+            {"date": "2023-11-02", "value": 136},
+            {"date": "2023-11-03", "value": 217},
+            {"date": "2023-11-04", "value": 228},
+            {"date": "2023-11-05", "value": 239},
+            {"date": "2023-11-06", "value": 240},
+            {"date": "2023-11-07", "value": 238},
+            {"date": "2023-11-08", "value": 239},
+            {"date": "2023-11-09", "value": 260},
+            {"date": "2023-11-10", "value": 264},
+            {"date": "2023-11-11", "value": 285},
+            {"date": "2023-11-12", "value": 310},
+            {"date": "2023-11-13", "value": 327},
+            {"date": "2023-11-14", "value": 338},
+            {"date": "2023-11-15", "value": 339},
+            {"date": "2023-11-16", "value": 340},
+            {"date": "2023-11-17", "value": 348},
+            {"date": "2023-11-18", "value": 359},
+            {"date": "2023-11-19", "value": 370},
+            {"date": "2023-11-20", "value": 394},
+            {"date": "2023-11-21", "value": 435},
+            {"date": "2023-11-22", "value": 436},
+            {"date": "2023-11-23", "value": 537},
+            {"date": "2023-11-24", "value": 538},
+            {"date": "2023-11-25", "value": 539},
+            {"date": "2023-11-26", "value": 540},
+            {"date": "2023-11-27", "value": 638},
+            {"date": "2023-11-28", "value": 839},
+            {"date": "2023-11-29", "value": 940},
+            {"date": "2023-11-30", "value": 984}
+          ]
+        },
+        {
+          "name": "federated-user-number",
+          "granularity": ["total", "monthly"],
+          "totalValue": 145654,
+          "values": [
+            {"date": "2023-11-01", "value": 1135},
+            {"date": "2023-11-02", "value": 1136},
+            {"date": "2023-11-03", "value": 1217},
+            {"date": "2023-11-04", "value": 1228},
+            {"date": "2023-11-05", "value": 1239},
+            {"date": "2023-11-06", "value": 1240},
+            {"date": "2023-11-07", "value": 1238},
+            {"date": "2023-11-08", "value": 1239},
+            {"date": "2023-11-09", "value": 1260},
+            {"date": "2023-11-10", "value": 1264},
+            {"date": "2023-11-11", "value": 1285},
+            {"date": "2023-11-12", "value": 1310},
+            {"date": "2023-11-13", "value": 1327},
+            {"date": "2023-11-14", "value": 1338},
+            {"date": "2023-11-15", "value": 1339},
+            {"date": "2023-11-16", "value": 1340},
+            {"date": "2023-11-17", "value": 1348},
+            {"date": "2023-11-18", "value": 1359},
+            {"date": "2023-11-19", "value": 1370},
+            {"date": "2023-11-20", "value": 1394},
+            {"date": "2023-11-21", "value": 1435},
+            {"date": "2023-11-22", "value": 1436},
+            {"date": "2023-11-23", "value": 1537},
+            {"date": "2023-11-24", "value": 1538},
+            {"date": "2023-11-25", "value": 1539},
+            {"date": "2023-11-26", "value": 1540},
+            {"date": "2023-11-27", "value": 1638},
+            {"date": "2023-11-28", "value": 1839},
+            {"date": "2023-11-29", "value": 1940},
+            {"date": "2023-11-30", "value": 1984}
+          ]
+        },
+        {
+          "name": "active-user-sessions-per-time",
+          "granularity": ["total", "monthly"],
+          "totalValue": 3245654,
+          "values": [
+            {"date": "2023-11-01", "value": 635},
+            {"date": "2023-11-02", "value": 836},
+            {"date": "2023-11-03", "value": 217},
+            {"date": "2023-11-04", "value": 328},
+            {"date": "2023-11-05", "value": 939},
+            {"date": "2023-11-06", "value": 1040},
+            {"date": "2023-11-07", "value": 238},
+            {"date": "2023-11-08", "value": 39},
+            {"date": "2023-11-09", "value": 160},
+            {"date": "2023-11-10", "value": 564},
+            {"date": "2023-11-11", "value": 285},
+            {"date": "2023-11-12", "value": 310},
+            {"date": "2023-11-13", "value": 727},
+            {"date": "2023-11-14", "value": 938},
+            {"date": "2023-11-15", "value": 1039},
+            {"date": "2023-11-16", "value": 340},
+            {"date": "2023-11-17", "value": 248},
+            {"date": "2023-11-18", "value": 509},
+            {"date": "2023-11-19", "value": 700},
+            {"date": "2023-11-20", "value": 1094},
+            {"date": "2023-11-21", "value": 835},
+            {"date": "2023-11-22", "value": 436},
+            {"date": "2023-11-23", "value": 537},
+            {"date": "2023-11-24", "value": 318},
+            {"date": "2023-11-25", "value": 89},
+            {"date": "2023-11-26", "value": 40},
+            {"date": "2023-11-27", "value": 1038},
+            {"date": "2023-11-28", "value": 839},
+            {"date": "2023-11-29", "value": 940},
+            {"date": "2023-11-30", "value": 984}
+          ]
+        },
+        {
+          "name": "number-of-authentication-requests-per-time-unit",
+          "granularity": ["total"],
+          "totalValue": 14356
+        },
+        {
+          "name": "service-rating",
+          "granularity": ["total"],
+          "totalValue": 4
+        }
+      ]
+    },
+    {
+      "name": "service-2",
+      "label": "Service 2",
+      "type": "registered",
+      "activeUsersTrend": {
+        "federatedUsers": {
+          "lastMonth": {
+            "trend": 35,
+            "values": [
+              {"date": "2023-11-01", "value": 135},
+              {"date": "2023-11-02", "value": 136},
+              {"date": "2023-11-03", "value": 217},
+              {"date": "2023-11-04", "value": 228},
+              {"date": "2023-11-05", "value": 239},
+              {"date": "2023-11-06", "value": 240},
+              {"date": "2023-11-07", "value": 238},
+              {"date": "2023-11-08", "value": 239},
+              {"date": "2023-11-09", "value": 260},
+              {"date": "2023-11-10", "value": 264},
+              {"date": "2023-11-11", "value": 285},
+              {"date": "2023-11-12", "value": 310},
+              {"date": "2023-11-13", "value": 327},
+              {"date": "2023-11-14", "value": 338},
+              {"date": "2023-11-15", "value": 339},
+              {"date": "2023-11-16", "value": 340},
+              {"date": "2023-11-17", "value": 348},
+              {"date": "2023-11-18", "value": 359},
+              {"date": "2023-11-19", "value": 370},
+              {"date": "2023-11-20", "value": 394},
+              {"date": "2023-11-21", "value": 435},
+              {"date": "2023-11-22", "value": 436},
+              {"date": "2023-11-23", "value": 537},
+              {"date": "2023-11-24", "value": 538},
+              {"date": "2023-11-25", "value": 539},
+              {"date": "2023-11-26", "value": 540},
+              {"date": "2023-11-27", "value": 638},
+              {"date": "2023-11-28", "value": 839},
+              {"date": "2023-11-29", "value": 940},
+              {"date": "2023-11-30", "value": 984}
+            ]
+          },
+          "lastThreeMonths": {
+            "trend": 22,
+            "values": [
+              {"date": "2023-09-06", "value": 1236},
+              {"date": "2023-09-13", "value": 1440},
+              {"date": "2023-09-20", "value": 1684},
+              {"date": "2023-09-27", "value": 1635},
+              {"date": "2023-10-04", "value": 1339},
+              {"date": "2023-10-11", "value": 1239},
+              {"date": "2023-10-18", "value": 1136},
+              {"date": "2023-10-25", "value": 1440},
+              {"date": "2023-11-01", "value": 1535},
+              {"date": "2023-11-08", "value": 1639},
+              {"date": "2023-11-15", "value": 1739},
+              {"date": "2023-11-22", "value": 1936},
+              {"date": "2023-11-29", "value": 1840}
+            ]
+          }
+        },
+        "registeredUsers": {
+          "lastMonth": {
+            "trend": -14,
+            "values": [
+              {"date": "2023-11-01", "value": 35},
+              {"date": "2023-11-02", "value": 36},
+              {"date": "2023-11-03", "value": 17},
+              {"date": "2023-11-04", "value": 28},
+              {"date": "2023-11-05", "value": 39},
+              {"date": "2023-11-06", "value": 40},
+              {"date": "2023-11-07", "value": 38},
+              {"date": "2023-11-08", "value": 39},
+              {"date": "2023-11-09", "value": 60},
+              {"date": "2023-11-10", "value": 64},
+              {"date": "2023-11-11", "value": 85},
+              {"date": "2023-11-12", "value": 10},
+              {"date": "2023-11-13", "value": 27},
+              {"date": "2023-11-14", "value": 38},
+              {"date": "2023-11-15", "value": 39},
+              {"date": "2023-11-16", "value": 40},
+              {"date": "2023-11-17", "value": 48},
+              {"date": "2023-11-18", "value": 59},
+              {"date": "2023-11-19", "value": 70},
+              {"date": "2023-11-20", "value": 94},
+              {"date": "2023-11-21", "value": 35},
+              {"date": "2023-11-22", "value": 36},
+              {"date": "2023-11-23", "value": 37},
+              {"date": "2023-11-24", "value": 38},
+              {"date": "2023-11-25", "value": 39},
+              {"date": "2023-11-26", "value": 40},
+              {"date": "2023-11-27", "value": 38},
+              {"date": "2023-11-28", "value": 39},
+              {"date": "2023-11-29", "value": 40},
+              {"date": "2023-11-30", "value": 84}
+            ]
+          },
+          "lastThreeMonths": {
+            "trend": -7,
+            "values": [
+              {"date": "2023-09-06", "value": 436},
+              {"date": "2023-09-13", "value": 940},
+              {"date": "2023-09-20", "value": 984},
+              {"date": "2023-09-27", "value": 185},
+              {"date": "2023-10-04", "value": 239},
+              {"date": "2023-10-11", "value": 339},
+              {"date": "2023-10-18", "value": 436},
+              {"date": "2023-10-25", "value": 940},
+              {"date": "2023-11-01", "value": 95},
+              {"date": "2023-11-08", "value": 239},
+              {"date": "2023-11-15", "value": 339},
+              {"date": "2023-11-22", "value": 436},
+              {"date": "2023-11-29", "value": 940}
+            ]
+          }
+        }
+      },
+      "activeUsersPerState": {
+        "values": [
+          {"stateName": "Austria", "value": 1234, "trend": 46},
+          {"stateName": "Belgium", "value": 3432, "trend": -8},
+          {"stateName": "Czechia", "value": 2456, "trend": 52},
+          {"stateName": "Denmark", "value": 7634, "trend": 8},
+          {"stateName": "Estonia", "value": 1080, "trend": 36},
+          {"stateName": "Finland", "value": 3832, "trend": -16},
+          {"stateName": "France", "value": 1806, "trend": 52},
+          {"stateName": "Germany", "value": 8934, "trend": 8},
+          {"stateName": "Greece", "value": 2234, "trend": 46},
+          {"stateName": "Hungary", "value": 1432, "trend": -8},
+          {"stateName": "Ireland", "value": 3456, "trend": 52},
+          {"stateName": "Italy", "value": 5634, "trend": 8},
+          {"stateName": "Luxembourg", "value": 2080, "trend": 36},
+          {"stateName": "The Netherlands", "value": 3832, "trend": -16},
+          {"stateName": "Norway", "value": 2206, "trend": 52},
+          {"stateName": "Poland", "value": 7334, "trend": 8},
+          {"stateName": "Portugal", "value": 3234, "trend": 46},
+          {"stateName": "Romania", "value": 2432, "trend": -8},
+          {"stateName": "Spain", "value": 2856, "trend": 52},
+          {"stateName": "Sweden", "value": 7134, "trend": 8},
+          {"stateName": "Switzerland", "value": 2180, "trend": 36},
+          {"stateName": "United Kindom", "value": 2532, "trend": -16}
+        ]
+      },
+      "serviceMetrics": [
+        {
+          "name": "registered-user-number",
+          "granularity": ["total", "monthly"],
+          "totalValue": 3245654,
+          "values": [
+            {"date": "2023-11-01", "value": 135},
+            {"date": "2023-11-02", "value": 136},
+            {"date": "2023-11-03", "value": 217},
+            {"date": "2023-11-04", "value": 228},
+            {"date": "2023-11-05", "value": 239},
+            {"date": "2023-11-06", "value": 240},
+            {"date": "2023-11-07", "value": 238},
+            {"date": "2023-11-08", "value": 239},
+            {"date": "2023-11-09", "value": 260},
+            {"date": "2023-11-10", "value": 264},
+            {"date": "2023-11-11", "value": 285},
+            {"date": "2023-11-12", "value": 310},
+            {"date": "2023-11-13", "value": 327},
+            {"date": "2023-11-14", "value": 338},
+            {"date": "2023-11-15", "value": 339},
+            {"date": "2023-11-16", "value": 340},
+            {"date": "2023-11-17", "value": 348},
+            {"date": "2023-11-18", "value": 359},
+            {"date": "2023-11-19", "value": 370},
+            {"date": "2023-11-20", "value": 394},
+            {"date": "2023-11-21", "value": 435},
+            {"date": "2023-11-22", "value": 436},
+            {"date": "2023-11-23", "value": 537},
+            {"date": "2023-11-24", "value": 538},
+            {"date": "2023-11-25", "value": 539},
+            {"date": "2023-11-26", "value": 540},
+            {"date": "2023-11-27", "value": 638},
+            {"date": "2023-11-28", "value": 839},
+            {"date": "2023-11-29", "value": 940},
+            {"date": "2023-11-30", "value": 984}
+          ]
+        },
+        {
+          "name": "federated-user-number",
+          "granularity": ["total", "monthly"],
+          "totalValue": 3245654,
+          "values": [
+            {"date": "2023-11-01", "value": 135},
+            {"date": "2023-11-02", "value": 136},
+            {"date": "2023-11-03", "value": 217},
+            {"date": "2023-11-04", "value": 228},
+            {"date": "2023-11-05", "value": 239},
+            {"date": "2023-11-06", "value": 240},
+            {"date": "2023-11-07", "value": 238},
+            {"date": "2023-11-08", "value": 239},
+            {"date": "2023-11-09", "value": 260},
+            {"date": "2023-11-10", "value": 264},
+            {"date": "2023-11-11", "value": 285},
+            {"date": "2023-11-12", "value": 310},
+            {"date": "2023-11-13", "value": 327},
+            {"date": "2023-11-14", "value": 338},
+            {"date": "2023-11-15", "value": 339},
+            {"date": "2023-11-16", "value": 340},
+            {"date": "2023-11-17", "value": 348},
+            {"date": "2023-11-18", "value": 359},
+            {"date": "2023-11-19", "value": 370},
+            {"date": "2023-11-20", "value": 394},
+            {"date": "2023-11-21", "value": 435},
+            {"date": "2023-11-22", "value": 436},
+            {"date": "2023-11-23", "value": 537},
+            {"date": "2023-11-24", "value": 538},
+            {"date": "2023-11-25", "value": 539},
+            {"date": "2023-11-26", "value": 540},
+            {"date": "2023-11-27", "value": 638},
+            {"date": "2023-11-28", "value": 839},
+            {"date": "2023-11-29", "value": 940},
+            {"date": "2023-11-30", "value": 984}
+          ]
+        },
+        {
+          "name": "active-user-sessions-per-time",
+          "granularity": ["total", "monthly"],
+          "totalValue": 3245654,
+          "values": [
+            {"date": "2023-11-01", "value": 135},
+            {"date": "2023-11-02", "value": 136},
+            {"date": "2023-11-03", "value": 217},
+            {"date": "2023-11-04", "value": 228},
+            {"date": "2023-11-05", "value": 239},
+            {"date": "2023-11-06", "value": 240},
+            {"date": "2023-11-07", "value": 238},
+            {"date": "2023-11-08", "value": 239},
+            {"date": "2023-11-09", "value": 260},
+            {"date": "2023-11-10", "value": 264},
+            {"date": "2023-11-11", "value": 285},
+            {"date": "2023-11-12", "value": 310},
+            {"date": "2023-11-13", "value": 327},
+            {"date": "2023-11-14", "value": 338},
+            {"date": "2023-11-15", "value": 339},
+            {"date": "2023-11-16", "value": 340},
+            {"date": "2023-11-17", "value": 348},
+            {"date": "2023-11-18", "value": 359},
+            {"date": "2023-11-19", "value": 370},
+            {"date": "2023-11-20", "value": 394},
+            {"date": "2023-11-21", "value": 435},
+            {"date": "2023-11-22", "value": 436},
+            {"date": "2023-11-23", "value": 537},
+            {"date": "2023-11-24", "value": 538},
+            {"date": "2023-11-25", "value": 539},
+            {"date": "2023-11-26", "value": 540},
+            {"date": "2023-11-27", "value": 638},
+            {"date": "2023-11-28", "value": 839},
+            {"date": "2023-11-29", "value": 940},
+            {"date": "2023-11-30", "value": 984}
+          ]
+        },
+        {
+          "name": "number-of-authentication-requests-per-time-unit",
+          "granularity": ["total"],
+          "totalValue": 14356
+        },
+        {
+          "name": "service-rating",
+          "granularity": ["total"],
+          "totalValue": 4
+        }
+      ]
+    },
+    {
+      "name": "service-3",
+      "label": "Service 3",
+      "type": "federated",
+      "activeUsersTrend": {
+        "federatedUsers": {
+          "lastMonth": {
+            "trend": 25,
+            "values": [
+              {"date": "2023-11-01", "value": 135},
+              {"date": "2023-11-02", "value": 136},
+              {"date": "2023-11-03", "value": 217},
+              {"date": "2023-11-04", "value": 228},
+              {"date": "2023-11-05", "value": 239},
+              {"date": "2023-11-06", "value": 240},
+              {"date": "2023-11-07", "value": 238},
+              {"date": "2023-11-08", "value": 239},
+              {"date": "2023-11-09", "value": 260},
+              {"date": "2023-11-10", "value": 264},
+              {"date": "2023-11-11", "value": 285},
+              {"date": "2023-11-12", "value": 310},
+              {"date": "2023-11-13", "value": 327},
+              {"date": "2023-11-14", "value": 338},
+              {"date": "2023-11-15", "value": 339},
+              {"date": "2023-11-16", "value": 340},
+              {"date": "2023-11-17", "value": 348},
+              {"date": "2023-11-18", "value": 359},
+              {"date": "2023-11-19", "value": 370},
+              {"date": "2023-11-20", "value": 394},
+              {"date": "2023-11-21", "value": 435},
+              {"date": "2023-11-22", "value": 436},
+              {"date": "2023-11-23", "value": 537},
+              {"date": "2023-11-24", "value": 538},
+              {"date": "2023-11-25", "value": 539},
+              {"date": "2023-11-26", "value": 540},
+              {"date": "2023-11-27", "value": 638},
+              {"date": "2023-11-28", "value": 839},
+              {"date": "2023-11-29", "value": 940},
+              {"date": "2023-11-30", "value": 984}
+            ]
+          },
+          "lastThreeMonths": {
+            "trend": 18,
+            "values": [
+              {"date": "2023-09-06", "value": 1436},
+              {"date": "2023-09-13", "value": 1140},
+              {"date": "2023-09-20", "value": 1184},
+              {"date": "2023-09-27", "value": 1135},
+              {"date": "2023-10-04", "value": 1139},
+              {"date": "2023-10-11", "value": 1239},
+              {"date": "2023-10-18", "value": 1436},
+              {"date": "2023-10-25", "value": 1640},
+              {"date": "2023-11-01", "value": 1735},
+              {"date": "2023-11-08", "value": 1839},
+              {"date": "2023-11-15", "value": 1739},
+              {"date": "2023-11-22", "value": 1636},
+              {"date": "2023-11-29", "value": 1540}
+            ]
+          }
+        },
+        "registeredUsers": {
+          "lastMonth": {
+            "trend": -20,
+            "values": [
+              {"date": "2023-11-01", "value": 235},
+              {"date": "2023-11-02", "value": 236},
+              {"date": "2023-11-03", "value": 317},
+              {"date": "2023-11-04", "value": 328},
+              {"date": "2023-11-05", "value": 339},
+              {"date": "2023-11-06", "value": 340},
+              {"date": "2023-11-07", "value": 438},
+              {"date": "2023-11-08", "value": 439},
+              {"date": "2023-11-09", "value": 460},
+              {"date": "2023-11-10", "value": 464},
+              {"date": "2023-11-11", "value": 485},
+              {"date": "2023-11-12", "value": 510},
+              {"date": "2023-11-13", "value": 527},
+              {"date": "2023-11-14", "value": 538},
+              {"date": "2023-11-15", "value": 439},
+              {"date": "2023-11-16", "value": 440},
+              {"date": "2023-11-17", "value": 448},
+              {"date": "2023-11-18", "value": 559},
+              {"date": "2023-11-19", "value": 570},
+              {"date": "2023-11-20", "value": 694},
+              {"date": "2023-11-21", "value": 635},
+              {"date": "2023-11-22", "value": 636},
+              {"date": "2023-11-23", "value": 637},
+              {"date": "2023-11-24", "value": 538},
+              {"date": "2023-11-25", "value": 539},
+              {"date": "2023-11-26", "value": 640},
+              {"date": "2023-11-27", "value": 738},
+              {"date": "2023-11-28", "value": 739},
+              {"date": "2023-11-29", "value": 840},
+              {"date": "2023-11-30", "value": 984}
+            ]
+          },
+          "lastThreeMonths": {
+            "trend": -12,
+            "values": [
+              {"date": "2023-09-06", "value": 436},
+              {"date": "2023-09-13", "value": 940},
+              {"date": "2023-09-20", "value": 984},
+              {"date": "2023-09-27", "value": 135},
+              {"date": "2023-10-04", "value": 139},
+              {"date": "2023-10-11", "value": 339},
+              {"date": "2023-10-18", "value": 436},
+              {"date": "2023-10-25", "value": 940},
+              {"date": "2023-11-01", "value": 135},
+              {"date": "2023-11-08", "value": 259},
+              {"date": "2023-11-15", "value": 339},
+              {"date": "2023-11-22", "value": 436},
+              {"date": "2023-11-29", "value": 940}
+            ]
+          }
+        }
+      },
+      "activeUsersPerState": {
+        "values": [
+          {"stateName": "Austria", "value": 1834, "trend": 48},
+          {"stateName": "Belgium", "value": 2132, "trend": -6},
+          {"stateName": "Czechia", "value": 2956, "trend": 52},
+          {"stateName": "Denmark", "value": 5934, "trend": 8},
+          {"stateName": "Estonia", "value": 2389, "trend": 48},
+          {"stateName": "Finland", "value": 5132, "trend": -16},
+          {"stateName": "France", "value": 2656, "trend": 52},
+          {"stateName": "Germany", "value": 3234, "trend": 8},
+          {"stateName": "Greece", "value": 1934, "trend": 48},
+          {"stateName": "Hungary", "value": 3432, "trend": -6},
+          {"stateName": "Ireland", "value": 4056, "trend": 52},
+          {"stateName": "Italy", "value": 3834, "trend": 8},
+          {"stateName": "Luxembourg", "value": 1389, "trend": 48},
+          {"stateName": "The Netherlands", "value": 1132, "trend": -16},
+          {"stateName": "Norway", "value": 2856, "trend": 52},
+          {"stateName": "Poland", "value": 4234, "trend": 8},
+          {"stateName": "Portugal", "value": 4234, "trend": 48},
+          {"stateName": "Romania", "value": 2032, "trend": -6},
+          {"stateName": "Spain", "value": 2956, "trend": 52},
+          {"stateName": "Sweden", "value": 5634, "trend": 8},
+          {"stateName": "Switzerland", "value": 1089, "trend": 48},
+          {"stateName": "United Kindom", "value": 3132, "trend": -16}
+        ]
+      },
+      "serviceMetrics": [
+        {
+          "name": "registered-user-number",
+          "granularity": ["total", "monthly"],
+          "totalValue": 3245654,
+          "values": [
+            {"date": "2023-11-01", "value": 135},
+            {"date": "2023-11-02", "value": 136},
+            {"date": "2023-11-03", "value": 217},
+            {"date": "2023-11-04", "value": 228},
+            {"date": "2023-11-05", "value": 239},
+            {"date": "2023-11-06", "value": 240},
+            {"date": "2023-11-07", "value": 238},
+            {"date": "2023-11-08", "value": 239},
+            {"date": "2023-11-09", "value": 260},
+            {"date": "2023-11-10", "value": 264},
+            {"date": "2023-11-11", "value": 285},
+            {"date": "2023-11-12", "value": 310},
+            {"date": "2023-11-13", "value": 327},
+            {"date": "2023-11-14", "value": 338},
+            {"date": "2023-11-15", "value": 339},
+            {"date": "2023-11-16", "value": 340},
+            {"date": "2023-11-17", "value": 348},
+            {"date": "2023-11-18", "value": 359},
+            {"date": "2023-11-19", "value": 370},
+            {"date": "2023-11-20", "value": 394},
+            {"date": "2023-11-21", "value": 435},
+            {"date": "2023-11-22", "value": 436},
+            {"date": "2023-11-23", "value": 537},
+            {"date": "2023-11-24", "value": 538},
+            {"date": "2023-11-25", "value": 539},
+            {"date": "2023-11-26", "value": 540},
+            {"date": "2023-11-27", "value": 638},
+            {"date": "2023-11-28", "value": 839},
+            {"date": "2023-11-29", "value": 940},
+            {"date": "2023-11-30", "value": 984}
+          ]
+        },
+        {
+          "name": "federated-user-number",
+          "granularity": ["total", "monthly"],
+          "totalValue": 3245654,
+          "values": [
+            {"date": "2023-11-01", "value": 135},
+            {"date": "2023-11-02", "value": 136},
+            {"date": "2023-11-03", "value": 217},
+            {"date": "2023-11-04", "value": 228},
+            {"date": "2023-11-05", "value": 239},
+            {"date": "2023-11-06", "value": 240},
+            {"date": "2023-11-07", "value": 238},
+            {"date": "2023-11-08", "value": 239},
+            {"date": "2023-11-09", "value": 260},
+            {"date": "2023-11-10", "value": 264},
+            {"date": "2023-11-11", "value": 285},
+            {"date": "2023-11-12", "value": 310},
+            {"date": "2023-11-13", "value": 327},
+            {"date": "2023-11-14", "value": 338},
+            {"date": "2023-11-15", "value": 339},
+            {"date": "2023-11-16", "value": 340},
+            {"date": "2023-11-17", "value": 348},
+            {"date": "2023-11-18", "value": 359},
+            {"date": "2023-11-19", "value": 370},
+            {"date": "2023-11-20", "value": 394},
+            {"date": "2023-11-21", "value": 435},
+            {"date": "2023-11-22", "value": 436},
+            {"date": "2023-11-23", "value": 537},
+            {"date": "2023-11-24", "value": 538},
+            {"date": "2023-11-25", "value": 539},
+            {"date": "2023-11-26", "value": 540},
+            {"date": "2023-11-27", "value": 638},
+            {"date": "2023-11-28", "value": 839},
+            {"date": "2023-11-29", "value": 940},
+            {"date": "2023-11-30", "value": 984}
+          ]
+        },
+        {
+          "name": "active-user-sessions-per-time",
+          "granularity": ["total", "monthly"],
+          "totalValue": 3245654,
+          "values": [
+            {"date": "2023-11-01", "value": 135},
+            {"date": "2023-11-02", "value": 136},
+            {"date": "2023-11-03", "value": 217},
+            {"date": "2023-11-04", "value": 228},
+            {"date": "2023-11-05", "value": 239},
+            {"date": "2023-11-06", "value": 240},
+            {"date": "2023-11-07", "value": 238},
+            {"date": "2023-11-08", "value": 239},
+            {"date": "2023-11-09", "value": 260},
+            {"date": "2023-11-10", "value": 264},
+            {"date": "2023-11-11", "value": 285},
+            {"date": "2023-11-12", "value": 310},
+            {"date": "2023-11-13", "value": 327},
+            {"date": "2023-11-14", "value": 338},
+            {"date": "2023-11-15", "value": 339},
+            {"date": "2023-11-16", "value": 340},
+            {"date": "2023-11-17", "value": 348},
+            {"date": "2023-11-18", "value": 359},
+            {"date": "2023-11-19", "value": 370},
+            {"date": "2023-11-20", "value": 394},
+            {"date": "2023-11-21", "value": 435},
+            {"date": "2023-11-22", "value": 436},
+            {"date": "2023-11-23", "value": 537},
+            {"date": "2023-11-24", "value": 538},
+            {"date": "2023-11-25", "value": 539},
+            {"date": "2023-11-26", "value": 540},
+            {"date": "2023-11-27", "value": 638},
+            {"date": "2023-11-28", "value": 839},
+            {"date": "2023-11-29", "value": 940},
+            {"date": "2023-11-30", "value": 984}
+          ]
+        },
+        {
+          "name": "number-of-authentication-requests-per-time-unit",
+          "granularity": ["total"],
+          "totalValue": 14356
+        },
+        {
+          "name": "service-rating",
+          "granularity": ["total"],
+          "totalValue": 4
+        }
+      ]
+    }
+  ],
+  "dataProviders": [
+    {
+      "name": "data-provider-1",
+      "label": "Data provider 1",
+      "accessedProductsTotalVolume": 156,
+      "datasets": [
+        {
+          "name": "dataset-1",
+          "label": "Dataset 1",
+          "accessedProducts": {
+            "lastMonth": [
+              {"date": "2023-11-01", "numberValue": 1234, "volumeValue": 4400000},
+              {"date": "2023-11-02", "numberValue": 1364, "volumeValue": 4118000},
+              {"date": "2023-11-03", "numberValue": 2794, "volumeValue": 4427000},
+              {"date": "2023-11-04", "numberValue": 2204, "volumeValue": 4235000},
+              {"date": "2023-11-05", "numberValue": 1934, "volumeValue": 4544000},
+              {"date": "2023-11-06", "numberValue": 1444, "volumeValue": 4451000},
+              {"date": "2023-11-07", "numberValue": 2124, "volumeValue": 4264000},
+              {"date": "2023-11-08", "numberValue": 2614, "volumeValue": 4676000},
+              {"date": "2023-11-09", "numberValue": 1924, "volumeValue": 5489000},
+              {"date": "2023-11-10", "numberValue": 2364, "volumeValue": 4793000},
+              {"date": "2023-11-11", "numberValue": 1484, "volumeValue": 4886000},
+              {"date": "2023-11-12", "numberValue": 1834, "volumeValue": 5172000},
+              {"date": "2023-11-13", "numberValue": 1164, "volumeValue": 5360000},
+              {"date": "2023-11-14", "numberValue":  894, "volumeValue": 5658000},
+              {"date": "2023-11-15", "numberValue": 1254, "volumeValue": 5349000},
+              {"date": "2023-11-16", "numberValue": 1144, "volumeValue": 5531000},
+              {"date": "2023-11-17", "numberValue": 1214, "volumeValue": 5423000},
+              {"date": "2023-11-18", "numberValue": 1394, "volumeValue": 6014000},
+              {"date": "2023-11-19", "numberValue": 1694, "volumeValue": 5908000},
+              {"date": "2023-11-20", "numberValue": 2484, "volumeValue": 6217000},
+              {"date": "2023-11-21", "numberValue": 1844, "volumeValue": 6426000},
+              {"date": "2023-11-22", "numberValue": 2064, "volumeValue": 5933000},
+              {"date": "2023-11-23", "numberValue": 2474, "volumeValue": 6144000},
+              {"date": "2023-11-24", "numberValue": 2284, "volumeValue": 6351000},
+              {"date": "2023-11-25", "numberValue": 2234, "volumeValue": 6665000},
+              {"date": "2023-11-26", "numberValue": 2324, "volumeValue": 6278000},
+              {"date": "2023-11-27", "numberValue": 2844, "volumeValue": 6589000},
+              {"date": "2023-11-28", "numberValue": 3004, "volumeValue": 6897000},
+              {"date": "2023-11-29", "numberValue": 3944, "volumeValue": 6286000},
+              {"date": "2023-11-30", "numberValue": 3624, "volumeValue": 5970000}
+            ],
+            "lastThreeMonths": [
+              {"date": "2023-09-06", "numberValue": 4234, "volumeValue": 54100000},
+              {"date": "2023-09-13", "numberValue": 4234, "volumeValue": 54200000},
+              {"date": "2023-09-20", "numberValue": 4234, "volumeValue": 54300000},
+              {"date": "2023-09-27", "numberValue": 4234, "volumeValue": 54400000},
+              {"date": "2023-10-04", "numberValue": 4234, "volumeValue": 54800000},
+              {"date": "2023-10-11", "numberValue": 4234, "volumeValue": 54700000},
+              {"date": "2023-10-18", "numberValue": 4234, "volumeValue": 54600000},
+              {"date": "2023-10-25", "numberValue": 4234, "volumeValue": 54500000},
+              {"date": "2023-11-01", "numberValue": 4234, "volumeValue": 54400000},
+              {"date": "2023-11-08", "numberValue": 4234, "volumeValue": 54200000},
+              {"date": "2023-11-15", "numberValue": 4234, "volumeValue": 54100000},
+              {"date": "2023-11-22", "numberValue": 4234, "volumeValue": 54400000},
+              {"date": "2023-11-29", "numberValue": 4234, "volumeValue": 54200000}
+            ]
+          },
+          "publishedProducts": {
+            "lastMonth": [
+              {"date": "2023-11-01", "numberValue": 11238, "volumeValue": 144000},
+              {"date": "2023-11-02", "numberValue": 11368, "volumeValue": 101180},
+              {"date": "2023-11-03", "numberValue": 12798, "volumeValue": 124270},
+              {"date": "2023-11-04", "numberValue": 12208, "volumeValue": 152350},
+              {"date": "2023-11-05", "numberValue": 11938, "volumeValue": 135440},
+              {"date": "2023-11-06", "numberValue": 11448, "volumeValue": 114510},
+              {"date": "2023-11-07", "numberValue": 12128, "volumeValue": 162640},
+              {"date": "2023-11-08", "numberValue": 12618, "volumeValue": 146760},
+              {"date": "2023-11-09", "numberValue": 11928, "volumeValue": 154890},
+              {"date": "2023-11-10", "numberValue": 12368, "volumeValue": 127930},
+              {"date": "2023-11-11", "numberValue": 11488, "volumeValue": 178860},
+              {"date": "2023-11-12", "numberValue": 11838, "volumeValue": 151720},
+              {"date": "2023-11-13", "numberValue": 11168, "volumeValue": 163600},
+              {"date": "2023-11-14", "numberValue": 10898, "volumeValue": 196580},
+              {"date": "2023-11-15", "numberValue": 11258, "volumeValue": 173490},
+              {"date": "2023-11-16", "numberValue": 11148, "volumeValue": 155310},
+              {"date": "2023-11-17", "numberValue": 11218, "volumeValue": 134230},
+              {"date": "2023-11-18", "numberValue": 11398, "volumeValue": 140140},
+              {"date": "2023-11-19", "numberValue": 11698, "volumeValue": 119080},
+              {"date": "2023-11-20", "numberValue": 12488, "volumeValue": 102170},
+              {"date": "2023-11-21", "numberValue": 11848, "volumeValue": 124260},
+              {"date": "2023-11-22", "numberValue": 12068, "volumeValue": 109330},
+              {"date": "2023-11-23", "numberValue": 12478, "volumeValue": 111440},
+              {"date": "2023-11-24", "numberValue": 12288, "volumeValue": 133510},
+              {"date": "2023-11-25", "numberValue": 12238, "volumeValue": 156650},
+              {"date": "2023-11-26", "numberValue": 12328, "volumeValue": 122780},
+              {"date": "2023-11-27", "numberValue": 12848, "volumeValue": 145890},
+              {"date": "2023-11-28", "numberValue": 13008, "volumeValue": 138970},
+              {"date": "2023-11-29", "numberValue": 13948, "volumeValue": 162860},
+              {"date": "2023-11-30", "numberValue": 13628, "volumeValue": 139700}
+            ],
+            "lastThreeMonths": [
+              {"date": "2023-09-06", "numberValue": 4234, "volumeValue": 54100000},
+              {"date": "2023-09-13", "numberValue": 4234, "volumeValue": 54200000},
+              {"date": "2023-09-20", "numberValue": 4234, "volumeValue": 54300000},
+              {"date": "2023-09-27", "numberValue": 4234, "volumeValue": 54400000},
+              {"date": "2023-10-04", "numberValue": 4234, "volumeValue": 54800000},
+              {"date": "2023-10-11", "numberValue": 4234, "volumeValue": 54700000},
+              {"date": "2023-10-18", "numberValue": 4234, "volumeValue": 54600000},
+              {"date": "2023-10-25", "numberValue": 4234, "volumeValue": 54500000},
+              {"date": "2023-11-01", "numberValue": 4234, "volumeValue": 54400000},
+              {"date": "2023-11-08", "numberValue": 4234, "volumeValue": 54200000},
+              {"date": "2023-11-15", "numberValue": 4234, "volumeValue": 54100000},
+              {"date": "2023-11-22", "numberValue": 4234, "volumeValue": 54400000},
+              {"date": "2023-11-29", "numberValue": 4234, "volumeValue": 54200000}
+            ]
+          },
+          "accessedDataPerUserCategory": {
+            "lastMonth": {
+              "registeredUsers": 123,
+              "federatedUsers": 85
+            },
+            "lastThreeMonths": {
+              "registeredUsers": 3123,
+              "federatedUsers": 182
+            }
+          },
+          "accessedDataPerDatasetCategory": {
+            "lastMonth": {
+              "reAnalysis": 123,
+              "forecast": 5,
+              "satellite": 876
+            },
+            "lastThreeMonths": {
+              "reAnalysis": 223,
+              "forecast": 856,
+              "satellite": 8726
+            }
+          }
+        },
+        {
+          "name": "dataset-2",
+          "label": "Dataset 2",
+          "accessedProducts": {
+            "lastMonth": [
+              {"date": "2023-11-01", "numberValue": 2234, "volumeValue": 5400000},
+              {"date": "2023-11-02", "numberValue": 2234, "volumeValue": 5410000},
+              {"date": "2023-11-03", "numberValue": 2234, "volumeValue": 5420000},
+              {"date": "2023-11-04", "numberValue": 2234, "volumeValue": 5430000},
+              {"date": "2023-11-05", "numberValue": 2234, "volumeValue": 5440000},
+              {"date": "2023-11-06", "numberValue": 2234, "volumeValue": 5450000},
+              {"date": "2023-11-07", "numberValue": 2234, "volumeValue": 5460000},
+              {"date": "2023-11-08", "numberValue": 2234, "volumeValue": 5470000},
+              {"date": "2023-11-09", "numberValue": 2234, "volumeValue": 5480000},
+              {"date": "2023-11-10", "numberValue": 2234, "volumeValue": 5490000},
+              {"date": "2023-11-11", "numberValue": 2234, "volumeValue": 5480000},
+              {"date": "2023-11-12", "numberValue": 2234, "volumeValue": 5470000},
+              {"date": "2023-11-13", "numberValue": 2234, "volumeValue": 5460000},
+              {"date": "2023-11-14", "numberValue": 2234, "volumeValue": 5450000},
+              {"date": "2023-11-15", "numberValue": 2234, "volumeValue": 5440000},
+              {"date": "2023-11-16", "numberValue": 2234, "volumeValue": 5430000},
+              {"date": "2023-11-17", "numberValue": 2234, "volumeValue": 5420000},
+              {"date": "2023-11-18", "numberValue": 2234, "volumeValue": 5410000},
+              {"date": "2023-11-19", "numberValue": 2234, "volumeValue": 5400000},
+              {"date": "2023-11-20", "numberValue": 2234, "volumeValue": 5410000},
+              {"date": "2023-11-21", "numberValue": 2234, "volumeValue": 5420000},
+              {"date": "2023-11-22", "numberValue": 2234, "volumeValue": 5430000},
+              {"date": "2023-11-23", "numberValue": 2234, "volumeValue": 5440000},
+              {"date": "2023-11-24", "numberValue": 2234, "volumeValue": 5450000},
+              {"date": "2023-11-25", "numberValue": 2234, "volumeValue": 5460000},
+              {"date": "2023-11-26", "numberValue": 2234, "volumeValue": 5470000},
+              {"date": "2023-11-27", "numberValue": 2234, "volumeValue": 5480000},
+              {"date": "2023-11-28", "numberValue": 2234, "volumeValue": 5490000},
+              {"date": "2023-11-29", "numberValue": 2234, "volumeValue": 5480000},
+              {"date": "2023-11-30", "numberValue": 2234, "volumeValue": 5470000}
+            ],
+            "lastThreeMonths": [
+              {"date": "2023-09-06", "numberValue": 4234, "volumeValue": 54100000},
+              {"date": "2023-09-13", "numberValue": 4234, "volumeValue": 54200000},
+              {"date": "2023-09-20", "numberValue": 4234, "volumeValue": 54300000},
+              {"date": "2023-09-27", "numberValue": 4234, "volumeValue": 54400000},
+              {"date": "2023-10-04", "numberValue": 4234, "volumeValue": 54800000},
+              {"date": "2023-10-11", "numberValue": 4234, "volumeValue": 54700000},
+              {"date": "2023-10-18", "numberValue": 4234, "volumeValue": 54600000},
+              {"date": "2023-10-25", "numberValue": 4234, "volumeValue": 54500000},
+              {"date": "2023-11-01", "numberValue": 4234, "volumeValue": 54400000},
+              {"date": "2023-11-08", "numberValue": 4234, "volumeValue": 54200000},
+              {"date": "2023-11-15", "numberValue": 4234, "volumeValue": 54100000},
+              {"date": "2023-11-22", "numberValue": 4234, "volumeValue": 54400000},
+              {"date": "2023-11-29", "numberValue": 4234, "volumeValue": 54200000}
+            ]
+          },
+          "publishedProducts": {
+            "lastMonth": [
+              {"date": "2023-11-01", "numberValue": 13434, "volumeValue": 540000},
+              {"date": "2023-11-02", "numberValue": 13234, "volumeValue": 551000},
+              {"date": "2023-11-03", "numberValue": 12434, "volumeValue": 572000},
+              {"date": "2023-11-04", "numberValue": 12734, "volumeValue": 583000},
+              {"date": "2023-11-05", "numberValue": 13134, "volumeValue": 564000},
+              {"date": "2023-11-06", "numberValue": 13634, "volumeValue": 595000},
+              {"date": "2023-11-07", "numberValue": 14134, "volumeValue": 576000},
+              {"date": "2023-11-08", "numberValue": 15234, "volumeValue": 557000},
+              {"date": "2023-11-09", "numberValue": 15134, "volumeValue": 548000},
+              {"date": "2023-11-10", "numberValue": 13634, "volumeValue": 539000},
+              {"date": "2023-11-11", "numberValue": 14534, "volumeValue": 528000},
+              {"date": "2023-11-12", "numberValue": 12234, "volumeValue": 537000},
+              {"date": "2023-11-13", "numberValue": 13234, "volumeValue": 536000},
+              {"date": "2023-11-14", "numberValue": 13134, "volumeValue": 525000},
+              {"date": "2023-11-15", "numberValue": 12534, "volumeValue": 514000},
+              {"date": "2023-11-16", "numberValue": 12134, "volumeValue": 503000},
+              {"date": "2023-11-17", "numberValue": 12034, "volumeValue": 532000},
+              {"date": "2023-11-18", "numberValue": 11834, "volumeValue": 501000},
+              {"date": "2023-11-19", "numberValue": 11634, "volumeValue": 520000},
+              {"date": "2023-11-20", "numberValue": 11734, "volumeValue": 551000},
+              {"date": "2023-11-21", "numberValue": 11934, "volumeValue": 522000},
+              {"date": "2023-11-22", "numberValue": 11234, "volumeValue": 563000},
+              {"date": "2023-11-23", "numberValue": 11434, "volumeValue": 584000},
+              {"date": "2023-11-24", "numberValue": 11734, "volumeValue": 575000},
+              {"date": "2023-11-25", "numberValue": 11934, "volumeValue": 596000},
+              {"date": "2023-11-26", "numberValue": 11434, "volumeValue": 557000},
+              {"date": "2023-11-27", "numberValue": 11634, "volumeValue": 568000},
+              {"date": "2023-11-28", "numberValue": 11334, "volumeValue": 549000},
+              {"date": "2023-11-29", "numberValue": 11234, "volumeValue": 528000},
+              {"date": "2023-11-30", "numberValue": 11234, "volumeValue": 547000}
+            ],
+            "lastThreeMonths": [
+              {"date": "2023-09-06", "numberValue": 4234, "volumeValue": 54100000},
+              {"date": "2023-09-13", "numberValue": 4234, "volumeValue": 54200000},
+              {"date": "2023-09-20", "numberValue": 4234, "volumeValue": 54300000},
+              {"date": "2023-09-27", "numberValue": 4234, "volumeValue": 54400000},
+              {"date": "2023-10-04", "numberValue": 4234, "volumeValue": 54800000},
+              {"date": "2023-10-11", "numberValue": 4234, "volumeValue": 54700000},
+              {"date": "2023-10-18", "numberValue": 4234, "volumeValue": 54600000},
+              {"date": "2023-10-25", "numberValue": 4234, "volumeValue": 54500000},
+              {"date": "2023-11-01", "numberValue": 4234, "volumeValue": 54400000},
+              {"date": "2023-11-08", "numberValue": 4234, "volumeValue": 54200000},
+              {"date": "2023-11-15", "numberValue": 4234, "volumeValue": 54100000},
+              {"date": "2023-11-22", "numberValue": 4234, "volumeValue": 54400000},
+              {"date": "2023-11-29", "numberValue": 4234, "volumeValue": 54200000}
+            ]
+          },
+          "accessedDataPerUserCategory": {
+            "lastMonth": {
+              "registeredUsers": 123,
+              "federatedUsers": 85
+            },
+            "lastThreeMonths": {
+              "registeredUsers": 3123,
+              "federatedUsers": 182
+            }
+          },
+          "accessedDataPerDatasetCategory": {
+            "lastMonth": {
+              "reAnalysis": 123,
+              "forecast": 85,
+              "satellite": 876
+            },
+            "lastThreeMonths": {
+              "reAnalysis": 223,
+              "forecast": 856,
+              "satellite": 8726
+            }
+          }
+        },
+        {
+          "name": "dataset-3",
+          "label": "Dataset 3",
+          "accessedProducts": {
+            "lastMonth": [
+              {"date": "2023-11-01", "numberValue": 3234, "volumeValue": 5400000},
+              {"date": "2023-11-02", "numberValue": 3234, "volumeValue": 5410000},
+              {"date": "2023-11-03", "numberValue": 3234, "volumeValue": 5420000},
+              {"date": "2023-11-04", "numberValue": 3234, "volumeValue": 5430000},
+              {"date": "2023-11-05", "numberValue": 3234, "volumeValue": 5440000},
+              {"date": "2023-11-06", "numberValue": 3234, "volumeValue": 5450000},
+              {"date": "2023-11-07", "numberValue": 3234, "volumeValue": 5460000},
+              {"date": "2023-11-08", "numberValue": 3234, "volumeValue": 5470000},
+              {"date": "2023-11-09", "numberValue": 3234, "volumeValue": 5480000},
+              {"date": "2023-11-10", "numberValue": 3234, "volumeValue": 5490000},
+              {"date": "2023-11-11", "numberValue": 3234, "volumeValue": 5480000},
+              {"date": "2023-11-12", "numberValue": 3234, "volumeValue": 5470000},
+              {"date": "2023-11-13", "numberValue": 3234, "volumeValue": 5460000},
+              {"date": "2023-11-14", "numberValue": 3234, "volumeValue": 5450000},
+              {"date": "2023-11-15", "numberValue": 3234, "volumeValue": 5440000},
+              {"date": "2023-11-16", "numberValue": 3234, "volumeValue": 5430000},
+              {"date": "2023-11-17", "numberValue": 3234, "volumeValue": 5420000},
+              {"date": "2023-11-18", "numberValue": 3234, "volumeValue": 5410000},
+              {"date": "2023-11-19", "numberValue": 3234, "volumeValue": 5400000},
+              {"date": "2023-11-20", "numberValue": 3234, "volumeValue": 5410000},
+              {"date": "2023-11-21", "numberValue": 3234, "volumeValue": 5420000},
+              {"date": "2023-11-22", "numberValue": 3234, "volumeValue": 5430000},
+              {"date": "2023-11-23", "numberValue": 3234, "volumeValue": 5440000},
+              {"date": "2023-11-24", "numberValue": 3234, "volumeValue": 5450000},
+              {"date": "2023-11-25", "numberValue": 3234, "volumeValue": 5460000},
+              {"date": "2023-11-26", "numberValue": 3234, "volumeValue": 5470000},
+              {"date": "2023-11-27", "numberValue": 3234, "volumeValue": 5480000},
+              {"date": "2023-11-28", "numberValue": 3234, "volumeValue": 5490000},
+              {"date": "2023-11-29", "numberValue": 3234, "volumeValue": 5480000},
+              {"date": "2023-11-30", "numberValue": 3234, "volumeValue": 5470000}
+            ],
+            "lastThreeMonths": [
+              {"date": "2023-09-06", "numberValue": 4234, "volumeValue": 54100000},
+              {"date": "2023-09-13", "numberValue": 4234, "volumeValue": 54200000},
+              {"date": "2023-09-20", "numberValue": 4234, "volumeValue": 54300000},
+              {"date": "2023-09-27", "numberValue": 4234, "volumeValue": 54400000},
+              {"date": "2023-10-04", "numberValue": 4234, "volumeValue": 54800000},
+              {"date": "2023-10-11", "numberValue": 4234, "volumeValue": 54700000},
+              {"date": "2023-10-18", "numberValue": 4234, "volumeValue": 54600000},
+              {"date": "2023-10-25", "numberValue": 4234, "volumeValue": 54500000},
+              {"date": "2023-11-01", "numberValue": 4234, "volumeValue": 54400000},
+              {"date": "2023-11-08", "numberValue": 4234, "volumeValue": 54200000},
+              {"date": "2023-11-15", "numberValue": 4234, "volumeValue": 54100000},
+              {"date": "2023-11-22", "numberValue": 4234, "volumeValue": 54400000},
+              {"date": "2023-11-29", "numberValue": 4234, "volumeValue": 54200000}
+            ]
+          },
+          "publishedProducts": {
+            "lastMonth": [
+              {"date": "2023-11-01", "numberValue": 10234, "volumeValue": 400000},
+              {"date": "2023-11-02", "numberValue": 10234, "volumeValue": 410000},
+              {"date": "2023-11-03", "numberValue": 10234, "volumeValue": 420000},
+              {"date": "2023-11-04", "numberValue": 10234, "volumeValue": 430000},
+              {"date": "2023-11-05", "numberValue": 10234, "volumeValue": 440000},
+              {"date": "2023-11-06", "numberValue": 10234, "volumeValue": 450000},
+              {"date": "2023-11-07", "numberValue": 10234, "volumeValue": 460000},
+              {"date": "2023-11-08", "numberValue": 10234, "volumeValue": 470000},
+              {"date": "2023-11-09", "numberValue": 10234, "volumeValue": 480000},
+              {"date": "2023-11-10", "numberValue": 10234, "volumeValue": 490000},
+              {"date": "2023-11-11", "numberValue": 10234, "volumeValue": 480000},
+              {"date": "2023-11-12", "numberValue": 10234, "volumeValue": 470000},
+              {"date": "2023-11-13", "numberValue": 10234, "volumeValue": 460000},
+              {"date": "2023-11-14", "numberValue": 10234, "volumeValue": 450000},
+              {"date": "2023-11-15", "numberValue": 10234, "volumeValue": 440000},
+              {"date": "2023-11-16", "numberValue": 10234, "volumeValue": 430000},
+              {"date": "2023-11-17", "numberValue": 10234, "volumeValue": 420000},
+              {"date": "2023-11-18", "numberValue": 10234, "volumeValue": 410000},
+              {"date": "2023-11-19", "numberValue": 10234, "volumeValue": 400000},
+              {"date": "2023-11-20", "numberValue": 10234, "volumeValue": 410000},
+              {"date": "2023-11-21", "numberValue": 10234, "volumeValue": 420000},
+              {"date": "2023-11-22", "numberValue": 10234, "volumeValue": 430000},
+              {"date": "2023-11-23", "numberValue": 10234, "volumeValue": 440000},
+              {"date": "2023-11-24", "numberValue": 10234, "volumeValue": 450000},
+              {"date": "2023-11-25", "numberValue": 10234, "volumeValue": 460000},
+              {"date": "2023-11-26", "numberValue": 10234, "volumeValue": 470000},
+              {"date": "2023-11-27", "numberValue": 10234, "volumeValue": 480000},
+              {"date": "2023-11-28", "numberValue": 10234, "volumeValue": 490000},
+              {"date": "2023-11-29", "numberValue": 10234, "volumeValue": 480000},
+              {"date": "2023-11-30", "numberValue": 10234, "volumeValue": 470000}
+            ],
+            "lastThreeMonths": [
+              {"date": "2023-09-06", "numberValue": 4234, "volumeValue": 54100000},
+              {"date": "2023-09-13", "numberValue": 4234, "volumeValue": 54200000},
+              {"date": "2023-09-20", "numberValue": 4234, "volumeValue": 54300000},
+              {"date": "2023-09-27", "numberValue": 4234, "volumeValue": 54400000},
+              {"date": "2023-10-04", "numberValue": 4234, "volumeValue": 54800000},
+              {"date": "2023-10-11", "numberValue": 4234, "volumeValue": 54700000},
+              {"date": "2023-10-18", "numberValue": 4234, "volumeValue": 54600000},
+              {"date": "2023-10-25", "numberValue": 4234, "volumeValue": 54500000},
+              {"date": "2023-11-01", "numberValue": 4234, "volumeValue": 54400000},
+              {"date": "2023-11-08", "numberValue": 4234, "volumeValue": 54200000},
+              {"date": "2023-11-15", "numberValue": 4234, "volumeValue": 54100000},
+              {"date": "2023-11-22", "numberValue": 4234, "volumeValue": 54400000},
+              {"date": "2023-11-29", "numberValue": 4234, "volumeValue": 54200000}
+            ]
+          },
+          "accessedDataPerUserCategory": {
+            "lastMonth": {
+              "registeredUsers": 123,
+              "federatedUsers": 85
+            },
+            "lastThreeMonths": {
+              "registeredUsers": 3123,
+              "federatedUsers": 182
+            }
+          },
+          "accessedDataPerDatasetCategory": {
+            "lastMonth": {
+              "reAnalysis": 123,
+              "forecast": 85,
+              "satellite": 876
+            },
+            "lastThreeMonths": {
+              "reAnalysis": 223,
+              "forecast": 856,
+              "satellite": 8726
+            }
+          }
+        },
+        {
+          "name": "dataset-4",
+          "label": "Dataset 4",
+          "accessedProducts": {
+            "lastMonth": [
+              {"date": "2023-11-01", "numberValue": 1234, "volumeValue": 5400000},
+              {"date": "2023-11-02", "numberValue": 1234, "volumeValue": 5410000},
+              {"date": "2023-11-03", "numberValue": 1234, "volumeValue": 5420000},
+              {"date": "2023-11-04", "numberValue": 1234, "volumeValue": 5430000},
+              {"date": "2023-11-05", "numberValue": 1234, "volumeValue": 5440000},
+              {"date": "2023-11-06", "numberValue": 1234, "volumeValue": 5450000},
+              {"date": "2023-11-07", "numberValue": 1234, "volumeValue": 5460000},
+              {"date": "2023-11-08", "numberValue": 1234, "volumeValue": 5470000},
+              {"date": "2023-11-09", "numberValue": 1234, "volumeValue": 5480000},
+              {"date": "2023-11-10", "numberValue": 1234, "volumeValue": 5490000},
+              {"date": "2023-11-11", "numberValue": 1234, "volumeValue": 5480000},
+              {"date": "2023-11-12", "numberValue": 1234, "volumeValue": 5470000},
+              {"date": "2023-11-13", "numberValue": 1234, "volumeValue": 5460000},
+              {"date": "2023-11-14", "numberValue": 1234, "volumeValue": 5450000},
+              {"date": "2023-11-15", "numberValue": 1234, "volumeValue": 5440000},
+              {"date": "2023-11-16", "numberValue": 1234, "volumeValue": 5430000},
+              {"date": "2023-11-17", "numberValue": 1234, "volumeValue": 5420000},
+              {"date": "2023-11-18", "numberValue": 1234, "volumeValue": 5410000},
+              {"date": "2023-11-19", "numberValue": 1234, "volumeValue": 5400000},
+              {"date": "2023-11-20", "numberValue": 1234, "volumeValue": 5410000},
+              {"date": "2023-11-21", "numberValue": 1234, "volumeValue": 5420000},
+              {"date": "2023-11-22", "numberValue": 1234, "volumeValue": 5430000},
+              {"date": "2023-11-23", "numberValue": 1234, "volumeValue": 5440000},
+              {"date": "2023-11-24", "numberValue": 1234, "volumeValue": 5450000},
+              {"date": "2023-11-25", "numberValue": 1234, "volumeValue": 5460000},
+              {"date": "2023-11-26", "numberValue": 1234, "volumeValue": 5470000},
+              {"date": "2023-11-27", "numberValue": 1234, "volumeValue": 5480000},
+              {"date": "2023-11-28", "numberValue": 1234, "volumeValue": 5490000},
+              {"date": "2023-11-29", "numberValue": 1234, "volumeValue": 5480000},
+              {"date": "2023-11-30", "numberValue": 1234, "volumeValue": 5470000}
+            ],
+            "lastThreeMonths": [
+              {"date": "2023-09-06", "numberValue": 4234, "volumeValue": 54100000},
+              {"date": "2023-09-13", "numberValue": 4234, "volumeValue": 54200000},
+              {"date": "2023-09-20", "numberValue": 4234, "volumeValue": 54300000},
+              {"date": "2023-09-27", "numberValue": 4234, "volumeValue": 54400000},
+              {"date": "2023-10-04", "numberValue": 4234, "volumeValue": 54800000},
+              {"date": "2023-10-11", "numberValue": 4234, "volumeValue": 54700000},
+              {"date": "2023-10-18", "numberValue": 4234, "volumeValue": 54600000},
+              {"date": "2023-10-25", "numberValue": 4234, "volumeValue": 54500000},
+              {"date": "2023-11-01", "numberValue": 4234, "volumeValue": 54400000},
+              {"date": "2023-11-08", "numberValue": 4234, "volumeValue": 54200000},
+              {"date": "2023-11-15", "numberValue": 4234, "volumeValue": 54100000},
+              {"date": "2023-11-22", "numberValue": 4234, "volumeValue": 54400000},
+              {"date": "2023-11-29", "numberValue": 4234, "volumeValue": 54200000}
+            ]
+          },
+          "publishedProducts": {
+            "lastMonth": [
+              {"date": "2023-11-01", "numberValue": 1234, "volumeValue": 5400000},
+              {"date": "2023-11-02", "numberValue": 1234, "volumeValue": 5410000},
+              {"date": "2023-11-03", "numberValue": 1234, "volumeValue": 5420000},
+              {"date": "2023-11-04", "numberValue": 1234, "volumeValue": 5430000},
+              {"date": "2023-11-05", "numberValue": 1234, "volumeValue": 5440000},
+              {"date": "2023-11-06", "numberValue": 1234, "volumeValue": 5450000},
+              {"date": "2023-11-07", "numberValue": 1234, "volumeValue": 5460000},
+              {"date": "2023-11-08", "numberValue": 1234, "volumeValue": 5470000},
+              {"date": "2023-11-09", "numberValue": 1234, "volumeValue": 5480000},
+              {"date": "2023-11-10", "numberValue": 1234, "volumeValue": 5490000},
+              {"date": "2023-11-11", "numberValue": 1234, "volumeValue": 5480000},
+              {"date": "2023-11-12", "numberValue": 1234, "volumeValue": 5470000},
+              {"date": "2023-11-13", "numberValue": 1234, "volumeValue": 5460000},
+              {"date": "2023-11-14", "numberValue": 1234, "volumeValue": 5450000},
+              {"date": "2023-11-15", "numberValue": 1234, "volumeValue": 5440000},
+              {"date": "2023-11-16", "numberValue": 1234, "volumeValue": 5430000},
+              {"date": "2023-11-17", "numberValue": 1234, "volumeValue": 5420000},
+              {"date": "2023-11-18", "numberValue": 1234, "volumeValue": 5410000},
+              {"date": "2023-11-19", "numberValue": 1234, "volumeValue": 5400000},
+              {"date": "2023-11-20", "numberValue": 1234, "volumeValue": 5410000},
+              {"date": "2023-11-21", "numberValue": 1234, "volumeValue": 5420000},
+              {"date": "2023-11-22", "numberValue": 1234, "volumeValue": 5430000},
+              {"date": "2023-11-23", "numberValue": 1234, "volumeValue": 5440000},
+              {"date": "2023-11-24", "numberValue": 1234, "volumeValue": 5450000},
+              {"date": "2023-11-25", "numberValue": 1234, "volumeValue": 5460000},
+              {"date": "2023-11-26", "numberValue": 1234, "volumeValue": 5470000},
+              {"date": "2023-11-27", "numberValue": 1234, "volumeValue": 5480000},
+              {"date": "2023-11-28", "numberValue": 1234, "volumeValue": 5490000},
+              {"date": "2023-11-29", "numberValue": 1234, "volumeValue": 5480000},
+              {"date": "2023-11-30", "numberValue": 1234, "volumeValue": 5470000}
+            ],
+            "lastThreeMonths": [
+              {"date": "2023-09-06", "numberValue": 4234, "volumeValue": 54100000},
+              {"date": "2023-09-13", "numberValue": 4234, "volumeValue": 54200000},
+              {"date": "2023-09-20", "numberValue": 4234, "volumeValue": 54300000},
+              {"date": "2023-09-27", "numberValue": 4234, "volumeValue": 54400000},
+              {"date": "2023-10-04", "numberValue": 4234, "volumeValue": 54800000},
+              {"date": "2023-10-11", "numberValue": 4234, "volumeValue": 54700000},
+              {"date": "2023-10-18", "numberValue": 4234, "volumeValue": 54600000},
+              {"date": "2023-10-25", "numberValue": 4234, "volumeValue": 54500000},
+              {"date": "2023-11-01", "numberValue": 4234, "volumeValue": 54400000},
+              {"date": "2023-11-08", "numberValue": 4234, "volumeValue": 54200000},
+              {"date": "2023-11-15", "numberValue": 4234, "volumeValue": 54100000},
+              {"date": "2023-11-22", "numberValue": 4234, "volumeValue": 54400000},
+              {"date": "2023-11-29", "numberValue": 4234, "volumeValue": 54200000}
+            ]
+          },
+          "accessedDataPerUserCategory": {
+            "lastMonth": {
+              "registeredUsers": 123,
+              "federatedUsers": 85
+            },
+            "lastThreeMonths": {
+              "registeredUsers": 3123,
+              "federatedUsers": 182
+            }
+          },
+          "accessedDataPerDatasetCategory": {
+            "lastMonth": {
+              "reAnalysis": 123,
+              "forecast": 85,
+              "satellite": 876
+            },
+            "lastThreeMonths": {
+              "reAnalysis": 223,
+              "forecast": 856,
+              "satellite": 8726
+            }
+          }
+        },
+        {
+          "name": "dataset-5",
+          "label": "Dataset 5",
+          "accessedProducts": {
+            "lastMonth": [
+              {"date": "2023-11-01", "numberValue": 1234, "volumeValue": 5400000},
+              {"date": "2023-11-02", "numberValue": 1234, "volumeValue": 5410000},
+              {"date": "2023-11-03", "numberValue": 1234, "volumeValue": 5420000},
+              {"date": "2023-11-04", "numberValue": 1234, "volumeValue": 5430000},
+              {"date": "2023-11-05", "numberValue": 1234, "volumeValue": 5440000},
+              {"date": "2023-11-06", "numberValue": 1234, "volumeValue": 5450000},
+              {"date": "2023-11-07", "numberValue": 1234, "volumeValue": 5460000},
+              {"date": "2023-11-08", "numberValue": 1234, "volumeValue": 5470000},
+              {"date": "2023-11-09", "numberValue": 1234, "volumeValue": 5480000},
+              {"date": "2023-11-10", "numberValue": 1234, "volumeValue": 5490000},
+              {"date": "2023-11-11", "numberValue": 1234, "volumeValue": 5480000},
+              {"date": "2023-11-12", "numberValue": 1234, "volumeValue": 5470000},
+              {"date": "2023-11-13", "numberValue": 1234, "volumeValue": 5460000},
+              {"date": "2023-11-14", "numberValue": 1234, "volumeValue": 5450000},
+              {"date": "2023-11-15", "numberValue": 1234, "volumeValue": 5440000},
+              {"date": "2023-11-16", "numberValue": 1234, "volumeValue": 5430000},
+              {"date": "2023-11-17", "numberValue": 1234, "volumeValue": 5420000},
+              {"date": "2023-11-18", "numberValue": 1234, "volumeValue": 5410000},
+              {"date": "2023-11-19", "numberValue": 1234, "volumeValue": 5400000},
+              {"date": "2023-11-20", "numberValue": 1234, "volumeValue": 5410000},
+              {"date": "2023-11-21", "numberValue": 1234, "volumeValue": 5420000},
+              {"date": "2023-11-22", "numberValue": 1234, "volumeValue": 5430000},
+              {"date": "2023-11-23", "numberValue": 1234, "volumeValue": 5440000},
+              {"date": "2023-11-24", "numberValue": 1234, "volumeValue": 5450000},
+              {"date": "2023-11-25", "numberValue": 1234, "volumeValue": 5460000},
+              {"date": "2023-11-26", "numberValue": 1234, "volumeValue": 5470000},
+              {"date": "2023-11-27", "numberValue": 1234, "volumeValue": 5480000},
+              {"date": "2023-11-28", "numberValue": 1234, "volumeValue": 5490000},
+              {"date": "2023-11-29", "numberValue": 1234, "volumeValue": 5480000},
+              {"date": "2023-11-30", "numberValue": 1234, "volumeValue": 5470000}
+            ],
+            "lastThreeMonths": [
+              {"date": "2023-09-06", "numberValue": 4234, "volumeValue": 54100000},
+              {"date": "2023-09-13", "numberValue": 4234, "volumeValue": 54200000},
+              {"date": "2023-09-20", "numberValue": 4234, "volumeValue": 54300000},
+              {"date": "2023-09-27", "numberValue": 4234, "volumeValue": 54400000},
+              {"date": "2023-10-04", "numberValue": 4234, "volumeValue": 54800000},
+              {"date": "2023-10-11", "numberValue": 4234, "volumeValue": 54700000},
+              {"date": "2023-10-18", "numberValue": 4234, "volumeValue": 54600000},
+              {"date": "2023-10-25", "numberValue": 4234, "volumeValue": 54500000},
+              {"date": "2023-11-01", "numberValue": 4234, "volumeValue": 54400000},
+              {"date": "2023-11-08", "numberValue": 4234, "volumeValue": 54200000},
+              {"date": "2023-11-15", "numberValue": 4234, "volumeValue": 54100000},
+              {"date": "2023-11-22", "numberValue": 4234, "volumeValue": 54400000},
+              {"date": "2023-11-29", "numberValue": 4234, "volumeValue": 54200000}
+            ]
+          },
+          "publishedProducts": {
+            "lastMonth": [
+              {"date": "2023-11-01", "numberValue": 1234, "volumeValue": 5400000},
+              {"date": "2023-11-02", "numberValue": 1234, "volumeValue": 5410000},
+              {"date": "2023-11-03", "numberValue": 1234, "volumeValue": 5420000},
+              {"date": "2023-11-04", "numberValue": 1234, "volumeValue": 5430000},
+              {"date": "2023-11-05", "numberValue": 1234, "volumeValue": 5440000},
+              {"date": "2023-11-06", "numberValue": 1234, "volumeValue": 5450000},
+              {"date": "2023-11-07", "numberValue": 1234, "volumeValue": 5460000},
+              {"date": "2023-11-08", "numberValue": 1234, "volumeValue": 5470000},
+              {"date": "2023-11-09", "numberValue": 1234, "volumeValue": 5480000},
+              {"date": "2023-11-10", "numberValue": 1234, "volumeValue": 5490000},
+              {"date": "2023-11-11", "numberValue": 1234, "volumeValue": 5480000},
+              {"date": "2023-11-12", "numberValue": 1234, "volumeValue": 5470000},
+              {"date": "2023-11-13", "numberValue": 1234, "volumeValue": 5460000},
+              {"date": "2023-11-14", "numberValue": 1234, "volumeValue": 5450000},
+              {"date": "2023-11-15", "numberValue": 1234, "volumeValue": 5440000},
+              {"date": "2023-11-16", "numberValue": 1234, "volumeValue": 5430000},
+              {"date": "2023-11-17", "numberValue": 1234, "volumeValue": 5420000},
+              {"date": "2023-11-18", "numberValue": 1234, "volumeValue": 5410000},
+              {"date": "2023-11-19", "numberValue": 1234, "volumeValue": 5400000},
+              {"date": "2023-11-20", "numberValue": 1234, "volumeValue": 5410000},
+              {"date": "2023-11-21", "numberValue": 1234, "volumeValue": 5420000},
+              {"date": "2023-11-22", "numberValue": 1234, "volumeValue": 5430000},
+              {"date": "2023-11-23", "numberValue": 1234, "volumeValue": 5440000},
+              {"date": "2023-11-24", "numberValue": 1234, "volumeValue": 5450000},
+              {"date": "2023-11-25", "numberValue": 1234, "volumeValue": 5460000},
+              {"date": "2023-11-26", "numberValue": 1234, "volumeValue": 5470000},
+              {"date": "2023-11-27", "numberValue": 1234, "volumeValue": 5480000},
+              {"date": "2023-11-28", "numberValue": 1234, "volumeValue": 5490000},
+              {"date": "2023-11-29", "numberValue": 1234, "volumeValue": 5480000},
+              {"date": "2023-11-30", "numberValue": 1234, "volumeValue": 5470000}
+            ],
+            "lastThreeMonths": [
+              {"date": "2023-09-06", "numberValue": 4234, "volumeValue": 54100000},
+              {"date": "2023-09-13", "numberValue": 4234, "volumeValue": 54200000},
+              {"date": "2023-09-20", "numberValue": 4234, "volumeValue": 54300000},
+              {"date": "2023-09-27", "numberValue": 4234, "volumeValue": 54400000},
+              {"date": "2023-10-04", "numberValue": 4234, "volumeValue": 54800000},
+              {"date": "2023-10-11", "numberValue": 4234, "volumeValue": 54700000},
+              {"date": "2023-10-18", "numberValue": 4234, "volumeValue": 54600000},
+              {"date": "2023-10-25", "numberValue": 4234, "volumeValue": 54500000},
+              {"date": "2023-11-01", "numberValue": 4234, "volumeValue": 54400000},
+              {"date": "2023-11-08", "numberValue": 4234, "volumeValue": 54200000},
+              {"date": "2023-11-15", "numberValue": 4234, "volumeValue": 54100000},
+              {"date": "2023-11-22", "numberValue": 4234, "volumeValue": 54400000},
+              {"date": "2023-11-29", "numberValue": 4234, "volumeValue": 54200000}
+            ]
+          },
+          "accessedDataPerUserCategory": {
+            "lastMonth": {
+              "registeredUsers": 123,
+              "federatedUsers": 85
+            },
+            "lastThreeMonths": {
+              "registeredUsers": 3123,
+              "federatedUsers": 182
+            }
+          },
+          "accessedDataPerDatasetCategory": {
+            "lastMonth": {
+              "reAnalysis": 123,
+              "forecast": 85,
+              "satellite": 876
+            },
+            "lastThreeMonths": {
+              "reAnalysis": 223,
+              "forecast": 856,
+              "satellite": 8726
+            }
+          }
+        },
+        {
+          "name": "dataset-6",
+          "label": "Dataset 6",
+          "accessedProducts": {
+            "lastMonth": [
+              {"date": "2023-11-01", "numberValue": 1234, "volumeValue": 5400000},
+              {"date": "2023-11-02", "numberValue": 1234, "volumeValue": 5410000},
+              {"date": "2023-11-03", "numberValue": 1234, "volumeValue": 5420000},
+              {"date": "2023-11-04", "numberValue": 1234, "volumeValue": 5430000},
+              {"date": "2023-11-05", "numberValue": 1234, "volumeValue": 5440000},
+              {"date": "2023-11-06", "numberValue": 1234, "volumeValue": 5450000},
+              {"date": "2023-11-07", "numberValue": 1234, "volumeValue": 5460000},
+              {"date": "2023-11-08", "numberValue": 1234, "volumeValue": 5470000},
+              {"date": "2023-11-09", "numberValue": 1234, "volumeValue": 5480000},
+              {"date": "2023-11-10", "numberValue": 1234, "volumeValue": 5490000},
+              {"date": "2023-11-11", "numberValue": 1234, "volumeValue": 5480000},
+              {"date": "2023-11-12", "numberValue": 1234, "volumeValue": 5470000},
+              {"date": "2023-11-13", "numberValue": 1234, "volumeValue": 5460000},
+              {"date": "2023-11-14", "numberValue": 1234, "volumeValue": 5450000},
+              {"date": "2023-11-15", "numberValue": 1234, "volumeValue": 5440000},
+              {"date": "2023-11-16", "numberValue": 1234, "volumeValue": 5430000},
+              {"date": "2023-11-17", "numberValue": 1234, "volumeValue": 5420000},
+              {"date": "2023-11-18", "numberValue": 1234, "volumeValue": 5410000},
+              {"date": "2023-11-19", "numberValue": 1234, "volumeValue": 5400000},
+              {"date": "2023-11-20", "numberValue": 1234, "volumeValue": 5410000},
+              {"date": "2023-11-21", "numberValue": 1234, "volumeValue": 5420000},
+              {"date": "2023-11-22", "numberValue": 1234, "volumeValue": 5430000},
+              {"date": "2023-11-23", "numberValue": 1234, "volumeValue": 5440000},
+              {"date": "2023-11-24", "numberValue": 1234, "volumeValue": 5450000},
+              {"date": "2023-11-25", "numberValue": 1234, "volumeValue": 5460000},
+              {"date": "2023-11-26", "numberValue": 1234, "volumeValue": 5470000},
+              {"date": "2023-11-27", "numberValue": 1234, "volumeValue": 5480000},
+              {"date": "2023-11-28", "numberValue": 1234, "volumeValue": 5490000},
+              {"date": "2023-11-29", "numberValue": 1234, "volumeValue": 5480000},
+              {"date": "2023-11-30", "numberValue": 1234, "volumeValue": 5470000}
+            ],
+            "lastThreeMonths": [
+              {"date": "2023-09-06", "numberValue": 4234, "volumeValue": 54100000},
+              {"date": "2023-09-13", "numberValue": 4234, "volumeValue": 54200000},
+              {"date": "2023-09-20", "numberValue": 4234, "volumeValue": 54300000},
+              {"date": "2023-09-27", "numberValue": 4234, "volumeValue": 54400000},
+              {"date": "2023-10-04", "numberValue": 4234, "volumeValue": 54800000},
+              {"date": "2023-10-11", "numberValue": 4234, "volumeValue": 54700000},
+              {"date": "2023-10-18", "numberValue": 4234, "volumeValue": 54600000},
+              {"date": "2023-10-25", "numberValue": 4234, "volumeValue": 54500000},
+              {"date": "2023-11-01", "numberValue": 4234, "volumeValue": 54400000},
+              {"date": "2023-11-08", "numberValue": 4234, "volumeValue": 54200000},
+              {"date": "2023-11-15", "numberValue": 4234, "volumeValue": 54100000},
+              {"date": "2023-11-22", "numberValue": 4234, "volumeValue": 54400000},
+              {"date": "2023-11-29", "numberValue": 4234, "volumeValue": 54200000}
+            ]
+          },
+          "publishedProducts": {
+            "lastMonth": [
+              {"date": "2023-11-01", "numberValue": 1234, "volumeValue": 5400000},
+              {"date": "2023-11-02", "numberValue": 1234, "volumeValue": 5410000},
+              {"date": "2023-11-03", "numberValue": 1234, "volumeValue": 5420000},
+              {"date": "2023-11-04", "numberValue": 1234, "volumeValue": 5430000},
+              {"date": "2023-11-05", "numberValue": 1234, "volumeValue": 5440000},
+              {"date": "2023-11-06", "numberValue": 1234, "volumeValue": 5450000},
+              {"date": "2023-11-07", "numberValue": 1234, "volumeValue": 5460000},
+              {"date": "2023-11-08", "numberValue": 1234, "volumeValue": 5470000},
+              {"date": "2023-11-09", "numberValue": 1234, "volumeValue": 5480000},
+              {"date": "2023-11-10", "numberValue": 1234, "volumeValue": 5490000},
+              {"date": "2023-11-11", "numberValue": 1234, "volumeValue": 5480000},
+              {"date": "2023-11-12", "numberValue": 1234, "volumeValue": 5470000},
+              {"date": "2023-11-13", "numberValue": 1234, "volumeValue": 5460000},
+              {"date": "2023-11-14", "numberValue": 1234, "volumeValue": 5450000},
+              {"date": "2023-11-15", "numberValue": 1234, "volumeValue": 5440000},
+              {"date": "2023-11-16", "numberValue": 1234, "volumeValue": 5430000},
+              {"date": "2023-11-17", "numberValue": 1234, "volumeValue": 5420000},
+              {"date": "2023-11-18", "numberValue": 1234, "volumeValue": 5410000},
+              {"date": "2023-11-19", "numberValue": 1234, "volumeValue": 5400000},
+              {"date": "2023-11-20", "numberValue": 1234, "volumeValue": 5410000},
+              {"date": "2023-11-21", "numberValue": 1234, "volumeValue": 5420000},
+              {"date": "2023-11-22", "numberValue": 1234, "volumeValue": 5430000},
+              {"date": "2023-11-23", "numberValue": 1234, "volumeValue": 5440000},
+              {"date": "2023-11-24", "numberValue": 1234, "volumeValue": 5450000},
+              {"date": "2023-11-25", "numberValue": 1234, "volumeValue": 5460000},
+              {"date": "2023-11-26", "numberValue": 1234, "volumeValue": 5470000},
+              {"date": "2023-11-27", "numberValue": 1234, "volumeValue": 5480000},
+              {"date": "2023-11-28", "numberValue": 1234, "volumeValue": 5490000},
+              {"date": "2023-11-29", "numberValue": 1234, "volumeValue": 5480000},
+              {"date": "2023-11-30", "numberValue": 1234, "volumeValue": 5470000}
+            ],
+            "lastThreeMonths": [
+              {"date": "2023-09-06", "numberValue": 4234, "volumeValue": 54100000},
+              {"date": "2023-09-13", "numberValue": 4234, "volumeValue": 54200000},
+              {"date": "2023-09-20", "numberValue": 4234, "volumeValue": 54300000},
+              {"date": "2023-09-27", "numberValue": 4234, "volumeValue": 54400000},
+              {"date": "2023-10-04", "numberValue": 4234, "volumeValue": 54800000},
+              {"date": "2023-10-11", "numberValue": 4234, "volumeValue": 54700000},
+              {"date": "2023-10-18", "numberValue": 4234, "volumeValue": 54600000},
+              {"date": "2023-10-25", "numberValue": 4234, "volumeValue": 54500000},
+              {"date": "2023-11-01", "numberValue": 4234, "volumeValue": 54400000},
+              {"date": "2023-11-08", "numberValue": 4234, "volumeValue": 54200000},
+              {"date": "2023-11-15", "numberValue": 4234, "volumeValue": 54100000},
+              {"date": "2023-11-22", "numberValue": 4234, "volumeValue": 54400000},
+              {"date": "2023-11-29", "numberValue": 4234, "volumeValue": 54200000}
+            ]
+          },
+          "accessedDataPerUserCategory": {
+            "lastMonth": {
+              "registeredUsers": 123,
+              "federatedUsers": 85
+            },
+            "lastThreeMonths": {
+              "registeredUsers": 3123,
+              "federatedUsers": 182
+            }
+          },
+          "accessedDataPerDatasetCategory": {
+            "lastMonth": {
+              "reAnalysis": 123,
+              "forecast": 85,
+              "satellite": 876
+            },
+            "lastThreeMonths": {
+              "reAnalysis": 223,
+              "forecast": 856,
+              "satellite": 8726
+            }
+          }
+        },
+        {
+          "name": "dataset-7",
+          "label": "Dataset 7",
+          "accessedProducts": {
+            "lastMonth": [
+              {"date": "2023-11-01", "numberValue": 1234, "volumeValue": 5400000},
+              {"date": "2023-11-02", "numberValue": 1234, "volumeValue": 5410000},
+              {"date": "2023-11-03", "numberValue": 1234, "volumeValue": 5420000},
+              {"date": "2023-11-04", "numberValue": 1234, "volumeValue": 5430000},
+              {"date": "2023-11-05", "numberValue": 1234, "volumeValue": 5440000},
+              {"date": "2023-11-06", "numberValue": 1234, "volumeValue": 5450000},
+              {"date": "2023-11-07", "numberValue": 1234, "volumeValue": 5460000},
+              {"date": "2023-11-08", "numberValue": 1234, "volumeValue": 5470000},
+              {"date": "2023-11-09", "numberValue": 1234, "volumeValue": 5480000},
+              {"date": "2023-11-10", "numberValue": 1234, "volumeValue": 5490000},
+              {"date": "2023-11-11", "numberValue": 1234, "volumeValue": 5480000},
+              {"date": "2023-11-12", "numberValue": 1234, "volumeValue": 5470000},
+              {"date": "2023-11-13", "numberValue": 1234, "volumeValue": 5460000},
+              {"date": "2023-11-14", "numberValue": 1234, "volumeValue": 5450000},
+              {"date": "2023-11-15", "numberValue": 1234, "volumeValue": 5440000},
+              {"date": "2023-11-16", "numberValue": 1234, "volumeValue": 5430000},
+              {"date": "2023-11-17", "numberValue": 1234, "volumeValue": 5420000},
+              {"date": "2023-11-18", "numberValue": 1234, "volumeValue": 5410000},
+              {"date": "2023-11-19", "numberValue": 1234, "volumeValue": 5400000},
+              {"date": "2023-11-20", "numberValue": 1234, "volumeValue": 5410000},
+              {"date": "2023-11-21", "numberValue": 1234, "volumeValue": 5420000},
+              {"date": "2023-11-22", "numberValue": 1234, "volumeValue": 5430000},
+              {"date": "2023-11-23", "numberValue": 1234, "volumeValue": 5440000},
+              {"date": "2023-11-24", "numberValue": 1234, "volumeValue": 5450000},
+              {"date": "2023-11-25", "numberValue": 1234, "volumeValue": 5460000},
+              {"date": "2023-11-26", "numberValue": 1234, "volumeValue": 5470000},
+              {"date": "2023-11-27", "numberValue": 1234, "volumeValue": 5480000},
+              {"date": "2023-11-28", "numberValue": 1234, "volumeValue": 5490000},
+              {"date": "2023-11-29", "numberValue": 1234, "volumeValue": 5480000},
+              {"date": "2023-11-30", "numberValue": 1234, "volumeValue": 5470000}
+            ],
+            "lastThreeMonths": [
+              {"date": "2023-09-06", "numberValue": 4234, "volumeValue": 54100000},
+              {"date": "2023-09-13", "numberValue": 4234, "volumeValue": 54200000},
+              {"date": "2023-09-20", "numberValue": 4234, "volumeValue": 54300000},
+              {"date": "2023-09-27", "numberValue": 4234, "volumeValue": 54400000},
+              {"date": "2023-10-04", "numberValue": 4234, "volumeValue": 54800000},
+              {"date": "2023-10-11", "numberValue": 4234, "volumeValue": 54700000},
+              {"date": "2023-10-18", "numberValue": 4234, "volumeValue": 54600000},
+              {"date": "2023-10-25", "numberValue": 4234, "volumeValue": 54500000},
+              {"date": "2023-11-01", "numberValue": 4234, "volumeValue": 54400000},
+              {"date": "2023-11-08", "numberValue": 4234, "volumeValue": 54200000},
+              {"date": "2023-11-15", "numberValue": 4234, "volumeValue": 54100000},
+              {"date": "2023-11-22", "numberValue": 4234, "volumeValue": 54400000},
+              {"date": "2023-11-29", "numberValue": 4234, "volumeValue": 54200000}
+            ]
+          },
+          "publishedProducts": {
+            "lastMonth": [
+              {"date": "2023-11-01", "numberValue": 1234, "volumeValue": 5400000},
+              {"date": "2023-11-02", "numberValue": 1234, "volumeValue": 5410000},
+              {"date": "2023-11-03", "numberValue": 1234, "volumeValue": 5420000},
+              {"date": "2023-11-04", "numberValue": 1234, "volumeValue": 5430000},
+              {"date": "2023-11-05", "numberValue": 1234, "volumeValue": 5440000},
+              {"date": "2023-11-06", "numberValue": 1234, "volumeValue": 5450000},
+              {"date": "2023-11-07", "numberValue": 1234, "volumeValue": 5460000},
+              {"date": "2023-11-08", "numberValue": 1234, "volumeValue": 5470000},
+              {"date": "2023-11-09", "numberValue": 1234, "volumeValue": 5480000},
+              {"date": "2023-11-10", "numberValue": 1234, "volumeValue": 5490000},
+              {"date": "2023-11-11", "numberValue": 1234, "volumeValue": 5480000},
+              {"date": "2023-11-12", "numberValue": 1234, "volumeValue": 5470000},
+              {"date": "2023-11-13", "numberValue": 1234, "volumeValue": 5460000},
+              {"date": "2023-11-14", "numberValue": 1234, "volumeValue": 5450000},
+              {"date": "2023-11-15", "numberValue": 1234, "volumeValue": 5440000},
+              {"date": "2023-11-16", "numberValue": 1234, "volumeValue": 5430000},
+              {"date": "2023-11-17", "numberValue": 1234, "volumeValue": 5420000},
+              {"date": "2023-11-18", "numberValue": 1234, "volumeValue": 5410000},
+              {"date": "2023-11-19", "numberValue": 1234, "volumeValue": 5400000},
+              {"date": "2023-11-20", "numberValue": 1234, "volumeValue": 5410000},
+              {"date": "2023-11-21", "numberValue": 1234, "volumeValue": 5420000},
+              {"date": "2023-11-22", "numberValue": 1234, "volumeValue": 5430000},
+              {"date": "2023-11-23", "numberValue": 1234, "volumeValue": 5440000},
+              {"date": "2023-11-24", "numberValue": 1234, "volumeValue": 5450000},
+              {"date": "2023-11-25", "numberValue": 1234, "volumeValue": 5460000},
+              {"date": "2023-11-26", "numberValue": 1234, "volumeValue": 5470000},
+              {"date": "2023-11-27", "numberValue": 1234, "volumeValue": 5480000},
+              {"date": "2023-11-28", "numberValue": 1234, "volumeValue": 5490000},
+              {"date": "2023-11-29", "numberValue": 1234, "volumeValue": 5480000},
+              {"date": "2023-11-30", "numberValue": 1234, "volumeValue": 5470000}
+            ],
+            "lastThreeMonths": [
+              {"date": "2023-09-06", "numberValue": 4234, "volumeValue": 54100000},
+              {"date": "2023-09-13", "numberValue": 4234, "volumeValue": 54200000},
+              {"date": "2023-09-20", "numberValue": 4234, "volumeValue": 54300000},
+              {"date": "2023-09-27", "numberValue": 4234, "volumeValue": 54400000},
+              {"date": "2023-10-04", "numberValue": 4234, "volumeValue": 54800000},
+              {"date": "2023-10-11", "numberValue": 4234, "volumeValue": 54700000},
+              {"date": "2023-10-18", "numberValue": 4234, "volumeValue": 54600000},
+              {"date": "2023-10-25", "numberValue": 4234, "volumeValue": 54500000},
+              {"date": "2023-11-01", "numberValue": 4234, "volumeValue": 54400000},
+              {"date": "2023-11-08", "numberValue": 4234, "volumeValue": 54200000},
+              {"date": "2023-11-15", "numberValue": 4234, "volumeValue": 54100000},
+              {"date": "2023-11-22", "numberValue": 4234, "volumeValue": 54400000},
+              {"date": "2023-11-29", "numberValue": 4234, "volumeValue": 54200000}
+            ]
+          },
+          "accessedDataPerUserCategory": {
+            "lastMonth": {
+              "registeredUsers": 123,
+              "federatedUsers": 85
+            },
+            "lastThreeMonths": {
+              "registeredUsers": 3123,
+              "federatedUsers": 182
+            }
+          },
+          "accessedDataPerDatasetCategory": {
+            "lastMonth": {
+              "reAnalysis": 123,
+              "forecast": 85,
+              "satellite": 876
+            },
+            "lastThreeMonths": {
+              "reAnalysis": 223,
+              "forecast": 856,
+              "satellite": 8726
+            }
+          }
+        },
+        {
+          "name": "dataset-8",
+          "label": "Dataset 8",
+          "accessedProducts": {
+            "lastMonth": [
+              {"date": "2023-11-01", "numberValue": 1234, "volumeValue": 5400000},
+              {"date": "2023-11-02", "numberValue": 1234, "volumeValue": 5410000},
+              {"date": "2023-11-03", "numberValue": 1234, "volumeValue": 5420000},
+              {"date": "2023-11-04", "numberValue": 1234, "volumeValue": 5430000},
+              {"date": "2023-11-05", "numberValue": 1234, "volumeValue": 5440000},
+              {"date": "2023-11-06", "numberValue": 1234, "volumeValue": 5450000},
+              {"date": "2023-11-07", "numberValue": 1234, "volumeValue": 5460000},
+              {"date": "2023-11-08", "numberValue": 1234, "volumeValue": 5470000},
+              {"date": "2023-11-09", "numberValue": 1234, "volumeValue": 5480000},
+              {"date": "2023-11-10", "numberValue": 1234, "volumeValue": 5490000},
+              {"date": "2023-11-11", "numberValue": 1234, "volumeValue": 5480000},
+              {"date": "2023-11-12", "numberValue": 1234, "volumeValue": 5470000},
+              {"date": "2023-11-13", "numberValue": 1234, "volumeValue": 5460000},
+              {"date": "2023-11-14", "numberValue": 1234, "volumeValue": 5450000},
+              {"date": "2023-11-15", "numberValue": 1234, "volumeValue": 5440000},
+              {"date": "2023-11-16", "numberValue": 1234, "volumeValue": 5430000},
+              {"date": "2023-11-17", "numberValue": 1234, "volumeValue": 5420000},
+              {"date": "2023-11-18", "numberValue": 1234, "volumeValue": 5410000},
+              {"date": "2023-11-19", "numberValue": 1234, "volumeValue": 5400000},
+              {"date": "2023-11-20", "numberValue": 1234, "volumeValue": 5410000},
+              {"date": "2023-11-21", "numberValue": 1234, "volumeValue": 5420000},
+              {"date": "2023-11-22", "numberValue": 1234, "volumeValue": 5430000},
+              {"date": "2023-11-23", "numberValue": 1234, "volumeValue": 5440000},
+              {"date": "2023-11-24", "numberValue": 1234, "volumeValue": 5450000},
+              {"date": "2023-11-25", "numberValue": 1234, "volumeValue": 5460000},
+              {"date": "2023-11-26", "numberValue": 1234, "volumeValue": 5470000},
+              {"date": "2023-11-27", "numberValue": 1234, "volumeValue": 5480000},
+              {"date": "2023-11-28", "numberValue": 1234, "volumeValue": 5490000},
+              {"date": "2023-11-29", "numberValue": 1234, "volumeValue": 5480000},
+              {"date": "2023-11-30", "numberValue": 1234, "volumeValue": 5470000}
+            ],
+            "lastThreeMonths": [
+              {"date": "2023-09-06", "numberValue": 4234, "volumeValue": 54100000},
+              {"date": "2023-09-13", "numberValue": 4234, "volumeValue": 54200000},
+              {"date": "2023-09-20", "numberValue": 4234, "volumeValue": 54300000},
+              {"date": "2023-09-27", "numberValue": 4234, "volumeValue": 54400000},
+              {"date": "2023-10-04", "numberValue": 4234, "volumeValue": 54800000},
+              {"date": "2023-10-11", "numberValue": 4234, "volumeValue": 54700000},
+              {"date": "2023-10-18", "numberValue": 4234, "volumeValue": 54600000},
+              {"date": "2023-10-25", "numberValue": 4234, "volumeValue": 54500000},
+              {"date": "2023-11-01", "numberValue": 4234, "volumeValue": 54400000},
+              {"date": "2023-11-08", "numberValue": 4234, "volumeValue": 54200000},
+              {"date": "2023-11-15", "numberValue": 4234, "volumeValue": 54100000},
+              {"date": "2023-11-22", "numberValue": 4234, "volumeValue": 54400000},
+              {"date": "2023-11-29", "numberValue": 4234, "volumeValue": 54200000}
+            ]
+          },
+          "publishedProducts": {
+            "lastMonth": [
+              {"date": "2023-11-01", "numberValue": 1234, "volumeValue": 5400000},
+              {"date": "2023-11-02", "numberValue": 1234, "volumeValue": 5410000},
+              {"date": "2023-11-03", "numberValue": 1234, "volumeValue": 5420000},
+              {"date": "2023-11-04", "numberValue": 1234, "volumeValue": 5430000},
+              {"date": "2023-11-05", "numberValue": 1234, "volumeValue": 5440000},
+              {"date": "2023-11-06", "numberValue": 1234, "volumeValue": 5450000},
+              {"date": "2023-11-07", "numberValue": 1234, "volumeValue": 5460000},
+              {"date": "2023-11-08", "numberValue": 1234, "volumeValue": 5470000},
+              {"date": "2023-11-09", "numberValue": 1234, "volumeValue": 5480000},
+              {"date": "2023-11-10", "numberValue": 1234, "volumeValue": 5490000},
+              {"date": "2023-11-11", "numberValue": 1234, "volumeValue": 5480000},
+              {"date": "2023-11-12", "numberValue": 1234, "volumeValue": 5470000},
+              {"date": "2023-11-13", "numberValue": 1234, "volumeValue": 5460000},
+              {"date": "2023-11-14", "numberValue": 1234, "volumeValue": 5450000},
+              {"date": "2023-11-15", "numberValue": 1234, "volumeValue": 5440000},
+              {"date": "2023-11-16", "numberValue": 1234, "volumeValue": 5430000},
+              {"date": "2023-11-17", "numberValue": 1234, "volumeValue": 5420000},
+              {"date": "2023-11-18", "numberValue": 1234, "volumeValue": 5410000},
+              {"date": "2023-11-19", "numberValue": 1234, "volumeValue": 5400000},
+              {"date": "2023-11-20", "numberValue": 1234, "volumeValue": 5410000},
+              {"date": "2023-11-21", "numberValue": 1234, "volumeValue": 5420000},
+              {"date": "2023-11-22", "numberValue": 1234, "volumeValue": 5430000},
+              {"date": "2023-11-23", "numberValue": 1234, "volumeValue": 5440000},
+              {"date": "2023-11-24", "numberValue": 1234, "volumeValue": 5450000},
+              {"date": "2023-11-25", "numberValue": 1234, "volumeValue": 5460000},
+              {"date": "2023-11-26", "numberValue": 1234, "volumeValue": 5470000},
+              {"date": "2023-11-27", "numberValue": 1234, "volumeValue": 5480000},
+              {"date": "2023-11-28", "numberValue": 1234, "volumeValue": 5490000},
+              {"date": "2023-11-29", "numberValue": 1234, "volumeValue": 5480000},
+              {"date": "2023-11-30", "numberValue": 1234, "volumeValue": 5470000}
+            ],
+            "lastThreeMonths": [
+              {"date": "2023-09-06", "numberValue": 4234, "volumeValue": 54100000},
+              {"date": "2023-09-13", "numberValue": 4234, "volumeValue": 54200000},
+              {"date": "2023-09-20", "numberValue": 4234, "volumeValue": 54300000},
+              {"date": "2023-09-27", "numberValue": 4234, "volumeValue": 54400000},
+              {"date": "2023-10-04", "numberValue": 4234, "volumeValue": 54800000},
+              {"date": "2023-10-11", "numberValue": 4234, "volumeValue": 54700000},
+              {"date": "2023-10-18", "numberValue": 4234, "volumeValue": 54600000},
+              {"date": "2023-10-25", "numberValue": 4234, "volumeValue": 54500000},
+              {"date": "2023-11-01", "numberValue": 4234, "volumeValue": 54400000},
+              {"date": "2023-11-08", "numberValue": 4234, "volumeValue": 54200000},
+              {"date": "2023-11-15", "numberValue": 4234, "volumeValue": 54100000},
+              {"date": "2023-11-22", "numberValue": 4234, "volumeValue": 54400000},
+              {"date": "2023-11-29", "numberValue": 4234, "volumeValue": 54200000}
+            ]
+          },
+          "accessedDataPerUserCategory": {
+            "lastMonth": {
+              "registeredUsers": 123,
+              "federatedUsers": 85
+            },
+            "lastThreeMonths": {
+              "registeredUsers": 3123,
+              "federatedUsers": 182
+            }
+          },
+          "accessedDataPerDatasetCategory": {
+            "lastMonth": {
+              "reAnalysis": 123,
+              "forecast": 85,
+              "satellite": 876
+            },
+            "lastThreeMonths": {
+              "reAnalysis": 223,
+              "forecast": 856,
+              "satellite": 8726
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "data-provider-2",
+      "label": "Data provider 2",
+      "accessedProductsTotalVolume": 73,
+      "datasets": [
+        {
+          "name": "dataset-1",
+          "label": "Dataset 1",
+          "accessedProducts": {
+            "lastMonth": [
+              {"date": "2023-11-01", "numberValue": 1234, "volumeValue": 5400000},
+              {"date": "2023-11-02", "numberValue": 1234, "volumeValue": 5410000},
+              {"date": "2023-11-03", "numberValue": 1234, "volumeValue": 5420000},
+              {"date": "2023-11-04", "numberValue": 1234, "volumeValue": 5430000},
+              {"date": "2023-11-05", "numberValue": 1234, "volumeValue": 5440000},
+              {"date": "2023-11-06", "numberValue": 1234, "volumeValue": 5450000},
+              {"date": "2023-11-07", "numberValue": 1234, "volumeValue": 5460000},
+              {"date": "2023-11-08", "numberValue": 1234, "volumeValue": 5470000},
+              {"date": "2023-11-09", "numberValue": 1234, "volumeValue": 5480000},
+              {"date": "2023-11-10", "numberValue": 1234, "volumeValue": 5490000},
+              {"date": "2023-11-11", "numberValue": 1234, "volumeValue": 5480000},
+              {"date": "2023-11-12", "numberValue": 1234, "volumeValue": 5470000},
+              {"date": "2023-11-13", "numberValue": 1234, "volumeValue": 5460000},
+              {"date": "2023-11-14", "numberValue": 1234, "volumeValue": 5450000},
+              {"date": "2023-11-15", "numberValue": 1234, "volumeValue": 5440000},
+              {"date": "2023-11-16", "numberValue": 1234, "volumeValue": 5430000},
+              {"date": "2023-11-17", "numberValue": 1234, "volumeValue": 5420000},
+              {"date": "2023-11-18", "numberValue": 1234, "volumeValue": 5410000},
+              {"date": "2023-11-19", "numberValue": 1234, "volumeValue": 5400000},
+              {"date": "2023-11-20", "numberValue": 1234, "volumeValue": 5410000},
+              {"date": "2023-11-21", "numberValue": 1234, "volumeValue": 5420000},
+              {"date": "2023-11-22", "numberValue": 1234, "volumeValue": 5430000},
+              {"date": "2023-11-23", "numberValue": 1234, "volumeValue": 5440000},
+              {"date": "2023-11-24", "numberValue": 1234, "volumeValue": 5450000},
+              {"date": "2023-11-25", "numberValue": 1234, "volumeValue": 5460000},
+              {"date": "2023-11-26", "numberValue": 1234, "volumeValue": 5470000},
+              {"date": "2023-11-27", "numberValue": 1234, "volumeValue": 5480000},
+              {"date": "2023-11-28", "numberValue": 1234, "volumeValue": 5490000},
+              {"date": "2023-11-29", "numberValue": 1234, "volumeValue": 5480000},
+              {"date": "2023-11-30", "numberValue": 1234, "volumeValue": 5470000}
+            ],
+            "lastThreeMonths": [
+              {"date": "2023-09-06", "numberValue": 4234, "volumeValue": 54100000},
+              {"date": "2023-09-13", "numberValue": 4234, "volumeValue": 54200000},
+              {"date": "2023-09-20", "numberValue": 4234, "volumeValue": 54300000},
+              {"date": "2023-09-27", "numberValue": 4234, "volumeValue": 54400000},
+              {"date": "2023-10-04", "numberValue": 4234, "volumeValue": 54800000},
+              {"date": "2023-10-11", "numberValue": 4234, "volumeValue": 54700000},
+              {"date": "2023-10-18", "numberValue": 4234, "volumeValue": 54600000},
+              {"date": "2023-10-25", "numberValue": 4234, "volumeValue": 54500000},
+              {"date": "2023-11-01", "numberValue": 4234, "volumeValue": 54400000},
+              {"date": "2023-11-08", "numberValue": 4234, "volumeValue": 54200000},
+              {"date": "2023-11-15", "numberValue": 4234, "volumeValue": 54100000},
+              {"date": "2023-11-22", "numberValue": 4234, "volumeValue": 54400000},
+              {"date": "2023-11-29", "numberValue": 4234, "volumeValue": 54200000}
+            ]
+          },
+          "publishedProducts": {
+            "lastMonth": [
+              {"date": "2023-11-01", "numberValue": 1234, "volumeValue": 5400000},
+              {"date": "2023-11-02", "numberValue": 1234, "volumeValue": 5410000},
+              {"date": "2023-11-03", "numberValue": 1234, "volumeValue": 5420000},
+              {"date": "2023-11-04", "numberValue": 1234, "volumeValue": 5430000},
+              {"date": "2023-11-05", "numberValue": 1234, "volumeValue": 5440000},
+              {"date": "2023-11-06", "numberValue": 1234, "volumeValue": 5450000},
+              {"date": "2023-11-07", "numberValue": 1234, "volumeValue": 5460000},
+              {"date": "2023-11-08", "numberValue": 1234, "volumeValue": 5470000},
+              {"date": "2023-11-09", "numberValue": 1234, "volumeValue": 5480000},
+              {"date": "2023-11-10", "numberValue": 1234, "volumeValue": 5490000},
+              {"date": "2023-11-11", "numberValue": 1234, "volumeValue": 5480000},
+              {"date": "2023-11-12", "numberValue": 1234, "volumeValue": 5470000},
+              {"date": "2023-11-13", "numberValue": 1234, "volumeValue": 5460000},
+              {"date": "2023-11-14", "numberValue": 1234, "volumeValue": 5450000},
+              {"date": "2023-11-15", "numberValue": 1234, "volumeValue": 5440000},
+              {"date": "2023-11-16", "numberValue": 1234, "volumeValue": 5430000},
+              {"date": "2023-11-17", "numberValue": 1234, "volumeValue": 5420000},
+              {"date": "2023-11-18", "numberValue": 1234, "volumeValue": 5410000},
+              {"date": "2023-11-19", "numberValue": 1234, "volumeValue": 5400000},
+              {"date": "2023-11-20", "numberValue": 1234, "volumeValue": 5410000},
+              {"date": "2023-11-21", "numberValue": 1234, "volumeValue": 5420000},
+              {"date": "2023-11-22", "numberValue": 1234, "volumeValue": 5430000},
+              {"date": "2023-11-23", "numberValue": 1234, "volumeValue": 5440000},
+              {"date": "2023-11-24", "numberValue": 1234, "volumeValue": 5450000},
+              {"date": "2023-11-25", "numberValue": 1234, "volumeValue": 5460000},
+              {"date": "2023-11-26", "numberValue": 1234, "volumeValue": 5470000},
+              {"date": "2023-11-27", "numberValue": 1234, "volumeValue": 5480000},
+              {"date": "2023-11-28", "numberValue": 1234, "volumeValue": 5490000},
+              {"date": "2023-11-29", "numberValue": 1234, "volumeValue": 5480000},
+              {"date": "2023-11-30", "numberValue": 1234, "volumeValue": 5470000}
+            ],
+            "lastThreeMonths": [
+              {"date": "2023-09-06", "numberValue": 4234, "volumeValue": 54100000},
+              {"date": "2023-09-13", "numberValue": 4234, "volumeValue": 54200000},
+              {"date": "2023-09-20", "numberValue": 4234, "volumeValue": 54300000},
+              {"date": "2023-09-27", "numberValue": 4234, "volumeValue": 54400000},
+              {"date": "2023-10-04", "numberValue": 4234, "volumeValue": 54800000},
+              {"date": "2023-10-11", "numberValue": 4234, "volumeValue": 54700000},
+              {"date": "2023-10-18", "numberValue": 4234, "volumeValue": 54600000},
+              {"date": "2023-10-25", "numberValue": 4234, "volumeValue": 54500000},
+              {"date": "2023-11-01", "numberValue": 4234, "volumeValue": 54400000},
+              {"date": "2023-11-08", "numberValue": 4234, "volumeValue": 54200000},
+              {"date": "2023-11-15", "numberValue": 4234, "volumeValue": 54100000},
+              {"date": "2023-11-22", "numberValue": 4234, "volumeValue": 54400000},
+              {"date": "2023-11-29", "numberValue": 4234, "volumeValue": 54200000}
+            ]
+          },
+          "accessedDataPerUserCategory": {
+            "lastMonth": {
+              "registeredUsers": 123,
+              "federatedUsers": 85
+            },
+            "lastThreeMonths": {
+              "registeredUsers": 3123,
+              "federatedUsers": 182
+            }
+          },
+          "accessedDataPerDatasetCategory": {
+            "lastMonth": {
+              "reAnalysis": 123,
+              "forecast": 85,
+              "satellite": 876
+            },
+            "lastThreeMonths": {
+              "reAnalysis": 223,
+              "forecast": 856,
+              "satellite": 8726
+            }
+          }
+        },
+        {
+          "name": "dataset-2",
+          "label": "Dataset 2",
+          "accessedProducts": {
+            "lastMonth": [
+              {"date": "2023-11-01", "numberValue": 1234, "volumeValue": 5400000},
+              {"date": "2023-11-02", "numberValue": 1234, "volumeValue": 5410000},
+              {"date": "2023-11-03", "numberValue": 1234, "volumeValue": 5420000},
+              {"date": "2023-11-04", "numberValue": 1234, "volumeValue": 5430000},
+              {"date": "2023-11-05", "numberValue": 1234, "volumeValue": 5440000},
+              {"date": "2023-11-06", "numberValue": 1234, "volumeValue": 5450000},
+              {"date": "2023-11-07", "numberValue": 1234, "volumeValue": 5460000},
+              {"date": "2023-11-08", "numberValue": 1234, "volumeValue": 5470000},
+              {"date": "2023-11-09", "numberValue": 1234, "volumeValue": 5480000},
+              {"date": "2023-11-10", "numberValue": 1234, "volumeValue": 5490000},
+              {"date": "2023-11-11", "numberValue": 1234, "volumeValue": 5480000},
+              {"date": "2023-11-12", "numberValue": 1234, "volumeValue": 5470000},
+              {"date": "2023-11-13", "numberValue": 1234, "volumeValue": 5460000},
+              {"date": "2023-11-14", "numberValue": 1234, "volumeValue": 5450000},
+              {"date": "2023-11-15", "numberValue": 1234, "volumeValue": 5440000},
+              {"date": "2023-11-16", "numberValue": 1234, "volumeValue": 5430000},
+              {"date": "2023-11-17", "numberValue": 1234, "volumeValue": 5420000},
+              {"date": "2023-11-18", "numberValue": 1234, "volumeValue": 5410000},
+              {"date": "2023-11-19", "numberValue": 1234, "volumeValue": 5400000},
+              {"date": "2023-11-20", "numberValue": 1234, "volumeValue": 5410000},
+              {"date": "2023-11-21", "numberValue": 1234, "volumeValue": 5420000},
+              {"date": "2023-11-22", "numberValue": 1234, "volumeValue": 5430000},
+              {"date": "2023-11-23", "numberValue": 1234, "volumeValue": 5440000},
+              {"date": "2023-11-24", "numberValue": 1234, "volumeValue": 5450000},
+              {"date": "2023-11-25", "numberValue": 1234, "volumeValue": 5460000},
+              {"date": "2023-11-26", "numberValue": 1234, "volumeValue": 5470000},
+              {"date": "2023-11-27", "numberValue": 1234, "volumeValue": 5480000},
+              {"date": "2023-11-28", "numberValue": 1234, "volumeValue": 5490000},
+              {"date": "2023-11-29", "numberValue": 1234, "volumeValue": 5480000},
+              {"date": "2023-11-30", "numberValue": 1234, "volumeValue": 5470000}
+            ],
+            "lastThreeMonths": [
+              {"date": "2023-09-06", "numberValue": 4234, "volumeValue": 54100000},
+              {"date": "2023-09-13", "numberValue": 4234, "volumeValue": 54200000},
+              {"date": "2023-09-20", "numberValue": 4234, "volumeValue": 54300000},
+              {"date": "2023-09-27", "numberValue": 4234, "volumeValue": 54400000},
+              {"date": "2023-10-04", "numberValue": 4234, "volumeValue": 54800000},
+              {"date": "2023-10-11", "numberValue": 4234, "volumeValue": 54700000},
+              {"date": "2023-10-18", "numberValue": 4234, "volumeValue": 54600000},
+              {"date": "2023-10-25", "numberValue": 4234, "volumeValue": 54500000},
+              {"date": "2023-11-01", "numberValue": 4234, "volumeValue": 54400000},
+              {"date": "2023-11-08", "numberValue": 4234, "volumeValue": 54200000},
+              {"date": "2023-11-15", "numberValue": 4234, "volumeValue": 54100000},
+              {"date": "2023-11-22", "numberValue": 4234, "volumeValue": 54400000},
+              {"date": "2023-11-29", "numberValue": 4234, "volumeValue": 54200000}
+            ]
+          },
+          "publishedProducts": {
+            "lastMonth": [
+              {"date": "2023-11-01", "numberValue": 1234, "volumeValue": 5400000},
+              {"date": "2023-11-02", "numberValue": 1234, "volumeValue": 5410000},
+              {"date": "2023-11-03", "numberValue": 1234, "volumeValue": 5420000},
+              {"date": "2023-11-04", "numberValue": 1234, "volumeValue": 5430000},
+              {"date": "2023-11-05", "numberValue": 1234, "volumeValue": 5440000},
+              {"date": "2023-11-06", "numberValue": 1234, "volumeValue": 5450000},
+              {"date": "2023-11-07", "numberValue": 1234, "volumeValue": 5460000},
+              {"date": "2023-11-08", "numberValue": 1234, "volumeValue": 5470000},
+              {"date": "2023-11-09", "numberValue": 1234, "volumeValue": 5480000},
+              {"date": "2023-11-10", "numberValue": 1234, "volumeValue": 5490000},
+              {"date": "2023-11-11", "numberValue": 1234, "volumeValue": 5480000},
+              {"date": "2023-11-12", "numberValue": 1234, "volumeValue": 5470000},
+              {"date": "2023-11-13", "numberValue": 1234, "volumeValue": 5460000},
+              {"date": "2023-11-14", "numberValue": 1234, "volumeValue": 5450000},
+              {"date": "2023-11-15", "numberValue": 1234, "volumeValue": 5440000},
+              {"date": "2023-11-16", "numberValue": 1234, "volumeValue": 5430000},
+              {"date": "2023-11-17", "numberValue": 1234, "volumeValue": 5420000},
+              {"date": "2023-11-18", "numberValue": 1234, "volumeValue": 5410000},
+              {"date": "2023-11-19", "numberValue": 1234, "volumeValue": 5400000},
+              {"date": "2023-11-20", "numberValue": 1234, "volumeValue": 5410000},
+              {"date": "2023-11-21", "numberValue": 1234, "volumeValue": 5420000},
+              {"date": "2023-11-22", "numberValue": 1234, "volumeValue": 5430000},
+              {"date": "2023-11-23", "numberValue": 1234, "volumeValue": 5440000},
+              {"date": "2023-11-24", "numberValue": 1234, "volumeValue": 5450000},
+              {"date": "2023-11-25", "numberValue": 1234, "volumeValue": 5460000},
+              {"date": "2023-11-26", "numberValue": 1234, "volumeValue": 5470000},
+              {"date": "2023-11-27", "numberValue": 1234, "volumeValue": 5480000},
+              {"date": "2023-11-28", "numberValue": 1234, "volumeValue": 5490000},
+              {"date": "2023-11-29", "numberValue": 1234, "volumeValue": 5480000},
+              {"date": "2023-11-30", "numberValue": 1234, "volumeValue": 5470000}
+            ],
+            "lastThreeMonths": [
+              {"date": "2023-09-06", "numberValue": 4234, "volumeValue": 54100000},
+              {"date": "2023-09-13", "numberValue": 4234, "volumeValue": 54200000},
+              {"date": "2023-09-20", "numberValue": 4234, "volumeValue": 54300000},
+              {"date": "2023-09-27", "numberValue": 4234, "volumeValue": 54400000},
+              {"date": "2023-10-04", "numberValue": 4234, "volumeValue": 54800000},
+              {"date": "2023-10-11", "numberValue": 4234, "volumeValue": 54700000},
+              {"date": "2023-10-18", "numberValue": 4234, "volumeValue": 54600000},
+              {"date": "2023-10-25", "numberValue": 4234, "volumeValue": 54500000},
+              {"date": "2023-11-01", "numberValue": 4234, "volumeValue": 54400000},
+              {"date": "2023-11-08", "numberValue": 4234, "volumeValue": 54200000},
+              {"date": "2023-11-15", "numberValue": 4234, "volumeValue": 54100000},
+              {"date": "2023-11-22", "numberValue": 4234, "volumeValue": 54400000},
+              {"date": "2023-11-29", "numberValue": 4234, "volumeValue": 54200000}
+            ]
+          },
+          "accessedDataPerUserCategory": {
+            "lastMonth": {
+              "registeredUsers": 123,
+              "federatedUsers": 85
+            },
+            "lastThreeMonths": {
+              "registeredUsers": 3123,
+              "federatedUsers": 182
+            }
+          },
+          "accessedDataPerDatasetCategory": {
+            "lastMonth": {
+              "reAnalysis": 123,
+              "forecast": 85,
+              "satellite": 876
+            },
+            "lastThreeMonths": {
+              "reAnalysis": 223,
+              "forecast": 856,
+              "satellite": 8726
+            }
+          }
+        },
+        {
+          "name": "dataset-3",
+          "label": "Dataset 3",
+          "accessedProducts": {
+            "lastMonth": [
+              {"date": "2023-11-01", "numberValue": 1234, "volumeValue": 5400000},
+              {"date": "2023-11-02", "numberValue": 1234, "volumeValue": 5410000},
+              {"date": "2023-11-03", "numberValue": 1234, "volumeValue": 5420000},
+              {"date": "2023-11-04", "numberValue": 1234, "volumeValue": 5430000},
+              {"date": "2023-11-05", "numberValue": 1234, "volumeValue": 5440000},
+              {"date": "2023-11-06", "numberValue": 1234, "volumeValue": 5450000},
+              {"date": "2023-11-07", "numberValue": 1234, "volumeValue": 5460000},
+              {"date": "2023-11-08", "numberValue": 1234, "volumeValue": 5470000},
+              {"date": "2023-11-09", "numberValue": 1234, "volumeValue": 5480000},
+              {"date": "2023-11-10", "numberValue": 1234, "volumeValue": 5490000},
+              {"date": "2023-11-11", "numberValue": 1234, "volumeValue": 5480000},
+              {"date": "2023-11-12", "numberValue": 1234, "volumeValue": 5470000},
+              {"date": "2023-11-13", "numberValue": 1234, "volumeValue": 5460000},
+              {"date": "2023-11-14", "numberValue": 1234, "volumeValue": 5450000},
+              {"date": "2023-11-15", "numberValue": 1234, "volumeValue": 5440000},
+              {"date": "2023-11-16", "numberValue": 1234, "volumeValue": 5430000},
+              {"date": "2023-11-17", "numberValue": 1234, "volumeValue": 5420000},
+              {"date": "2023-11-18", "numberValue": 1234, "volumeValue": 5410000},
+              {"date": "2023-11-19", "numberValue": 1234, "volumeValue": 5400000},
+              {"date": "2023-11-20", "numberValue": 1234, "volumeValue": 5410000},
+              {"date": "2023-11-21", "numberValue": 1234, "volumeValue": 5420000},
+              {"date": "2023-11-22", "numberValue": 1234, "volumeValue": 5430000},
+              {"date": "2023-11-23", "numberValue": 1234, "volumeValue": 5440000},
+              {"date": "2023-11-24", "numberValue": 1234, "volumeValue": 5450000},
+              {"date": "2023-11-25", "numberValue": 1234, "volumeValue": 5460000},
+              {"date": "2023-11-26", "numberValue": 1234, "volumeValue": 5470000},
+              {"date": "2023-11-27", "numberValue": 1234, "volumeValue": 5480000},
+              {"date": "2023-11-28", "numberValue": 1234, "volumeValue": 5490000},
+              {"date": "2023-11-29", "numberValue": 1234, "volumeValue": 5480000},
+              {"date": "2023-11-30", "numberValue": 1234, "volumeValue": 5470000}
+            ],
+            "lastThreeMonths": [
+              {"date": "2023-09-06", "numberValue": 4234, "volumeValue": 54100000},
+              {"date": "2023-09-13", "numberValue": 4234, "volumeValue": 54200000},
+              {"date": "2023-09-20", "numberValue": 4234, "volumeValue": 54300000},
+              {"date": "2023-09-27", "numberValue": 4234, "volumeValue": 54400000},
+              {"date": "2023-10-04", "numberValue": 4234, "volumeValue": 54800000},
+              {"date": "2023-10-11", "numberValue": 4234, "volumeValue": 54700000},
+              {"date": "2023-10-18", "numberValue": 4234, "volumeValue": 54600000},
+              {"date": "2023-10-25", "numberValue": 4234, "volumeValue": 54500000},
+              {"date": "2023-11-01", "numberValue": 4234, "volumeValue": 54400000},
+              {"date": "2023-11-08", "numberValue": 4234, "volumeValue": 54200000},
+              {"date": "2023-11-15", "numberValue": 4234, "volumeValue": 54100000},
+              {"date": "2023-11-22", "numberValue": 4234, "volumeValue": 54400000},
+              {"date": "2023-11-29", "numberValue": 4234, "volumeValue": 54200000}
+            ]
+          },
+          "publishedProducts": {
+            "lastMonth": [
+              {"date": "2023-11-01", "numberValue": 1234, "volumeValue": 5400000},
+              {"date": "2023-11-02", "numberValue": 1234, "volumeValue": 5410000},
+              {"date": "2023-11-03", "numberValue": 1234, "volumeValue": 5420000},
+              {"date": "2023-11-04", "numberValue": 1234, "volumeValue": 5430000},
+              {"date": "2023-11-05", "numberValue": 1234, "volumeValue": 5440000},
+              {"date": "2023-11-06", "numberValue": 1234, "volumeValue": 5450000},
+              {"date": "2023-11-07", "numberValue": 1234, "volumeValue": 5460000},
+              {"date": "2023-11-08", "numberValue": 1234, "volumeValue": 5470000},
+              {"date": "2023-11-09", "numberValue": 1234, "volumeValue": 5480000},
+              {"date": "2023-11-10", "numberValue": 1234, "volumeValue": 5490000},
+              {"date": "2023-11-11", "numberValue": 1234, "volumeValue": 5480000},
+              {"date": "2023-11-12", "numberValue": 1234, "volumeValue": 5470000},
+              {"date": "2023-11-13", "numberValue": 1234, "volumeValue": 5460000},
+              {"date": "2023-11-14", "numberValue": 1234, "volumeValue": 5450000},
+              {"date": "2023-11-15", "numberValue": 1234, "volumeValue": 5440000},
+              {"date": "2023-11-16", "numberValue": 1234, "volumeValue": 5430000},
+              {"date": "2023-11-17", "numberValue": 1234, "volumeValue": 5420000},
+              {"date": "2023-11-18", "numberValue": 1234, "volumeValue": 5410000},
+              {"date": "2023-11-19", "numberValue": 1234, "volumeValue": 5400000},
+              {"date": "2023-11-20", "numberValue": 1234, "volumeValue": 5410000},
+              {"date": "2023-11-21", "numberValue": 1234, "volumeValue": 5420000},
+              {"date": "2023-11-22", "numberValue": 1234, "volumeValue": 5430000},
+              {"date": "2023-11-23", "numberValue": 1234, "volumeValue": 5440000},
+              {"date": "2023-11-24", "numberValue": 1234, "volumeValue": 5450000},
+              {"date": "2023-11-25", "numberValue": 1234, "volumeValue": 5460000},
+              {"date": "2023-11-26", "numberValue": 1234, "volumeValue": 5470000},
+              {"date": "2023-11-27", "numberValue": 1234, "volumeValue": 5480000},
+              {"date": "2023-11-28", "numberValue": 1234, "volumeValue": 5490000},
+              {"date": "2023-11-29", "numberValue": 1234, "volumeValue": 5480000},
+              {"date": "2023-11-30", "numberValue": 1234, "volumeValue": 5470000}
+            ],
+            "lastThreeMonths": [
+              {"date": "2023-09-06", "numberValue": 4234, "volumeValue": 54100000},
+              {"date": "2023-09-13", "numberValue": 4234, "volumeValue": 54200000},
+              {"date": "2023-09-20", "numberValue": 4234, "volumeValue": 54300000},
+              {"date": "2023-09-27", "numberValue": 4234, "volumeValue": 54400000},
+              {"date": "2023-10-04", "numberValue": 4234, "volumeValue": 54800000},
+              {"date": "2023-10-11", "numberValue": 4234, "volumeValue": 54700000},
+              {"date": "2023-10-18", "numberValue": 4234, "volumeValue": 54600000},
+              {"date": "2023-10-25", "numberValue": 4234, "volumeValue": 54500000},
+              {"date": "2023-11-01", "numberValue": 4234, "volumeValue": 54400000},
+              {"date": "2023-11-08", "numberValue": 4234, "volumeValue": 54200000},
+              {"date": "2023-11-15", "numberValue": 4234, "volumeValue": 54100000},
+              {"date": "2023-11-22", "numberValue": 4234, "volumeValue": 54400000},
+              {"date": "2023-11-29", "numberValue": 4234, "volumeValue": 54200000}
+            ]
+          },
+          "accessedDataPerUserCategory": {
+            "lastMonth": {
+              "registeredUsers": 123,
+              "federatedUsers": 85
+            },
+            "lastThreeMonths": {
+              "registeredUsers": 3123,
+              "federatedUsers": 182
+            }
+          },
+          "accessedDataPerDatasetCategory": {
+            "lastMonth": {
+              "reAnalysis": 123,
+              "forecast": 85,
+              "satellite": 876
+            },
+            "lastThreeMonths": {
+              "reAnalysis": 223,
+              "forecast": 856,
+              "satellite": 8726
+            }
+          }
+        },
+        {
+          "name": "dataset-4",
+          "label": "Dataset 4",
+          "accessedProducts": {
+            "lastMonth": [
+              {"date": "2023-11-01", "numberValue": 1234, "volumeValue": 5400000},
+              {"date": "2023-11-02", "numberValue": 1234, "volumeValue": 5410000},
+              {"date": "2023-11-03", "numberValue": 1234, "volumeValue": 5420000},
+              {"date": "2023-11-04", "numberValue": 1234, "volumeValue": 5430000},
+              {"date": "2023-11-05", "numberValue": 1234, "volumeValue": 5440000},
+              {"date": "2023-11-06", "numberValue": 1234, "volumeValue": 5450000},
+              {"date": "2023-11-07", "numberValue": 1234, "volumeValue": 5460000},
+              {"date": "2023-11-08", "numberValue": 1234, "volumeValue": 5470000},
+              {"date": "2023-11-09", "numberValue": 1234, "volumeValue": 5480000},
+              {"date": "2023-11-10", "numberValue": 1234, "volumeValue": 5490000},
+              {"date": "2023-11-11", "numberValue": 1234, "volumeValue": 5480000},
+              {"date": "2023-11-12", "numberValue": 1234, "volumeValue": 5470000},
+              {"date": "2023-11-13", "numberValue": 1234, "volumeValue": 5460000},
+              {"date": "2023-11-14", "numberValue": 1234, "volumeValue": 5450000},
+              {"date": "2023-11-15", "numberValue": 1234, "volumeValue": 5440000},
+              {"date": "2023-11-16", "numberValue": 1234, "volumeValue": 5430000},
+              {"date": "2023-11-17", "numberValue": 1234, "volumeValue": 5420000},
+              {"date": "2023-11-18", "numberValue": 1234, "volumeValue": 5410000},
+              {"date": "2023-11-19", "numberValue": 1234, "volumeValue": 5400000},
+              {"date": "2023-11-20", "numberValue": 1234, "volumeValue": 5410000},
+              {"date": "2023-11-21", "numberValue": 1234, "volumeValue": 5420000},
+              {"date": "2023-11-22", "numberValue": 1234, "volumeValue": 5430000},
+              {"date": "2023-11-23", "numberValue": 1234, "volumeValue": 5440000},
+              {"date": "2023-11-24", "numberValue": 1234, "volumeValue": 5450000},
+              {"date": "2023-11-25", "numberValue": 1234, "volumeValue": 5460000},
+              {"date": "2023-11-26", "numberValue": 1234, "volumeValue": 5470000},
+              {"date": "2023-11-27", "numberValue": 1234, "volumeValue": 5480000},
+              {"date": "2023-11-28", "numberValue": 1234, "volumeValue": 5490000},
+              {"date": "2023-11-29", "numberValue": 1234, "volumeValue": 5480000},
+              {"date": "2023-11-30", "numberValue": 1234, "volumeValue": 5470000}
+            ],
+            "lastThreeMonths": [
+              {"date": "2023-09-06", "numberValue": 4234, "volumeValue": 54100000},
+              {"date": "2023-09-13", "numberValue": 4234, "volumeValue": 54200000},
+              {"date": "2023-09-20", "numberValue": 4234, "volumeValue": 54300000},
+              {"date": "2023-09-27", "numberValue": 4234, "volumeValue": 54400000},
+              {"date": "2023-10-04", "numberValue": 4234, "volumeValue": 54800000},
+              {"date": "2023-10-11", "numberValue": 4234, "volumeValue": 54700000},
+              {"date": "2023-10-18", "numberValue": 4234, "volumeValue": 54600000},
+              {"date": "2023-10-25", "numberValue": 4234, "volumeValue": 54500000},
+              {"date": "2023-11-01", "numberValue": 4234, "volumeValue": 54400000},
+              {"date": "2023-11-08", "numberValue": 4234, "volumeValue": 54200000},
+              {"date": "2023-11-15", "numberValue": 4234, "volumeValue": 54100000},
+              {"date": "2023-11-22", "numberValue": 4234, "volumeValue": 54400000},
+              {"date": "2023-11-29", "numberValue": 4234, "volumeValue": 54200000}
+            ]
+          },
+          "publishedProducts": {
+            "lastMonth": [
+              {"date": "2023-11-01", "numberValue": 1234, "volumeValue": 5400000},
+              {"date": "2023-11-02", "numberValue": 1234, "volumeValue": 5410000},
+              {"date": "2023-11-03", "numberValue": 1234, "volumeValue": 5420000},
+              {"date": "2023-11-04", "numberValue": 1234, "volumeValue": 5430000},
+              {"date": "2023-11-05", "numberValue": 1234, "volumeValue": 5440000},
+              {"date": "2023-11-06", "numberValue": 1234, "volumeValue": 5450000},
+              {"date": "2023-11-07", "numberValue": 1234, "volumeValue": 5460000},
+              {"date": "2023-11-08", "numberValue": 1234, "volumeValue": 5470000},
+              {"date": "2023-11-09", "numberValue": 1234, "volumeValue": 5480000},
+              {"date": "2023-11-10", "numberValue": 1234, "volumeValue": 5490000},
+              {"date": "2023-11-11", "numberValue": 1234, "volumeValue": 5480000},
+              {"date": "2023-11-12", "numberValue": 1234, "volumeValue": 5470000},
+              {"date": "2023-11-13", "numberValue": 1234, "volumeValue": 5460000},
+              {"date": "2023-11-14", "numberValue": 1234, "volumeValue": 5450000},
+              {"date": "2023-11-15", "numberValue": 1234, "volumeValue": 5440000},
+              {"date": "2023-11-16", "numberValue": 1234, "volumeValue": 5430000},
+              {"date": "2023-11-17", "numberValue": 1234, "volumeValue": 5420000},
+              {"date": "2023-11-18", "numberValue": 1234, "volumeValue": 5410000},
+              {"date": "2023-11-19", "numberValue": 1234, "volumeValue": 5400000},
+              {"date": "2023-11-20", "numberValue": 1234, "volumeValue": 5410000},
+              {"date": "2023-11-21", "numberValue": 1234, "volumeValue": 5420000},
+              {"date": "2023-11-22", "numberValue": 1234, "volumeValue": 5430000},
+              {"date": "2023-11-23", "numberValue": 1234, "volumeValue": 5440000},
+              {"date": "2023-11-24", "numberValue": 1234, "volumeValue": 5450000},
+              {"date": "2023-11-25", "numberValue": 1234, "volumeValue": 5460000},
+              {"date": "2023-11-26", "numberValue": 1234, "volumeValue": 5470000},
+              {"date": "2023-11-27", "numberValue": 1234, "volumeValue": 5480000},
+              {"date": "2023-11-28", "numberValue": 1234, "volumeValue": 5490000},
+              {"date": "2023-11-29", "numberValue": 1234, "volumeValue": 5480000},
+              {"date": "2023-11-30", "numberValue": 1234, "volumeValue": 5470000}
+            ],
+            "lastThreeMonths": [
+              {"date": "2023-09-06", "numberValue": 4234, "volumeValue": 54100000},
+              {"date": "2023-09-13", "numberValue": 4234, "volumeValue": 54200000},
+              {"date": "2023-09-20", "numberValue": 4234, "volumeValue": 54300000},
+              {"date": "2023-09-27", "numberValue": 4234, "volumeValue": 54400000},
+              {"date": "2023-10-04", "numberValue": 4234, "volumeValue": 54800000},
+              {"date": "2023-10-11", "numberValue": 4234, "volumeValue": 54700000},
+              {"date": "2023-10-18", "numberValue": 4234, "volumeValue": 54600000},
+              {"date": "2023-10-25", "numberValue": 4234, "volumeValue": 54500000},
+              {"date": "2023-11-01", "numberValue": 4234, "volumeValue": 54400000},
+              {"date": "2023-11-08", "numberValue": 4234, "volumeValue": 54200000},
+              {"date": "2023-11-15", "numberValue": 4234, "volumeValue": 54100000},
+              {"date": "2023-11-22", "numberValue": 4234, "volumeValue": 54400000},
+              {"date": "2023-11-29", "numberValue": 4234, "volumeValue": 54200000}
+            ]
+          },
+          "accessedDataPerUserCategory": {
+            "lastMonth": {
+              "registeredUsers": 123,
+              "federatedUsers": 85
+            },
+            "lastThreeMonths": {
+              "registeredUsers": 3123,
+              "federatedUsers": 182
+            }
+          },
+          "accessedDataPerDatasetCategory": {
+            "lastMonth": {
+              "reAnalysis": 123,
+              "forecast": 85,
+              "satellite": 876
+            },
+            "lastThreeMonths": {
+              "reAnalysis": 223,
+              "forecast": 856,
+              "satellite": 8726
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

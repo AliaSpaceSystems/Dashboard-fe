@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="105.595" height="97.412" viewBox="0 0 105.595 97.412">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rettangolo_542" data-name="Rettangolo 542" width="105.595" height="97.412" transform="translate(-7 -5)" fill="none" stroke="#707070" stroke-width="4"/>
+    </clipPath>
+  </defs>
+  <g id="Userpertime_ico" data-name="Userpertime ico" transform="translate(7 5)">
+    <g id="Raggruppa_474" data-name="Raggruppa 474" transform="translate(0 0)" clip-path="url(#clip-path)">
+      <path id="Tracciato_2872" data-name="Tracciato 2872" d="M60.191,39.574A17.883,17.883,0,1,1,42.3,57.365,17.914,17.914,0,0,1,60.191,39.574Z" transform="translate(7.74 7.242)" fill="none" stroke="#ef2b89" stroke-miterlimit="10" stroke-width="4"/>
+      <path id="Tracciato_2873" data-name="Tracciato 2873" d="M34.094,41.577h0A20.438,20.438,0,1,0,13.659,21.139,20.438,20.438,0,0,0,34.1,41.577Z" transform="translate(2.499 0.129)" fill="none" stroke="#ef2b89" stroke-linecap="round" stroke-miterlimit="10" stroke-width="4"/>
+      <path id="Tracciato_2874" data-name="Tracciato 2874" d="M42.148,57.325a25.775,25.775,0,0,1,7.3-17.751H48.108a27.8,27.8,0,0,1-23.28,0H22.161A21.465,21.465,0,0,0,.7,61.033v6.642A7.667,7.667,0,0,0,8.367,75.34H49.45A25.43,25.43,0,0,1,42.148,57.325Z" transform="translate(0.128 7.242)" fill="none" stroke="#ef2b89" stroke-linecap="round" stroke-miterlimit="10" stroke-width="4"/>
+      <path id="Tracciato_2875" data-name="Tracciato 2875" d="M72.058,49.625l-13.42,5.993-8.216-5.1" transform="translate(9.226 9.081)" fill="none" stroke="#ef2b89" stroke-linecap="round" stroke-miterlimit="10" stroke-width="4"/>
+    </g>
+  </g>
+</svg>

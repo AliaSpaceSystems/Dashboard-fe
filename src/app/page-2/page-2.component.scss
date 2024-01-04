@@ -1,0 +1,40 @@
+@import "src/vars";
+
+#p2-main-container {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  gap: 2rem;
+}
+
+#p2-granularity-selection-container {
+  display: flex;
+  flex-direction: row;
+}
+
+#p2-select-source {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  background-color: $desp-blue-bg-color;
+  border: solid 1px $desp-dark-grey;
+  border-radius: 1rem;
+  padding: 1rem;
+  margin: 0;
+  gap: 1rem;
+}
+#p2-datasets-title {
+  margin: 0;
+  font-size: $desp-small-font-size;
+}
+#p2-datasets-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.p2-dataset-div {
+  min-width: 8rem;
+}

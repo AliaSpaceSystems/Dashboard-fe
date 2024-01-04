@@ -1,1 +1,27 @@
-<p>page-2 works!</p>
+<div id="p2-main-container">
+  <div id="p2-granularity-selection-container">
+    <div *ngFor="let item of granularityList; let i = index" class="desp-horizontal-filter-div">
+      <input type="radio" name="granularity" id="{{item.name}}" checked="{{i == 0 ? 'checked' : ''}}" (change)="onGranularityChanged(item)">
+      <label class="radio-label" for="{{item.name}}">{{item.label}}</label>
+    </div>
+  </div>
+  <div id="p2-select-source">
+    <div class="desp-dropdown-select-div">
+      <select name="source" class="desp-dropdown-select" (change)="onSourceSelected($event)">
+        <option *ngFor="let option of dataSourceList" value="{{option.name}}">{{option.label}}</option>
+      </select>
+    </div>
+    <p id="p2-datasets-title">Datasets</p>
+    <div id="p2-datasets-container">
+      <div *ngFor="let dataset of selectedDataProvider.datasets; let i = index" class="p2-dataset-div">
+        <input type="checkbox" class="p2-dataset-checkboxes" id="{{dataset.name}}" (change)="onDatasetChanged($event)" [checked]="i<3">
+        <label for="{{dataset.name}}">{{dataset.label}}</label>
+      </div>
+    </div>
+  </div>
+  <div class="masonry-layout-container">
+    <div *ngFor="let chartData of jsonData" class="masonry-item-container">
+      <app-dashboard-item class="masonry-item-content" [chartData]="chartData"></app-dashboard-item>
+    </div>
+  </div>
+</div>

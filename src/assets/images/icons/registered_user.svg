@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="97.878" height="102.702" viewBox="0 0 97.878 102.702">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rettangolo_539" data-name="Rettangolo 539" width="97.878" height="102.702" transform="translate(-4 -6)" fill="none" stroke="#707070" stroke-width="4"/>
+    </clipPath>
+  </defs>
+  <g id="RegUser_ico" data-name="RegUser ico" transform="translate(4 6)">
+    <g id="Raggruppa_468" data-name="Raggruppa 468" transform="translate(0 0)" clip-path="url(#clip-path)">
+      <path id="Tracciato_2864" data-name="Tracciato 2864" d="M39.593,45.15A22.224,22.224,0,1,0,17.37,22.925,22.224,22.224,0,0,0,39.593,45.15ZM55.15,50.706h-2.9a30.228,30.228,0,0,1-25.314,0h-2.9A23.342,23.342,0,0,0,.7,74.04v7.223A8.336,8.336,0,0,0,9.035,89.6H70.152a8.336,8.336,0,0,0,8.333-8.334V74.04A23.34,23.34,0,0,0,55.15,50.706Z" transform="translate(0.201 0.202)" fill="none" stroke="#ef2b89" stroke-miterlimit="10" stroke-width="4"/>
+      <path id="Tracciato_2865" data-name="Tracciato 2865" d="M55.679,70.4,38.5,53.222l3.872-3.871,13.3,13.3,23.3-23.3,3.872,3.872Z" transform="translate(11.026 11.271)" fill="#ef2b89"/>
+    </g>
+  </g>
+</svg>

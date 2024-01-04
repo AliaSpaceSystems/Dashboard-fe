@@ -1,0 +1,39 @@
+{
+  "serviceList": [
+    {
+      "name": "iam",
+      "title": "IAM",
+      "image": "iam",
+      "category": "category-01",
+      "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam."
+    },
+    {
+      "name": "service-name-2",
+      "title": "Service Name 2",
+      "image": "planet_rocket",
+      "category": "category-01",
+      "description": "Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit."
+    },
+    {
+      "name": "service-name-3",
+      "title": "Service Name 3",
+      "image": "satellite",
+      "category": "category-02",
+      "description": "Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit."
+    },
+    {
+      "name": "service-name-4",
+      "title": "Service Name 4",
+      "image": "globe_earth",
+      "category": "category-01",
+      "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam."
+    },
+    {
+      "name": "service-name-5",
+      "title": "Service Name 5",
+      "image": "gps_receiving",
+      "category": "category-02",
+      "description": "Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit."
+    }
+  ]
+}

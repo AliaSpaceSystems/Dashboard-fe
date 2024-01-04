@@ -1,1 +1,15 @@
-<p>page-3 works!</p>
+<div id="p3-main-container">
+  <div id="p3-granularity-selection-container">
+    <div *ngFor="let item of granularityList; let i = index" class="desp-horizontal-filter-div">
+      <input type="radio" name="granularity" id="{{item.name}}" checked="{{i == 0 ? 'checked' : ''}}" (change)="onGranularityChanged(item)">
+      <label class="radio-label" for="{{item.name}}">{{item.label}}</label>
+    </div>
+  </div>
+  <div class="masonry-layout-container">
+    <div *ngFor="let chartData of jsonData" class="masonry-item-container">
+      <app-dashboard-item class="masonry-item-content" [chartData]="chartData"></app-dashboard-item>
+    </div>
+  </div>
+  <app-dashboard-item class="p3-big-item" [chartData]="bigChartData"></app-dashboard-item>
+  <app-dashboard-item class="p3-big-item" [chartData]="mapChartData"></app-dashboard-item>
+</div>

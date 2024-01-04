@@ -1,9 +1,8 @@
 {
   "siteLinks": [
     {"name": "EXECUTIVE SUMMARY", "link": "executive-summary"},
-    {"name": "LIST OF SERVICES", "link": "list-of-services"},
+    {"name": "LIST OF SERVICES","link": "list-of-services"},
     {"name": "DATA PUBLICATION", "link": "data-publication"},
-    {"name": "SERVICE PERFORMANCE", "link": "service-performance"},
-    {"name": "CLOUD RESOURCES EXPLOITATION", "link": "cloud-resources-exploitation"}
+    {"name": "SERVICE PERFORMANCE", "link": "service-performance"}
   ]
 }

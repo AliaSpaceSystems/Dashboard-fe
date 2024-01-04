@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { ChartData } from '../chart-data';
-import jsonData from 'src/assets/test/fakePage0DashboardData.json';
+import { MetricsService } from '../services/metrics.service';
+import { MetricsData } from '../metrics-data-json-interface';
+import { AuxFunctionsService } from '../services/aux-functions.service';
 
 
 @Component({
@@ -10,82 +12,177 @@ import jsonData from 'src/assets/test/fakePage0DashboardData.json';
 })
 
 export class Page0Component implements OnInit{
+  private metricsData!: MetricsData;
   public jsonData!: Array<ChartData>;
-  constructor() {}
+
+  constructor(
+    private metricsService: MetricsService,
+    private auxFuncs: AuxFunctionsService
+  ) {}
 
   ngOnInit(): void {
-    //this.generateData();
-    this.jsonData = jsonData;
-    setTimeout(() => {resizeAllMasonryItems()}, 50);
+    this.getMetrics();
+
     var masonryEvents = ['load', 'resize'];
     Array.prototype.forEach.call(masonryEvents, (event) => {
-      window.addEventListener(event, resizeAllMasonryItems);
+      //window.addEventListener(event, resizeAllMasonryItems);
+      window.addEventListener(event, this.auxFuncs.resizeAllMasonryItems);
     });
+    setTimeout(() => {this.auxFuncs.resizeAllMasonryItems()}, 50);
   }
 
-  generateData() {
-    /* for (var k = 0; k < jsonData.length; k++) {
-      // number of dashboard items to create
-      let item: Data[] = [];
-      //console.log(item);
-
-      for (let j = 0; j < (1 + Math.floor(Math.random() * 2)); j++) {
-        // random number of graphs per dashboard item
-        item.push({
-          //class: 'barChart',
-          class: 'donutChart',
-          data: Array((8 + Math.floor(Math.random() * 10)))
-        });
-        for (let i = 0; i < item[j].data.length; i++) {
-          // random number of data per single graph
-          item[j].data[i] = {
-            "index": i,
-            "value": Math.floor(Math.random() * 100)
-          };
-        }
+  getMetrics(): void {
+    this.metricsData = this.metricsService.getJsonData();
+    //console.log(this.metricsData);
+    this.jsonData = [
+      {
+        "title": "Total number of users",
+        "image": "user",
+        "value": this.getTotalUsers(),
+        "charts": [
+          {
+            "class": "barXChart",
+            "title": "Numbers",
+            "showTitle": false,
+            "showLegend": true,
+            "colors": ["despPurple", "despViolet"],
+            "data": this.getUsersNumberArray(),
+          },
+          {
+            "class": "donutChart",
+            "title": "Percentage",
+            "showTitle": true,
+            "showLegend": true,
+            "showPercentage": true,
+            "colors": ["despPurple", "despViolet"],
+            "data": this.getUsersPercentageArray(),
+          }
+        ]
+      },
+      {
+        "title": "Total number of services",
+        "image": "service",
+        "value": this.getTotalServices(),
+        "charts": [
+          {
+            "class": "barXChart",
+            "title": "Numbers",
+            "showTitle": true,
+            "showLegend": true,
+            "colors": ["despPurple", "despViolet"],
+            "data": this.getServicesNumberArray(),
+          }
+        ]
+      },
+      {
+        "title": "Total volume of accessed products per data provider",
+        "image": "product",
+        "value": this.getAccessedProductsTotalVolumeSum(),
+        "charts": [
+          {
+            "class": "barYChart",
+            "title": "Numbers",
+            "showTitle": false,
+            "showLegend": false,
+            "colors": ["despBlue", "#66DEBB"],
+            "data": this.getAccessedProductsTotalVolumeArray()
+          }
+        ]
+      },
+      {
+        "title": "Total number of available models",
+        "image": "model",
+        "value": this.getTotalAvailableModels(),
+        "charts": [
+          {
+            "class": "donutChart",
+            "title": "Quantity",
+            "showTitle": true,
+            "showLegend": true,
+            "showPercentage": true,
+            "colors": ["despYellow", "despBlue"],
+            "data": this.getModelsPercentageArray(),
+          }
+        ]
+      },
+      {
+        "title": "Total number of available DestinE datasets (DEDL)",
+        "image": "dataset",
+        "value": this.getTotalDatasets(),
+        "charts": []
       }
-
-      this.chartDataArray.push(
-        {
-          "title": `${jsonData[k].title}`,
-          "arrayNumber": item.length,
-          "values": item
-        }
-      );
-    }
-    console.log("this.chartData: ", this.chartDataArray);
-    //console.log(JSON.stringify(this.chartData, null, 2)); */
+    ]
   }
-}
 
-function resizeAllMasonryItems(){
-  var allItems = document.getElementsByClassName('masonry-item-container');
-  /*
-   * Loop through the above list and execute the spanning function to
-   * each list-item (i.e. each masonry item)
-   */
-  for(var i=0;i<allItems.length;i++){
-    resizeMasonryItem(allItems[i]);
+  getTotalUsers(): number {
+    let sum: number = 0;
+    this.metricsData.users.forEach((d:any) => {sum += d.value});
+    return sum;
   }
-}
 
-function resizeMasonryItem(item: any){
-  /* Get the grid object, its row-gap, and the size of its implicit rows */
-  var grid = document.getElementsByClassName('masonry-layout-container')[0];
-  var rowGap = parseInt(window.getComputedStyle(grid).getPropertyValue('grid-row-gap'));
-  var rowHeight = parseInt(window.getComputedStyle(grid).getPropertyValue('grid-auto-rows'));
+  getUsersNumberArray(): Array<any> {
+    let arr: Array<any> = [];
+    this.metricsData.users.forEach((d:any, i:any) => {arr.push({key: d.type, value: d.value, index: i})});
+    return arr;
+  }
 
-  /*
-   * Spanning for any brick = S
-   * Grid's row-gap = G
-   * Size of grid's implicitly create row-track = R
-   * Height of item content = H
-   * Net height of the item = H1 = H + G
-   * Net height of the implicit row-track = T = G + R
-   * S = H1 / T
-   */
-  var rowSpan = Math.ceil((item.querySelector('.masonry-item-content').getBoundingClientRect().height+rowGap)/(rowHeight+rowGap));
+  getUsersPercentageArray(): Array<any> {
+    let arr: Array<any> = [];
+    let totalUsers: number = 0;
+    this.metricsData.users.forEach((d:any) => {totalUsers += d.value});
+    this.metricsData.users.forEach((d:any, i:any) => {arr.push({key: d.type, percentage: (d.value * 100 / totalUsers), value: d.value, index: i})});
+    console.log("ARR:",arr);
 
-  /* Set the spanning as calculated above (S) */
-  item.style.gridRowEnd = 'span '+rowSpan;
+    return arr;
+  }
+
+  getTotalServices(): number {
+    return this.metricsData.services.length;
+  }
+
+  getServicesNumberArray(): Array<any> {
+    let serviceTypesList: Array<string> = [];
+    this.metricsData.services.forEach((d:any) => {
+      if(!serviceTypesList.includes(d.type)) {
+        serviceTypesList.push(d.type);
+      }
+    });
+    let arr: Array<any> = [];
+    serviceTypesList.forEach((type:any, i:any) => {
+      arr.push({key: type, value: this.metricsData.services.filter((d:any) => (d.type == type)).length, index: i})
+    });
+    return arr;
+  }
+
+  getAccessedProductsTotalVolumeSum(): number {
+    let sum: number = 0;
+    this.metricsData.dataProviders.forEach((d:any) => {sum += d.accessedProductsTotalVolume});
+    return sum;
+  }
+
+  getAccessedProductsTotalVolumeArray(): Array<any> {
+    let arr: Array<any> = [];
+    this.metricsData.dataProviders.forEach((d:any, i:any) => {
+      arr.push({key: d.label, value: d.accessedProductsTotalVolume, index: i});
+    });
+    return arr;
+  }
+
+  getTotalAvailableModels(): number {
+    let sum: number = 0;
+    this.metricsData.models.forEach((d:any) => {sum += d.value});
+    return sum;
+  }
+
+  getModelsPercentageArray(): Array<any> {
+    let arr: Array<any> = [];
+    let totalModels: number = 0;
+    this.metricsData.models.forEach((d:any) => {totalModels += d.value});
+    this.metricsData.models.forEach((d:any, i:any) => {arr.push({key: d.type, percentage: (d.value * 100 / totalModels), value: d.value, index: i})});
+    return arr;
+  }
+
+  getTotalDatasets(): number {
+    return this.metricsData.datasets.totalNumber;
+  }
 }

@@ -14,20 +14,27 @@ $desp-yellow: #ba9b30;
 
 
 /* General variables */
+$desp-extra-large-font-size: 5.0rem;
+$desp-large-font-size: 1.25rem;
+$desp-normal-font-size: 1.0rem;
+$desp-small-font-size: 0.75rem;
+$desp-extra-small-font-size: 0.5rem;
+
+
 /* Sidebar */
 $sidebar-width: 13rem;
-$sidebar-menu-font-size: 0.75rem;
-$sidebar-footer-font-size: 0.7rem;
+$sidebar-menu-font-size: $desp-small-font-size;
+$sidebar-footer-font-size: $desp-small-font-size;
 
 /* Header */
 $header-height: 3rem;
-$header-title-font-size: 1.25rem;
-$header-sub-title-font-size: 0.75rem;
+$header-title-font-size: $desp-large-font-size;
+$header-sub-title-font-size: $desp-small-font-size;
 $header-search-height: 1.75rem;
-$header-search-font-size: 0.75rem;
+$header-search-font-size: $desp-small-font-size;
 
 /* Dashboard */
-$dashboard-width: 32rem;
-$dashboard-title-font-size: 1.25rem;
+$dashboard-width: 28rem;
+$dashboard-title-font-size: $desp-large-font-size;
 $dashboard-image-height: 6rem;
-$dashboard-value-font-size: 5rem;
+$dashboard-value-font-size: $desp-extra-large-font-size;

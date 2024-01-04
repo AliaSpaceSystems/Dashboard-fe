@@ -4,7 +4,9 @@ export interface ChartDescription {
   class: string;
   title: string;
   showTitle: boolean;
-  legend: boolean;
+  showLegend: boolean;
+  showPercentage?: boolean;
+  showTotal?: boolean;
   colors: Array<string>;
   data: Array<SimpleData>;
 }

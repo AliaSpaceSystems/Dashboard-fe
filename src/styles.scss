@@ -16,6 +16,176 @@ html, body {
   box-sizing: border-box;
 }
 
+/* General links style */
+a:link {
+  color: $desp-blue;
+  text-decoration: none;
+}
+a:visited {
+  color: $desp-blue;
+}
+a:hover {
+  color: $desp-bar-blue;
+}
+a:active {
+  color: $desp-blue;
+}
+
+/* Horizontal Masonry Layout */
+.masonry-layout-container {
+  display: grid;
+  row-gap: 1rem;
+  column-gap: 2rem;
+  grid-template-columns: repeat(auto-fill, minmax( $dashboard-width, 1fr ));
+  grid-auto-rows: 0;
+}
+.masonry-item-container {
+  transition: all 500ms ease-in-out;
+  /* Background color is just for testing */
+  //background-color: #169fe6;
+  grid-row-end: span 999;
+}
+.masonry-item-content {
+}
+
+/* Vertical Filters styling */
+.desp-vertical-filter-div {
+  display: flex;
+  flex-direction: column;
+}
+.desp-vertical-filter-title {
+  max-width: 15rem;
+  margin: 0 0 0.5rem 0rem;
+  font-size: 0.75rem;
+  border-bottom: 1px solid white;
+}
+.desp-vertical-filter-div input[type="radio"] {
+  display: none;
+}
+.desp-vertical-filter-div label {
+  color: $desp-text-color;
+  font-size: 1rem;
+  transition: color 250ms ease-in-out;
+}
+.desp-vertical-filter-div input[type="radio"]:hover + label {
+  color: $desp-grey;
+}
+.desp-vertical-filter-div input[type="radio"]:checked + label {
+  color: $desp-purple;
+}
+
+/* Horizontal Filters styling */
+.desp-horizontal-filter-div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border: solid 1px $desp-purple;
+
+}
+.desp-horizontal-filter-div input[type=radio]{
+  -webkit-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+.desp-horizontal-filter-div label {
+  font-size: $desp-small-font-size;
+  width: 8rem;
+  text-align: center;
+  padding: 0.5rem 0;
+  color: $desp-purple;
+  transition: color,background-color 250ms ease-in-out;
+}
+.desp-horizontal-filter-div input[type=radio]:hover + label {
+  background-color: darken($desp-purple, 40);
+}
+.desp-horizontal-filter-div input[type=radio]:checked + label{
+  background-color: $desp-purple;
+  color: black;
+}
+
+
+/* Checkbox styling */
+.checkbox-div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5rem;
+}
+.desp-checkbox-input {
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: #fff;
+  margin: 0;
+
+  width: 0.5rem;
+  height: 1rem;
+  border: none;
+  border-radius: 3px;
+  //border-radius: 0 6px 6px 0;
+  text-align: center;
+
+  transition: background-color 250ms ease-in-out;
+}
+.desp-checkbox-input:hover {
+  background-color: $desp-grey;
+}
+.desp-checkbox-input:checked {
+  background-color: $desp-purple;
+}
+.desp-checkbox-input:checked + .desp-checkbox-label{
+  //color: $desp-purple;
+}
+
+
+/* Dropdown lists styling */
+.desp-dropdown-select-div {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  width: 15rem;
+}
+.desp-dropdown-select-div:hover .desp-dropdown-select {
+  background-color: darken($desp-grey-bg-color, 3);
+}
+.desp-dropdown-select {
+  -webkit-appearance: none;
+  appearance: none;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  background-color: $desp-grey-bg-color;
+  border-radius: 0.25rem;
+  color: $desp-grey;
+  font-size: $desp-normal-font-size;
+  padding: 0.2rem 1rem;
+  border: 1px solid $desp-dark-grey;
+  cursor: pointer;
+}
+.desp-dropdown-select-div::after {
+  // border arrow:
+  z-index: 99;
+  position: absolute;
+  right: 0.7rem;
+  content: "";
+  --t-width: 0.4rem;
+  --t-height: 0.4rem;
+
+  border-left: var(--t-width) solid transparent;
+  border-right: var(--t-width) solid transparent;
+  border-top: var(--t-height) solid $desp-grey;
+  pointer-events: none;
+}
+.desp-dropdown-select option {
+}
+
+
+
 /* DESP Fonts */
 @font-face {
   font-family: "Lato-Regular";

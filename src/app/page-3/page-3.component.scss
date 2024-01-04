@@ -1,0 +1,13 @@
+@import "src/vars";
+
+#p3-main-container {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  gap: 2rem;
+}
+
+#p3-granularity-selection-container {
+  display: flex;
+  flex-direction: row;
+}

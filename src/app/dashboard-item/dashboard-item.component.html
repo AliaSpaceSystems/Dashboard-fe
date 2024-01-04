@@ -1,10 +1,12 @@
 <div id="dashboard-item-main-container">
-  <div id="dashboard-title-container">
+  <div *ngIf="image !== ''" id="dashboard-title-container">
     <p id="dashboard-title">{{title}}</p>
   </div>
-  <div id="dashboard-item-header-container">
-    <img id="dashboard-item-header-image" src="../../assets/images/user.svg" alt="Dashboard Item Image">
+  <div *ngIf="image !== ''" id="dashboard-item-header-container">
+    <img id="dashboard-item-header-image" [src]="image" alt="Dashboard Item Image">
     <p id="dashboard-item-header-value">{{value}}</p>
   </div>
-  <div id="dashboard-item-chart-container" #chart></div>
+  <div id="dashboard-item-chart-container" #chart>
+  </div>
+  <img *ngIf="europaTempImage !== ''" id="dashboard-item-temp-image" [src]="europaTempImage" alt="Dashboard Test Image">
 </div>

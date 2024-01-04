@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="122.504" height="124.216" viewBox="0 0 122.504 124.216">
+  <g id="Models_ico" data-name="Models ico" transform="translate(0.5 0.582)">
+    <path id="Tracciato_3863" data-name="Tracciato 3863" d="M1,61.1V95.6l29.876,17.247L60.752,95.6V61.1L30.876,43.85Z" transform="translate(0 9.053)" fill="none" stroke="#e82f89" stroke-miterlimit="10" stroke-width="3"/>
+    <line id="Linea_136" data-name="Linea 136" y1="34.506" transform="translate(30.876 87.396)" fill="none" stroke="#e82f89" stroke-miterlimit="10" stroke-width="3"/>
+    <line id="Linea_137" data-name="Linea 137" x1="29.876" y1="17.247" transform="translate(1 70.149)" fill="none" stroke="#e82f89" stroke-miterlimit="10" stroke-width="3"/>
+    <line id="Linea_138" data-name="Linea 138" x1="29.876" y2="17.247" transform="translate(30.876 70.149)" fill="none" stroke="#e82f89" stroke-miterlimit="10" stroke-width="3"/>
+    <path id="Tracciato_3864" data-name="Tracciato 3864" d="M50.3,61.1V95.6l29.876,17.247L110.052,95.6V61.1L80.176,43.85Z" transform="translate(10.452 9.053)" fill="none" stroke="#e82f89" stroke-miterlimit="10" stroke-width="3"/>
+    <line id="Linea_139" data-name="Linea 139" y1="34.506" transform="translate(90.628 87.396)" fill="none" stroke="#e82f89" stroke-miterlimit="10" stroke-width="3"/>
+    <line id="Linea_140" data-name="Linea 140" x1="29.876" y1="17.247" transform="translate(60.752 70.149)" fill="none" stroke="#e82f89" stroke-miterlimit="10" stroke-width="3"/>
+    <line id="Linea_141" data-name="Linea 141" x1="29.876" y2="17.247" transform="translate(90.628 70.149)" fill="none" stroke="#e82f89" stroke-miterlimit="10" stroke-width="3"/>
+    <path id="Tracciato_3865" data-name="Tracciato 3865" d="M25.65,18.409V52.9L55.526,70.149,85.4,52.9V18.409L55.526,1.15Z" transform="translate(5.226 0)" fill="none" stroke="#e82f89" stroke-miterlimit="10" stroke-width="3"/>
+    <line id="Linea_142" data-name="Linea 142" y1="34.494" transform="translate(60.752 35.656)" fill="none" stroke="#e82f89" stroke-miterlimit="10" stroke-width="3"/>
+    <line id="Linea_143" data-name="Linea 143" x1="29.876" y1="17.247" transform="translate(30.876 18.409)" fill="none" stroke="#e82f89" stroke-miterlimit="10" stroke-width="3"/>
+    <line id="Linea_144" data-name="Linea 144" x1="29.876" y2="17.247" transform="translate(60.752 18.409)" fill="none" stroke="#e82f89" stroke-miterlimit="10" stroke-width="3"/>
+  </g>
+</svg>
